@@ -24,11 +24,27 @@ if __name__ == "__main__" and (__package__ in (None, "")):
     sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
     __package__ = "editor.queries"
 
-from .encoder import SigLIPEncoder  # noqa: E402
 from .filters import asset_allowlist, search_broll  # noqa: E402
-from .store import ChunkMeanStore, load_chunk_mean_store  # noqa: E402
 from .transcript import find_similar_transcript_windows, search_transcript_fts  # noqa: E402
-from .visual import find_visually_similar, find_visually_similar_by_text  # noqa: E402
+
+# Heavy imports (numpy / torch via encoder, store, visual) load lazily so the
+# stdlib-only paths (FTS search, SQL filters) work without the ML extras
+# installed. PEP 562 module __getattr__.
+_LAZY = {
+    "SigLIPEncoder": ".encoder",
+    "ChunkMeanStore": ".store",
+    "load_chunk_mean_store": ".store",
+    "find_visually_similar": ".visual",
+    "find_visually_similar_by_text": ".visual",
+}
+
+
+def __getattr__(name):
+    if name in _LAZY:
+        from importlib import import_module
+
+        return getattr(import_module(_LAZY[name], "editor.queries"), name)
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
 
 __all__ = [
     "search_broll",

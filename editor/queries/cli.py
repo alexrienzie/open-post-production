@@ -16,9 +16,12 @@ import sys
 from typing import Iterable
 
 from .filters import search_broll
-from .store import build_chunk_mean_store, load_chunk_mean_store
 from .transcript import find_similar_transcript_windows, search_transcript_fts
-from .visual import find_visually_similar, find_visually_similar_by_text
+
+_ML_EXTRAS_HINT = (
+    "this command needs the ML extras (pip install numpy; visual search also "
+    "wants torch + the SigLIP weights). FTS and SQL commands run on stdlib alone."
+)
 
 
 def _trunc_text(s: str, n: int) -> str:
@@ -166,6 +169,11 @@ def main(argv=None) -> int:
         if not args.chunk_id and not args.asset_id:
             print("Need --chunk-id or --asset-id", file=sys.stderr)
             return 2
+        try:
+            from .visual import find_visually_similar
+        except ImportError:
+            print(f"similar-chunk: {_ML_EXTRAS_HINT}", file=sys.stderr)
+            return 2
         rows = find_visually_similar(
             chunk_id=args.chunk_id,
             asset_id=args.asset_id,
@@ -173,7 +181,12 @@ def main(argv=None) -> int:
             **_filter_kwargs(args),
         )
     elif args.cmd == "similar-text":
-        from .encoder import SigLIPEncoder
+        try:
+            from .encoder import SigLIPEncoder
+            from .visual import find_visually_similar_by_text
+        except ImportError:
+            print(f"similar-text: {_ML_EXTRAS_HINT}", file=sys.stderr)
+            return 2
 
         enc = SigLIPEncoder(device=args.device)
         rows = find_visually_similar_by_text(
@@ -185,6 +198,11 @@ def main(argv=None) -> int:
     elif args.cmd == "similar-transcript":
         rows = find_similar_transcript_windows(args.text, top_k=args.top_k)
     elif args.cmd == "build-cache":
+        try:
+            from .store import build_chunk_mean_store, load_chunk_mean_store
+        except ImportError:
+            print(f"build-cache: {_ML_EXTRAS_HINT}", file=sys.stderr)
+            return 2
         if args.force:
             store = build_chunk_mean_store(verbose=args.verbose)
         else:

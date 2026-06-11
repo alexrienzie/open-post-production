@@ -36,9 +36,7 @@ from .compose import (
     find_quotes_about_topic,
     find_soundbites_with_face,
 )
-from .encoder import SigLIPEncoder
 from .filters import asset_allowlist, search_broll
-from .store import ChunkMeanStore, load_chunk_mean_store
 from .transcript import find_similar_transcript_windows, search_transcript_fts
 from .usage import (
     annotate_usage,
@@ -47,7 +45,25 @@ from .usage import (
     is_used,
     used_assets,
 )
-from .visual import find_visually_similar, find_visually_similar_by_text
+
+# Heavy imports (numpy / torch via encoder, store, visual) load lazily so the
+# stdlib-only paths (FTS search, SQL filters, composers) work without the ML
+# extras installed. PEP 562 module __getattr__.
+_LAZY = {
+    "SigLIPEncoder": ".encoder",
+    "ChunkMeanStore": ".store",
+    "load_chunk_mean_store": ".store",
+    "find_visually_similar": ".visual",
+    "find_visually_similar_by_text": ".visual",
+}
+
+
+def __getattr__(name):
+    if name in _LAZY:
+        from importlib import import_module
+
+        return getattr(import_module(_LAZY[name], __name__), name)
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
 
 __all__ = [
     "SigLIPEncoder",
