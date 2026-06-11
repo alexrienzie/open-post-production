@@ -1,0 +1,64 @@
+{
+  "framework_id": "augustinian_redemptive_history",
+  "title": "Augustinian Redemptive History",
+  "author": "Augustine (drawn from his theological corpus)",
+  "year": 410,
+  "source": "Augustine of Hippo's four states of human will (posse peccare / non posse peccare etc.) and the Creation–Fall–Salvation–Eternity arc — the spine of the Christian metanarrative.",
+  "tradition": "borrowed",
+  "engine": "salvation",
+  "act_envelope": "four_part",
+  "resolution": 4,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [
+      "boston_fourfold_state"
+    ],
+    "siblings": [],
+    "note": "The Bible's macro-structure read as a four-act story. The deepest single reason redemption arcs feel archetypal in Western storytelling."
+  },
+  "stages": [
+    {
+      "stage_id": "au01_creation",
+      "position": 1,
+      "name": "Creation",
+      "function": "Original order and goodness."
+    },
+    {
+      "stage_id": "au02_fall",
+      "position": 2,
+      "name": "Fall",
+      "function": "Rupture; sin enters; original order broken."
+    },
+    {
+      "stage_id": "au03_salvation",
+      "position": 3,
+      "name": "Salvation",
+      "function": "Redemption offered; broken order under repair."
+    },
+    {
+      "stage_id": "au04_eternity",
+      "position": 4,
+      "name": "Eternity",
+      "function": "Restored order; the new heaven and new earth."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "boston_fourfold_state": {
+      "au01_creation": "bo01_primitive_integrity",
+      "au02_fall": "bo02_entire_depravity",
+      "au03_salvation": "bo03_begun_recovery",
+      "au04_eternity": "bo04_consummate_happiness"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "redemption_arc_review",
+      "metanarrative_diagnostics"
+    ],
+    "weak_for": [
+      "secular_observational"
+    ],
+    "limitations": "Theological framework; using it editorially requires being aware of its baggage."
+  },
+  "project_relevance": null
+}

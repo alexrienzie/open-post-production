@@ -1,0 +1,101 @@
+{
+  "framework_id": "harmon_story_circle",
+  "title": "Story Circle (8-step)",
+  "author": "Dan Harmon",
+  "year": 2009,
+  "source": "Developed for Community and Rick and Morty episode breaking, c. 2009. Documented in Harmon's Channel 101 essays.",
+  "tradition": "mythic",
+  "engine": "change",
+  "act_envelope": "free",
+  "resolution": 8,
+  "lineage": {
+    "predecessors": [
+      "campbell_monomyth",
+      "vogler_writers_journey"
+    ],
+    "descendants": [],
+    "siblings": [
+      "watts_eight_point"
+    ],
+    "note": "An 8-step radical simplification of Campbell built for fast, repeatable episode breaking. Its genius is compression: the monomyth you can hold in your head."
+  },
+  "stages": [
+    {
+      "stage_id": "ha01_you",
+      "position": 1,
+      "name": "You",
+      "function": "A character is in a zone of comfort."
+    },
+    {
+      "stage_id": "ha02_need",
+      "position": 2,
+      "name": "Need",
+      "function": "But they want something."
+    },
+    {
+      "stage_id": "ha03_go",
+      "position": 3,
+      "name": "Go",
+      "function": "They enter an unfamiliar situation."
+    },
+    {
+      "stage_id": "ha04_search",
+      "position": 4,
+      "name": "Search",
+      "function": "Adapt to it."
+    },
+    {
+      "stage_id": "ha05_find_it",
+      "position": 5,
+      "name": "Find",
+      "function": "Get what they wanted."
+    },
+    {
+      "stage_id": "ha06_take",
+      "position": 6,
+      "name": "Take",
+      "function": "Pay a heavy price for it."
+    },
+    {
+      "stage_id": "ha07_return",
+      "position": 7,
+      "name": "Return",
+      "function": "Return to their familiar situation."
+    },
+    {
+      "stage_id": "ha08_changed",
+      "position": 8,
+      "name": "Change",
+      "function": "Having changed."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "vogler_writers_journey": {
+      "ha01_you": "v01_ordinary_world",
+      "ha03_go": "v05_crossing_the_first_threshold",
+      "ha05_find_it": "v09_the_reward",
+      "ha06_take": "v08_the_ordeal",
+      "ha07_return": "v10_the_road_back",
+      "ha08_changed": "v12_return_with_the_elixir"
+    },
+    "snyder_save_the_cat": {
+      "ha03_go": "sn06_break_into_two",
+      "ha05_find_it": "sn09_midpoint",
+      "ha08_changed": "sn15_final_image"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "tv_episode",
+      "short_form",
+      "scene_level_microstructure",
+      "ensemble_with_rotating_protagonist"
+    ],
+    "weak_for": [
+      "feature_film_macrostructure",
+      "documentary_long_form"
+    ],
+    "limitations": "8 steps is too coarse for a 90-120 minute feature; works best inside Act II as a scene-level reusable shape. Fractal use is encouraged — Harmon applies the circle to scenes and to episodes simultaneously."
+  },
+  "project_relevance": null
+}

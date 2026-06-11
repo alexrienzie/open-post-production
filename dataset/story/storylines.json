@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "storylines": [
+    {
+      "id": "lawsuit",
+      "description": "USA v. Sunseri criminal case (charging, defense, motions, trial, appeals, pardon)"
+    },
+    {
+      "id": "ms_fkt",
+      "description": "Michelino Sunseri's athletic career and competitive running profile, including the 2024 Grand Teton FKT, training, other races, and any footage where he is the central athletic subject"
+    },
+    {
+      "id": "pardon",
+      "description": "November 2025 presidential pardon and aftermath"
+    },
+    {
+      "id": "trial",
+      "description": "May 2025 trial proceedings specifically (subset of lawsuit)"
+    }
+  ]
+}

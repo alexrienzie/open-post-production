@@ -1,0 +1,270 @@
+{
+  "_meta": {
+    "registry_version": "sample-1",
+    "note": "Sample slice of the full registry (10 of 548 records) showing the parent_id containment chain (route/trailhead -> park -> state -> country).",
+    "total_count": 10
+  },
+  "schema_version": 1,
+  "generated_at": "2026-06-10T19:24:08.715396+00:00",
+  "name_resolution_rules": [],
+  "places": [
+    {
+      "id": "pl_grand_teton",
+      "canonical_name": "Grand Teton",
+      "aliases": [
+        "Grand Teton summit",
+        "Grand Teton Summit",
+        "Grand Teton / the mountain",
+        "Grand Teton summit / finish area",
+        "Grand Teton climbing terrain (unspecified rock section)",
+        "Grand Teton summit / T1",
+        "Grand Teton summit / trailhead area",
+        "Grand Teton summit / catwalk / chimney",
+        "Grand Teton fixed lines / upper descent route"
+      ],
+      "type": "natural_feature",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 585,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_grand_teton_national_park"
+    },
+    {
+      "id": "pl_old_climber_s_trail",
+      "canonical_name": "Old Climber's Trail",
+      "aliases": [
+        "Old Climbers Trail",
+        "Old Climbers Trail / Climbers Trail",
+        "Climber's Trail (Old Climber's Trail)",
+        "Lupine Meadows switchbacks / Old Climbers Trail cut",
+        "Old Climber's Trail, Grand Teton National Park",
+        "Old Climber's Trail junction",
+        "Old Climber's Trail / OS (referred to as 'the OS')",
+        "Old Climber's Trail / Shortcutting Causes Erosion Trail",
+        "Old Climber's Trail / switchback",
+        "Old Switchback / Old Climber's Trail switchback"
+      ],
+      "type": "route",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places"
+      ],
+      "mention_count": 30,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_grand_teton_national_park"
+    },
+    {
+      "id": "pl_owen_spalding_route",
+      "canonical_name": "Owen Spalding Route",
+      "aliases": [
+        "Owen Spaulding Route",
+        "Owen-Spalding Route",
+        "Owen-Spaulding Route",
+        "Owens-Spalding Route",
+        "Owen Spalding",
+        "Owen-Spalding catwalking chimney"
+      ],
+      "type": "route",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "documents/press/articles",
+        "documents/press/social_posts",
+        "assets/catalog/transcripts:place_ids"
+      ],
+      "mention_count": 35,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_grand_teton_national_park"
+    },
+    {
+      "id": "pl_garnet_canyon",
+      "canonical_name": "Garnet Canyon",
+      "aliases": [
+        "Garner Canyon",
+        "Garnett Canyon"
+      ],
+      "type": "natural_feature",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 71,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_grand_teton_national_park"
+    },
+    {
+      "id": "pl_lupine_meadows",
+      "canonical_name": "Lupine Meadows",
+      "aliases": [
+        "Lupin Meadows",
+        "Lupine Meadow",
+        "Lupine Meadows Trailhead",
+        "Lupin Meadows trailhead",
+        "Lupin Meadows Trailhead",
+        "Finish",
+        "Finish (Grand Teton FKT finish line)",
+        "Finish (Grand Teton FKT finish area)",
+        "Finish (Grand Teton FKT finish point)",
+        "Grand Teton — Finish",
+        "Grand Teton Finish",
+        "Grand Teton finish",
+        "Grand Teton finish (scene 3)",
+        "Grand Teton finish line",
+        "Grand Teton finish line (Jaz Grand FKT)",
+        "Grand Teton Start + Finish",
+        "Grand Teton start/finish",
+        "Grand Teton Start/Finish",
+        "Grand Teton FKT Start/Finish",
+        "Grand Teton start/finish area",
+        "Grand Teton start/finish trailhead",
+        "Grand Teton finish line / Lupine Meadows Trailhead area",
+        "Grand Teton trailhead / Lupine Meadows trailhead"
+      ],
+      "type": "trailhead",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "documents/press/articles",
+        "documents/press/social_posts",
+        "assets/catalog/transcripts:place_ids"
+      ],
+      "mention_count": 131,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_grand_teton_national_park"
+    },
+    {
+      "id": "pl_grand_teton_national_park",
+      "canonical_name": "Grand Teton National Park",
+      "aliases": [
+        "Grand Tetons National Park",
+        "Grand Teton National Park area (Grand Run shoot)",
+        "Grand Teton National Park area (Grand Run shoot day)",
+        "Grand Teton National Park — Morning Approach",
+        "Grand Teton National Park — Morning/Approach route",
+        "Grand Teton National Park entrance station",
+        "Grand Teton National Park sign",
+        "Grand Teton National Park / the Tetons",
+        "Grand Teton / Tetons",
+        "Grand Teton area (FKT day shoot location)"
+      ],
+      "type": "protected_area",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts",
+        "organizations/orgs.json:geographic_entity"
+      ],
+      "mention_count": 192,
+      "relationships": [],
+      "notes": "",
+      "confidence": "high",
+      "parent_id": "pl_wyoming"
+    },
+    {
+      "id": "pl_teton_range",
+      "canonical_name": "Teton Range",
+      "aliases": [
+        "Teton Range (winter aerial)"
+      ],
+      "type": "natural_feature",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 49,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_wyoming"
+    },
+    {
+      "id": "pl_jackson_wy",
+      "canonical_name": "Jackson, Wyoming",
+      "aliases": [
+        "Jackson, WY",
+        "Jackson",
+        "Jackson Hole",
+        "Jackson (Wyoming)",
+        "Jackson / Jackson Hole",
+        "Jackson (Jackson Hole)",
+        "Jackson Hole, WY",
+        "Jackson Hole, Wyoming",
+        "Downtown Jackson",
+        "Jackson (meeting location)",
+        "Jackson Hole (town/resort area)"
+      ],
+      "type": "town",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 273,
+      "relationships": [],
+      "notes": "",
+      "confidence": "medium",
+      "parent_id": "pl_wyoming"
+    },
+    {
+      "id": "pl_wyoming",
+      "canonical_name": "Wyoming",
+      "aliases": [
+        "Wyoming (Spartan, Wyoming)"
+      ],
+      "type": "state",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "assets/catalog/transcripts:place_ids",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 229,
+      "relationships": [],
+      "notes": "",
+      "confidence": "high",
+      "parent_id": "pl_united_states"
+    },
+    {
+      "id": "pl_united_states",
+      "canonical_name": "United States",
+      "aliases": [],
+      "type": "country",
+      "tags": [],
+      "sources": [
+        "assets/catalog/transcripts:_proposed_places",
+        "documents/press/articles",
+        "documents/press/social_posts"
+      ],
+      "mention_count": 14,
+      "relationships": [],
+      "notes": "",
+      "confidence": "high"
+    }
+  ]
+}

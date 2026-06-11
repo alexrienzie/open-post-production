@@ -1,0 +1,69 @@
+{
+  "framework_id": "direct_cinema_observational",
+  "title": "Direct Cinema — Observational Mode",
+  "author": "Maysles, Wiseman, Pennebaker, Drew (founding figures)",
+  "year": 1960,
+  "source": "1960s American documentary movement: Robert Drew, the Maysles brothers, Frederick Wiseman, D.A. Pennebaker. Sister tradition: French cinéma vérité (Rouch).",
+  "tradition": "non_western",
+  "engine": "observation",
+  "act_envelope": "free",
+  "resolution": null,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "mosaic_portrait"
+    ],
+    "note": "Not a Western tradition geographically (it's American), but methodologically non-Western: rejects imposed narrative structure in favor of observed reality. The editor's role is to find shape in what was filmed, not to impose Snyder beats on it. Often called 'fly-on-the-wall.'"
+  },
+  "stages": [
+    {
+      "stage_id": "dc01_observation",
+      "position": 1,
+      "name": "Observation",
+      "function": "What was actually present in the world during shooting. No imposed dramatic arc."
+    },
+    {
+      "stage_id": "dc02_emergence",
+      "position": 2,
+      "name": "Emergence",
+      "function": "Patterns, repetitions, and turns that the FOOTAGE reveals — not the ones the editor brings."
+    },
+    {
+      "stage_id": "dc03_juxtaposition",
+      "position": 3,
+      "name": "Juxtaposition",
+      "function": "Meaning produced by adjacency: two scenes next to each other generate understanding the editor didn't pre-script."
+    },
+    {
+      "stage_id": "dc04_rhythm",
+      "position": 4,
+      "name": "Rhythm",
+      "function": "Pacing arises from observed reality — durations of action, natural pauses — not from imposed beat slots."
+    },
+    {
+      "stage_id": "dc05_release",
+      "position": 5,
+      "name": "Release",
+      "function": "Closure comes from a moment that feels final in the world that was filmed, not from a beat-prescribed climax."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Direct cinema is methodologically opposed to imposed-structure frameworks. The frameworks below describe similar non-imposition philosophies, not equivalent stages."
+  },
+  "applicability": {
+    "best_for": [
+      "observational_documentary",
+      "verite_subject",
+      "institutional_films",
+      "essay_film"
+    ],
+    "weak_for": [
+      "legal_thriller_documentary_arc",
+      "investigative_with_revelation",
+      "documentaries_with_clear_protagonist_quest"
+    ],
+    "limitations": "Documentary subjects with strong external structure (a trial, a campaign, a race) resist pure observation because the external structure imposes its own beats whether the editor wants them or not. Direct cinema works best when the SUBJECT itself doesn't have a built-in dramatic arc."
+  },
+  "project_relevance": null
+}

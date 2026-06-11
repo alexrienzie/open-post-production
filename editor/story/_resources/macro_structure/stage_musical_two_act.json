@@ -1,0 +1,95 @@
+{
+  "framework_id": "stage_musical_two_act",
+  "title": "Stage Musical Two-Act Structure",
+  "author": "(theatrical convention)",
+  "year": null,
+  "source": "Theatrical-exhibition convention; structure bent around the practical need for an interval. The Act I 'button' and the Act II '11 o'clock number' are the canonical landmarks.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 8,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [],
+    "note": "Form following the building, not the story — the act structure exists because the audience needs to use the bathroom. But the conventions (the strong Act I button, the late Act II low point) are real structural lessons."
+  },
+  "stages": [
+    {
+      "stage_id": "sm01_normal_world",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Normal World",
+      "function": "Opening number establishes setting and ensemble."
+    },
+    {
+      "stage_id": "sm02_inciting_incident",
+      "position": 2,
+      "movement": "Act I",
+      "name": "Inciting Incident",
+      "function": "The 'I want' song; the disruption that launches the story."
+    },
+    {
+      "stage_id": "sm03_point_of_no_return",
+      "position": 3,
+      "movement": "Act I",
+      "name": "Point of No Return",
+      "function": "Commitment; the Act I closing 'button' that sends audience to intermission wanting more."
+    },
+    {
+      "stage_id": "sm04_intermission",
+      "position": 4,
+      "movement": "interval",
+      "name": "Intermission",
+      "function": "Audience break. The cliff-hanger has 15 minutes to land."
+    },
+    {
+      "stage_id": "sm05_midpoint_resumes",
+      "position": 5,
+      "movement": "Act II",
+      "name": "Midpoint Resumes",
+      "function": "Act II opener; restate stakes, reorient the audience."
+    },
+    {
+      "stage_id": "sm06_big_gloom",
+      "position": 6,
+      "movement": "Act II",
+      "name": "The Big Gloom",
+      "function": "All-is-lost moment; the late Act II low point. Often the '11 o'clock number.'"
+    },
+    {
+      "stage_id": "sm07_climax_into_resolution",
+      "position": 7,
+      "movement": "Act II",
+      "name": "Climax into Resolution",
+      "function": "Final confrontation; the answer to the central question."
+    },
+    {
+      "stage_id": "sm08_new_normal",
+      "position": 8,
+      "movement": "Act II",
+      "name": "New Normal",
+      "function": "Closing number; the new equilibrium."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "snyder_save_the_cat": {
+      "sm03_point_of_no_return": "sn06_break_into_two",
+      "sm06_big_gloom": "sn11_all_is_lost",
+      "sm07_climax_into_resolution": "sn14_finale"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "stage_musicals",
+      "long_runtime_films_with_natural_break",
+      "tv_series_pilot_act_breaks"
+    ],
+    "weak_for": [
+      "short_form",
+      "single_sitting_films"
+    ],
+    "limitations": "Built around an exhibition convention that mostly doesn't apply to documentary distribution. The Act I button is still useful as a structural test ('does Act I end on a hook?')."
+  },
+  "project_relevance": null
+}

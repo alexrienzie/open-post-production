@@ -1,0 +1,110 @@
+{
+  "framework_id": "field_paradigm",
+  "title": "The Paradigm",
+  "author": "Syd Field",
+  "year": 1979,
+  "source": "Screenplay, 1979. Later refined with the Midpoint and two Pinches.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics",
+      "donatus_protasis"
+    ],
+    "descendants": [
+      "mckee_story",
+      "seger_diagnostics",
+      "snyder_save_the_cat",
+      "hauge_two_journeys"
+    ],
+    "siblings": [],
+    "note": "The foundational modern screenwriting text. Everything prescriptive after this is a reaction to or elaboration of Field. Tied to page count (~120 pages = 120 minutes; Plot Point I near p.25, Plot Point II near p.85)."
+  },
+  "stages": [
+    {
+      "stage_id": "fd01_setup",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Set-Up",
+      "function": "Establish protagonist, world, and dramatic premise. Pages 1-25."
+    },
+    {
+      "stage_id": "fd02_plot_point_1",
+      "position": 2,
+      "movement": "Act I/II hinge",
+      "name": "Plot Point 1",
+      "function": "Page ~25. An event that spins the action into Act II and gives the story its new direction."
+    },
+    {
+      "stage_id": "fd03_confrontation",
+      "position": 3,
+      "movement": "Act II",
+      "name": "Confrontation",
+      "function": "Protagonist faces escalating obstacles. The long middle. Pages 25-85."
+    },
+    {
+      "stage_id": "fd04_midpoint",
+      "position": 4,
+      "movement": "Act II center",
+      "name": "Midpoint",
+      "function": "Page ~60. A major reversal or new piece of information that changes the protagonist's relationship to the goal. Flanked by two Pinches (~37 and ~75) that re-apply pressure."
+    },
+    {
+      "stage_id": "fd05_plot_point_2",
+      "position": 5,
+      "movement": "Act II/III hinge",
+      "name": "Plot Point 2",
+      "function": "Page ~85. Another event that spins into Act III."
+    },
+    {
+      "stage_id": "fd06_climax",
+      "position": 6,
+      "movement": "Act III",
+      "name": "Climax",
+      "function": "Highest-stakes confrontation. Page ~110-115."
+    },
+    {
+      "stage_id": "fd07_resolution",
+      "position": 7,
+      "movement": "Act III",
+      "name": "Resolution",
+      "function": "Aftermath and new equilibrium. Pages 115-120."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "snyder_save_the_cat": {
+      "fd02_plot_point_1": "sn06_break_into_two",
+      "fd04_midpoint": "sn09_midpoint",
+      "fd05_plot_point_2": "sn13_break_into_three",
+      "fd06_climax": "sn14_finale"
+    },
+    "vogler_writers_journey": {
+      "fd02_plot_point_1": "v05_crossing_the_first_threshold",
+      "fd04_midpoint": "v08_the_ordeal",
+      "fd05_plot_point_2": "v10_the_road_back",
+      "fd06_climax": "v11_the_resurrection"
+    },
+    "hauge_two_journeys": {
+      "fd02_plot_point_1": "hg02_change_of_plans",
+      "fd04_midpoint": "hg03_point_of_no_return",
+      "fd05_plot_point_2": "hg04_major_setback",
+      "fd06_climax": "hg05_climax"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "feature_film",
+      "screenplay_diagnostics",
+      "page_count_pacing"
+    ],
+    "weak_for": [
+      "serial_tv",
+      "documentary_without_protagonist",
+      "experimental_form"
+    ],
+    "limitations": "Tied to feature-page math; doesn't translate cleanly to TV or to documentaries that don't have a 120-minute target. The midpoint is real but the two Pinches are often forced."
+  },
+  "project_relevance": null
+}

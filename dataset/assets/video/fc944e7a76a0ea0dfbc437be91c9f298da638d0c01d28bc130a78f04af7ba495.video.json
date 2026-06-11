@@ -1,0 +1,279 @@
+{
+  "schema_version": 7,
+  "asset_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495",
+  "source_path": "<redacted-source-path>",
+  "filename": "C0215.MP4",
+  "filesize_bytes": 201472989,
+  "mtime": "2025-09-07T12:11:41.0000000Z",
+  "ffprobe": {
+    "duration_sec": 10.5105,
+    "width": 3840,
+    "height": 2160,
+    "fps": 23.976,
+    "codec": "hevc",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_codec": "pcm_s16be",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "creation_time": "2025-09-07T13:11:29.000000Z",
+    "color_primaries": "bt2020",
+    "color_transfer": "arib-std-b67",
+    "color_space": "bt2020nc",
+    "color_range": "tv",
+    "pix_fmt": "yuv422p10le",
+    "color_profile": "hdr_hlg",
+    "timecode": "00:29:13:00",
+    "timecode_source": "data_stream_tag_timecode(codec_tag=rtmd)",
+    "timecode_stream_index": 2,
+    "timecode_extracted_at": "2026-05-08T18:54:22Z"
+  },
+  "path_metadata": {
+    "top_level": "category",
+    "shoot_date": "2025-09-07",
+    "shoot_date_source": "ffprobe_creation_time",
+    "shoot_label": null,
+    "category_number": 2,
+    "category_name": "Teton B-roll",
+    "sub_location": null,
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "sony_c0xxx"
+  },
+  "indexed_at": "2026-05-02T03:10:24Z",
+  "primary_timeline_date": "2025-09-07",
+  "date_source": "camera_metadata",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "record_kind": "video",
+  "machine_transcript": false,
+  "human_transcript": false,
+  "proxy": {
+    "path": "~/derivative media/sample/C0215.MP4",
+    "format": "mp4",
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "video_bitrate_kbps": 3000,
+    "keyframe_interval_sec": 1,
+    "source_fps": 23.976,
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 128,
+    "filesize_bytes": 3665183,
+    "duration_sec": 10.5105,
+    "encoded_at": "2026-05-05T06:17:17Z",
+    "ffmpeg_command_hash": "db669c79afc9b0d3aa1c28aa9bef4be2635aeb9fab1c8b12cd7582e04f22c579",
+    "source_added_in_v6": false
+  },
+  "shoot_location": {
+    "place": "pl_grand_teton",
+    "source": "place_matcher"
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "b_roll"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:06:25Z",
+    "chunks": [
+      {
+        "chunk_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495_whole",
+        "chunk_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 10.5105,
+        "model": "gemini-2.5-pro",
+        "subject": "A bull moose with large antlers",
+        "action": "A large bull moose walks from right to left across a sagebrush flat. Another moose is partially visible walking alongside it. The moose walks out of frame, with a hazy mountain range visible in the distant background.",
+        "setting": {
+          "location": "A sagebrush flat in Grand Teton National Park",
+          "time_of_day": "blue_hour",
+          "weather": "overcast"
+        },
+        "camera": {
+          "shot_size": "MWS",
+          "movement": "pan",
+          "perspective": "eye_level"
+        },
+        "audio_character": "Sync sound of the moose walking through brush and ambient nature sounds.",
+        "emotional_tone": "Peaceful, majestic, natural",
+        "editorial_notes": "This is high-quality wildlife B-roll, perfect for establishing the setting of Grand Teton National Park. It can be used as a transitional scene or under narration about the wildness and beauty of the area.",
+        "key_moments": [
+          {
+            "timestamp_sec": 2,
+            "description": "The bull moose is centered in the frame, walking steadily across the plain with mountains in the background."
+          },
+          {
+            "timestamp_sec": 7,
+            "description": "The moose begins to exit the left side of the frame."
+          }
+        ]
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "place_ids": [
+    "pl_grand_teton",
+    "pl_grand_teton_national_park",
+    "pl_teton",
+    "pl_teton_national_park",
+    "pl_united_states",
+    "pl_wyoming"
+  ],
+  "place_match": {
+    "location_text": "A sagebrush flat in Grand Teton National Park",
+    "matches": [
+      {
+        "pl_id": "pl_grand_teton_national_park",
+        "source": "semantic_location",
+        "matched_phrase": "Grand Teton National Park",
+        "confidence": "high",
+        "location_text": "A sagebrush flat in Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_teton_national_park",
+        "source": "semantic_location",
+        "matched_phrase": "Teton National Park",
+        "confidence": "high",
+        "location_text": "A sagebrush flat in Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_grand_teton",
+        "source": "semantic_location",
+        "matched_phrase": "Grand Teton",
+        "confidence": "medium",
+        "location_text": "A sagebrush flat in Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_teton",
+        "source": "semantic_location",
+        "matched_phrase": "Teton",
+        "confidence": "medium",
+        "location_text": "A sagebrush flat in Grand Teton National Park"
+      }
+    ],
+    "sources": {
+      "pl_grand_teton_national_park": [
+        "semantic_location"
+      ],
+      "pl_teton_national_park": [
+        "semantic_location"
+      ],
+      "pl_grand_teton": [
+        "semantic_location"
+      ],
+      "pl_teton": [
+        "semantic_location"
+      ],
+      "pl_wyoming": [
+        "parent_inherit"
+      ],
+      "pl_united_states": [
+        "parent_inherit"
+      ]
+    }
+  },
+  "shots": {
+    "processed_at": "2026-05-24T18:17:10Z",
+    "detector": "PySceneDetect_ContentDetector",
+    "params": {
+      "threshold": 27.0,
+      "min_scene_len": 15
+    },
+    "proxy_path": "<redacted-source-path>",
+    "duration_sec": 10.510499999999999,
+    "detect_time_sec": 0.31321001052856445,
+    "n_shots": 1,
+    "items": [
+      {
+        "shot_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 10.510499999999999,
+        "duration_sec": 10.510499999999999
+      }
+    ]
+  },
+  "shot_quality": {
+    "processed_at": "2026-05-24T22:52:49Z",
+    "items": [
+      {
+        "shot_idx": 0,
+        "n_frames_sampled": 4,
+        "sharpness_score": 173.77236665544467,
+        "motion_score": 27.50427727604452,
+        "exposure_mean": 183.65819564176246,
+        "clipping_ratio": 1.5394088669950738e-05,
+        "is_blurry": 0,
+        "is_dark": 0,
+        "is_blown": 0,
+        "is_setup_or_teardown": 0,
+        "is_in_focus": 1,
+        "aesthetic_score": 3.955798864364624,
+        "is_aesthetic": 0
+      }
+    ]
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 5.26,
+        "ocr_engine": "apple_vision",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:36:17Z"
+      },
+      {
+        "frame_time_sec": 5.26,
+        "ocr_engine": "rapidocr",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:36:17Z"
+      }
+    ],
+    "items": []
+  },
+  "dense_captions": {
+    "processed_at": "2026-05-25T23:54:27Z",
+    "processed_shots": [],
+    "items": [
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 2.6276249999999997,
+        "sample_pos": "25%",
+        "caption_text": "subject: A large bull moose with prominent antlers | action: The bull moose is walking from right to left across a grassy field. Its body is mostly visible, from its head to its hindquarters. | setting: An open, natural landscape with dry grass or sagebrush, scattered trees on the left, and hazy mountains in the distant background under a light sky. | framing: wide | mood: serene, natural, wild, calm",
+        "caption_json": "{\"subject\": \"A large bull moose with prominent antlers\", \"action\": \"The bull moose is walking from right to left across a grassy field. Its body is mostly visible, from its head to its hindquarters.\", \"setting\": \"An open, natural landscape with dry grass or sagebrush, scattered trees on the left, and hazy mountains in the distant background under a light sky.\", \"framing\": \"wide\", \"mood\": \"serene, natural, wild, calm\", \"editorial_hooks\": \"\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 5.255249999999999,
+        "sample_pos": "50%",
+        "caption_text": "subject: A large bull moose with prominent antlers, and another moose partially visible behind it | action: A bull moose walks from right to left across a grassy field, with another moose partially visible behind it | setting: A vast, hazy landscape with a grassy field, scattered trees, and a distant mountain range under an overcast sky | framing: wide | mood: Serene, natural, majestic | editorial_hooks: moose walking across frame",
+        "caption_json": "{\"subject\": \"A large bull moose with prominent antlers, and another moose partially visible behind it\", \"action\": \"A bull moose walks from right to left across a grassy field, with another moose partially visible behind it\", \"setting\": \"A vast, hazy landscape with a grassy field, scattered trees, and a distant mountain range under an overcast sky\", \"framing\": \"wide\", \"mood\": \"Serene, natural, majestic\", \"editorial_hooks\": \"moose walking across frame\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 7.8828749999999985,
+        "sample_pos": "75%",
+        "caption_text": "subject: A large, dark-colored animal, likely a moose | action: The animal is partially visible in the lower left of the frame, appearing to walk or graze in a field of dry grass. | setting: An expansive, open field with dry, light-colored grass and scattered trees. A hazy mountain range is visible in the distant background under a light, overcast sky. | framing: wide | mood: Natural, serene, expansive | editorial_hooks: Animal partially visible in foreground; Hazy mountains in background",
+        "caption_json": "{\"subject\": \"A large, dark-colored animal, likely a moose\", \"action\": \"The animal is partially visible in the lower left of the frame, appearing to walk or graze in a field of dry grass.\", \"setting\": \"An expansive, open field with dry, light-colored grass and scattered trees. A hazy mountain range is visible in the distant background under a light, overcast sky.\", \"framing\": \"wide\", \"mood\": \"Natural, serene, expansive\", \"editorial_hooks\": \"Animal partially visible in foreground; Hazy mountains in background\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      }
+    ]
+  }
+}

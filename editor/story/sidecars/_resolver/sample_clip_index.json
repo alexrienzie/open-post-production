@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "xml_source": "xml exports\\scene_workspace\\scene_sample.v1.xml",
+  "xml_sha256": "80adab64600c2ed80faa392042a722040e938bc31ca00b9e00effd4d483f79d1",
+  "rebuilt_at_utc": "2026-06-11T01:30:25Z",
+  "asset_map_used": "E:\\open-post-stack\\derivative media\\_index\\asset_map.json",
+  "n_clipitems": 6,
+  "n_unresolved": 0,
+  "entries": [
+    {
+      "clipitem_id": "clipitem-1",
+      "name": "runner warm-up (C8962)",
+      "masterclip_id": "masterclip-1",
+      "file_id": "file-101",
+      "track": "V1",
+      "key": {
+        "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+        "source_in_frames": 12,
+        "source_out_frames": 108,
+        "timeline_start_frames": 0,
+        "track": "V1"
+      },
+      "timeline_end_frames": 96,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/C8962.MP4"
+    },
+    {
+      "clipitem_id": "clipitem-3",
+      "name": "bull moose b-roll (C0215)",
+      "masterclip_id": "masterclip-2",
+      "file_id": "file-102",
+      "track": "V1",
+      "key": {
+        "asset_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495",
+        "source_in_frames": 72,
+        "source_out_frames": 168,
+        "timeline_start_frames": 96,
+        "track": "V1"
+      },
+      "timeline_end_frames": 192,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/C0215.MP4"
+    },
+    {
+      "clipitem_id": "clipitem-5",
+      "name": "Nobel banter (A003C0028)",
+      "masterclip_id": "masterclip-3",
+      "file_id": "file-103",
+      "track": "V1",
+      "key": {
+        "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+        "source_in_frames": 192,
+        "source_out_frames": 372,
+        "timeline_start_frames": 192,
+        "track": "V1"
+      },
+      "timeline_end_frames": 372,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/A003C0028_240826_K29Y06.MOV"
+    },
+    {
+      "clipitem_id": "clipitem-2",
+      "name": "runner warm-up (C8962)",
+      "masterclip_id": "masterclip-1",
+      "file_id": "file-101",
+      "track": "A1",
+      "key": {
+        "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+        "source_in_frames": 12,
+        "source_out_frames": 108,
+        "timeline_start_frames": 0,
+        "track": "A1"
+      },
+      "timeline_end_frames": 96,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/C8962.MP4"
+    },
+    {
+      "clipitem_id": "clipitem-4",
+      "name": "bull moose b-roll (C0215)",
+      "masterclip_id": "masterclip-2",
+      "file_id": "file-102",
+      "track": "A1",
+      "key": {
+        "asset_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495",
+        "source_in_frames": 72,
+        "source_out_frames": 168,
+        "timeline_start_frames": 96,
+        "track": "A1"
+      },
+      "timeline_end_frames": 192,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/C0215.MP4"
+    },
+    {
+      "clipitem_id": "clipitem-6",
+      "name": "Nobel banter (A003C0028)",
+      "masterclip_id": "masterclip-3",
+      "file_id": "file-103",
+      "track": "A1",
+      "key": {
+        "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+        "source_in_frames": 192,
+        "source_out_frames": 372,
+        "timeline_start_frames": 192,
+        "track": "A1"
+      },
+      "timeline_end_frames": 372,
+      "pathurl": "file://localhost/E%3a/open-post-stack/derivative%20media/sample/A003C0028_240826_K29Y06.MOV"
+    }
+  ],
+  "near_misses": []
+}

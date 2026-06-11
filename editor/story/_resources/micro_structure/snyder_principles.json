@@ -1,0 +1,114 @@
+{
+  "id": "snyder_principles",
+  "display_name": "Snyder — editorial micro-principles (Save the Cat tradition)",
+  "family": "snyder",
+  "tradition_id": "snyder",
+  "attribution": {
+    "work": "Save the Cat! et al. (commercial-screenwriting tradition)",
+    "author": "Blake Snyder + documentary adaptation",
+    "usage_note": "Companion to the macro layer. Macro says where you are; these principles say how to fix what's there. Each is a short tactical lens for reviewing a scene or sequence."
+  },
+  "application_guidance": "Use this as a checklist during a scene review pass. The fifteen-beat ladder names the structural slot a scene occupies; these principles name common failure modes within any slot. A scene can be correctly placed but still fail (e.g., debate-bloat, missing visual anchor, theme preached not stated). For documentary work, the principles transfer one-to-one if you read 'protagonist' as the central subject, 'antagonist' as the opposing force, 'audience emotion' as the deliverable.",
+  "principles": [
+    {
+      "id": "pope_in_the_pool",
+      "label": "Exposition rides on motion",
+      "description": "Information should be delivered while something visually or emotionally engaging is happening, not while talking heads explain. Static exposition is the default failure mode.",
+      "documentary_application": "If an interviewee explains a place, show the place under their voice. If they explain a mechanism, show the mechanism. Talking-head + sync-sound is the highest-cognitive-load configuration; reserve it for the ONE line per scene that needs the face on screen for emotional weight. Everything else should be voiceover-able.",
+      "review_questions": [
+        "If I muted the audio, would I still know what this scene is about visually?",
+        "Could any of these talking-head clips become voiceover under b-roll without losing meaning?"
+      ]
+    },
+    {
+      "id": "save_the_cat",
+      "label": "Earn the audience's investment early",
+      "description": "The audience needs a reason to care about the subject before stakes are imposed on them. A small specific moment of likability / competence / vulnerability buys all subsequent investment.",
+      "documentary_application": "Before the central conflict lands, the protagonist needs at least one scene where they are admirable / funny / human in a way unrelated to the conflict. Pre-catalyst material is structurally load-bearing, not throat-clearing.",
+      "review_questions": [
+        "What do we like about the subject before the conflict shows up?",
+        "Is that moment specific enough to be remembered later?"
+      ]
+    },
+    {
+      "id": "double_mumbo_jumbo",
+      "label": "One central leap, not two",
+      "description": "An audience will accept one major leap of faith / premise / argument. Two unrelated leaps split focus and undermine both.",
+      "documentary_application": "Pick the single central injustice or claim and stake the film on it. Subordinate arguments should follow from the central one, not run parallel. If a documentary is making two distinct arguments with equal weight, the audience commits to neither.",
+      "review_questions": [
+        "What is the ONE thing the audience needs to accept for this film to land?",
+        "Are any sub-arguments competing with that central one for screen time?"
+      ]
+    },
+    {
+      "id": "debate_is_short",
+      "label": "Debate is the shortest beat",
+      "description": "Audiences resist watching characters hesitate. Debate should compress reasons, fears, and alternatives into the minimum runtime that lets the eventual yes feel earned.",
+      "documentary_application": "Scenes that argue the audience into a position — context, expert witnesses, explanation of why something matters — should be aggressively trimmed. Multiple witnesses making the same point are debate-bloat; pick the strongest one and trust the audience.",
+      "review_questions": [
+        "How many witnesses say variants of the same thing in this scene?",
+        "Could one stronger voice replace several adequate ones?"
+      ]
+    },
+    {
+      "id": "theme_stated_never_preached",
+      "label": "Theme stated, never preached",
+      "description": "The central thematic question appears once early, usually by a side character in a throwaway line. The audience absorbs it without registering. Explicit thematic statements feel didactic and break trust.",
+      "documentary_application": "Plant the film's central question in the first 10–15 minutes via a bystander, an off-hand interview moment, or a visual juxtaposition. NOT via the protagonist; NOT via narration. The audience should be able to state the question in one sentence after Act 1 without anyone having directly said it.",
+      "review_questions": [
+        "Where, exactly, is the film's central question voiced or embodied — and is it indirect?",
+        "Would a viewer feel preached at if pressed on the theme?"
+      ]
+    },
+    {
+      "id": "promise_of_the_premise",
+      "label": "Fun and Games delivers the marketing",
+      "description": "The Fun and Games beat (roughly the middle third of Act 2) is where the film delivers what its title and marketing promised. If a film promises 'a heist,' Fun and Games is the heist sequences. If it promises 'a romance,' Fun and Games is the romance unfolding.",
+      "documentary_application": "Whatever the film's title evokes should be most concentrated in the title-promise beat. Audit: does the stretch the audience came for (the promise of the premise) actually deliver the imagery and energy the title sells, or is the structural slot dominated by talking heads? If the latter, the marketing promise isn't being delivered.",
+      "review_questions": [
+        "What does the title promise? Is that promise most visible in this section?",
+        "If the audience came for X, is X actually here, or are we elsewhere?"
+      ]
+    },
+    {
+      "id": "lay_pipe",
+      "label": "Plant payoffs briefly, harvest later",
+      "description": "Elements needed for Act 3 payoffs should be planted briefly in Acts 1 and 2 — once is usually enough. Lingering on the planted element telegraphs it; over-explaining drains the payoff.",
+      "documentary_application": "Callbacks (a recurring location, a recurring character, an unresolved relationship) should appear briefly in early acts so they can pay off without exposition later. If a third-act emotional moment requires setting up the relationship in third-act airtime, that setup should have happened in act one.",
+      "review_questions": [
+        "What does Act 3 need from Act 1 and 2? Is it planted?",
+        "Are any 'plants' over-explained — i.e., does the audience already understand them after one mention?"
+      ]
+    },
+    {
+      "id": "whiff_of_death",
+      "label": "All Is Lost needs a specific death",
+      "description": "The lowest point must involve a literal, professional, or relational death — something concrete that ends. Generic 'things get worse' doesn't earn the rebirth that follows.",
+      "documentary_application": "Identify the specific thing that dies for the protagonist at the lowest point: a relationship ending, a career closing, an identity becoming impossible, a literal death of a person or animal. The All Is Lost moment in a documentary should be the SHORTEST and most concrete scene in Act 2.",
+      "review_questions": [
+        "What specifically dies at All Is Lost? Can you point to the frame?",
+        "Is the death shown on screen, or only reported in narration?"
+      ]
+    },
+    {
+      "id": "six_things_that_need_fixing",
+      "label": "Plant flaws in Act 1, harvest in Act 3",
+      "description": "Act 1 establishes a handful of small problems / flaws / unresolved things in the protagonist's world. Act 3 returns to each and resolves or transforms them. The viewer feels closure they can't quite articulate.",
+      "documentary_application": "Establish 4–6 small unresolved threads in Act 1 (a strained relationship, an unanswered question, a routine that's broken, a tool that hasn't been used). In Act 3, return to each. This is what makes a documentary feel 'complete' rather than just 'finished'.",
+      "review_questions": [
+        "What unresolved threads does Act 1 establish?",
+        "Which of those does Act 3 actually return to?"
+      ]
+    },
+    {
+      "id": "final_image_mirrors_opening",
+      "label": "Final image rhymes with opening",
+      "description": "The closing image of the film should rhyme with, invert, or transform the opening image. The frame is a structural device, not just two shots.",
+      "documentary_application": "Treat the opening and closing as a deliberate pair. The transformation between them should be visible without narration. If a documentary opens on a subject in their element, it might close on them in a changed element, the same element changed, or pointedly elsewhere — the choice is the meaning.",
+      "review_questions": [
+        "How does the closing image relate to the opening?",
+        "If a viewer saw only the first and last shots, what would they understand about the arc?"
+      ]
+    }
+  ]
+}

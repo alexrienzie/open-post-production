@@ -1,0 +1,283 @@
+{
+  "schema_version": 7,
+  "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+  "source_path": "<redacted-source-path>",
+  "filename": "A003C0028_240826_K29Y06.MOV",
+  "filesize_bytes": 1862675644,
+  "mtime": "2024-08-26T06:49:48.0000000Z",
+  "ffprobe": {
+    "duration_sec": 19.050667,
+    "width": 4096,
+    "height": 2160,
+    "fps": 23.976,
+    "codec": "prores",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_codec": "pcm_s24le",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "creation_time": "2024-08-26T06:49:27.000000Z",
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_space": "bt709",
+    "color_range": "tv",
+    "pix_fmt": "yuv422p10le",
+    "color_profile": "rec709",
+    "timecode": "11:32:39:05",
+    "timecode_source": "stream_tag_timecode(codec_tag=tmcd)",
+    "timecode_stream_index": 4,
+    "timecode_extracted_at": "2026-05-08T18:27:30Z"
+  },
+  "path_metadata": {
+    "top_level": "shoot_day",
+    "shoot_date": "2024-09-02",
+    "shoot_date_source": "folder",
+    "shoot_label": "FKT!",
+    "category_number": null,
+    "category_name": null,
+    "sub_location": null,
+    "scene_number": 7,
+    "scene_name": "Finish",
+    "camera_id": "unknown"
+  },
+  "indexed_at": "2026-05-02T03:10:24Z",
+  "audio_extract": {
+    "path": "~/derivative media/2024-9-2_FKT!/7. Finish/Ronin 4D/A003C0028_240826_K29Y06.wav",
+    "format": "wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "filesize_bytes": 609720,
+    "duration_sec": 19.0507,
+    "extracted_at": "2026-05-02T20:45:48Z",
+    "ffmpeg_command_hash": "a66cac8010e05c5798f50ceb2d8473bdd75264ca2033002b6b1f46fb2b19994f",
+    "source_ssd_path_at_extraction": "<redacted-source-path>",
+    "audio_quality": {
+      "processed_at": "2026-05-24T22:47:45Z",
+      "wav_path": "<redacted-source-path>",
+      "duration_sec": 19.050688,
+      "metrics": {
+        "rms_dbfs": -43.113256215060396,
+        "peak_dbfs": -20.29603743175612,
+        "clipping_ratio": 0.0,
+        "silence_ratio": 0.8174245680109969,
+        "dc_offset": -3.253889531151799e-07,
+        "low_freq_ratio": 0.14462718774973668,
+        "is_silent": 0,
+        "is_quiet": 1,
+        "is_clippy": 0,
+        "is_windy": 0,
+        "is_usable": 1
+      }
+    },
+    "source_ssd_label": "mirror_primary",
+    "destination_ssd_label": "backup_ssd_1",
+    "backfill_batch": "legacy_recovery"
+  },
+  "primary_timeline_date": "2024-09-02",
+  "date_source": "source_path",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "record_kind": "video",
+  "machine_transcript": true,
+  "human_transcript": false,
+  "proxy": {
+    "path": "~/derivative media/sample/A003C0028_240826_K29Y06.MOV",
+    "format": "mp4",
+    "codec": "h264",
+    "width": 1280,
+    "height": 676,
+    "video_bitrate_kbps": 3000,
+    "keyframe_interval_sec": 1,
+    "source_fps": 23.976,
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 128,
+    "filesize_bytes": 6949195,
+    "duration_sec": 19.05,
+    "encoded_at": "2026-05-04T09:16:58Z",
+    "ffmpeg_command_hash": "db669c79afc9b0d3aa1c28aa9bef4be2635aeb9fab1c8b12cd7582e04f22c579",
+    "source_ssd_path_at_encoding": "<redacted-source-path>",
+    "source_ssd_label": "mirror_primary",
+    "destination_ssd_label": "backup_ssd_1",
+    "backfill_batch": "legacy_recovery",
+    "source_added_in_v6": false
+  },
+  "shoot_location": {
+    "place": "pl_grand_teton_national_park",
+    "source": "place_matcher"
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "verite"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:05:32Z",
+    "chunks": [
+      {
+        "chunk_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7_whole",
+        "chunk_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 19.050667,
+        "gemini_model": "gemini-2.5-pro",
+        "subject": "A shirtless man sitting in a camping chair.",
+        "action": "A man sits in a camping chair at a trailhead, taking off his shoes. He jokes with an off-camera person about winning a Nobel Prize for running and using the prize money to buy a new house.",
+        "setting": {
+          "location": "Exterior, trailhead parking lot",
+          "time_of_day": "midday",
+          "weather": "clear"
+        },
+        "camera": {
+          "shot_size": "MS",
+          "movement": "static",
+          "perspective": "eye_level"
+        },
+        "audio_character": "The man jokes with a friend about winning a Nobel Prize for running in order to buy a new house.",
+        "emotional_tone": "Casual, humorous, relaxed",
+        "editorial_notes": "A good character-building verite moment showing the athlete in a relaxed, post-activity state. Suitable for a transitional sequence or to provide a moment of levity between more intense scenes.",
+        "key_moments": [
+          {
+            "timestamp_sec": 2,
+            "description": "The man takes off his shoe while laughing and joking."
+          },
+          {
+            "timestamp_sec": 9,
+            "description": "The friend off-camera jokes that the 'prize comes with a million dollars.'"
+          },
+          {
+            "timestamp_sec": 12,
+            "description": "The man says he did the run so he could 'buy a new house.'"
+          },
+          {
+            "timestamp_sec": 15,
+            "description": "He casually tosses his other shoe to the side."
+          }
+        ]
+      }
+    ],
+    "gemini_model": "gemini-2.5-pro"
+  },
+  "place_ids": [
+    "pl_grand_teton_national_park",
+    "pl_lupine_meadows",
+    "pl_wyoming"
+  ],
+  "place_match": {
+    "location_text": "Exterior, trailhead parking lot",
+    "matches": [],
+    "sources": {
+      "pl_lupine_meadows": [
+        "transcript"
+      ],
+      "pl_grand_teton_national_park": [
+        "parent_inherit"
+      ],
+      "pl_wyoming": [
+        "parent_inherit"
+      ]
+    }
+  },
+  "shots": {
+    "processed_at": "2026-05-24T09:39:52Z",
+    "detector": "PySceneDetect_ContentDetector",
+    "params": {
+      "threshold": 27.0,
+      "min_scene_len": 15
+    },
+    "proxy_path": "<redacted-source-path>",
+    "duration_sec": 19.019,
+    "detect_time_sec": 0.5376901626586914,
+    "n_shots": 1,
+    "items": [
+      {
+        "shot_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 19.019,
+        "duration_sec": 19.019
+      }
+    ]
+  },
+  "shot_quality": {
+    "processed_at": "2026-05-24T22:51:38Z",
+    "items": [
+      {
+        "shot_idx": 0,
+        "n_frames_sampled": 4,
+        "sharpness_score": 175.7361851281898,
+        "motion_score": 12.284841617933722,
+        "exposure_mean": 123.7736485745614,
+        "clipping_ratio": 0.0,
+        "is_blurry": 0,
+        "is_dark": 0,
+        "is_blown": 0,
+        "is_setup_or_teardown": 0,
+        "is_in_focus": 1,
+        "aesthetic_score": 3.464978297551473,
+        "is_aesthetic": 0
+      }
+    ]
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 9.51,
+        "ocr_engine": "apple_vision",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:47:27Z"
+      },
+      {
+        "frame_time_sec": 9.51,
+        "ocr_engine": "rapidocr",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:47:27Z"
+      }
+    ],
+    "items": []
+  },
+  "dense_captions": {
+    "processed_at": "2026-05-25T23:46:56Z",
+    "processed_shots": [],
+    "items": [
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 4.75475,
+        "sample_pos": "25%",
+        "caption_text": "subject: A man | action: A shirtless man wearing sunglasses and a backward cap sits in a blue camping chair, holding a small object in his hands, looking towards the left side of the frame. | setting: Outdoors on a dirt or gravel path, with dense green trees and bushes in the background. Two wooden posts with circular signs are visible in the mid-ground. | framing: wide | mood: Relaxed, casual, outdoorsy | editorial_hooks: man looks to the side, man holds object",
+        "caption_json": "{\"subject\": \"A man\", \"action\": \"A shirtless man wearing sunglasses and a backward cap sits in a blue camping chair, holding a small object in his hands, looking towards the left side of the frame.\", \"setting\": \"Outdoors on a dirt or gravel path, with dense green trees and bushes in the background. Two wooden posts with circular signs are visible in the mid-ground.\", \"framing\": \"wide\", \"mood\": \"Relaxed, casual, outdoorsy\", \"editorial_hooks\": \"man looks to the side, man holds object\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 9.5095,
+        "sample_pos": "50%",
+        "caption_text": "subject: A man | action: A shirtless man sits in a blue camping chair, holding a small object in his hands and looking to the right with his mouth slightly open. | setting: Outdoors on a dirt path with trees and bushes in the background, under bright sunlight. | framing: medium | mood: Relaxed, casual, conversational | editorial_hooks: man looking right",
+        "caption_json": "{\"subject\": \"A man\", \"action\": \"A shirtless man sits in a blue camping chair, holding a small object in his hands and looking to the right with his mouth slightly open.\", \"setting\": \"Outdoors on a dirt path with trees and bushes in the background, under bright sunlight.\", \"framing\": \"medium\", \"mood\": \"Relaxed, casual, conversational\", \"editorial_hooks\": \"man looking right\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 14.264249999999999,
+        "sample_pos": "75%",
+        "caption_text": "subject: A shirtless man with sunglasses and a backward cap. | action: A man sits in a blue camping chair, gesturing with his hands while looking off-camera. His shoes are off and on the ground next to him, along with a beverage can. | setting: An outdoor, dusty or sandy area with trees and bushes in the background, and a wooden fence post with a sign on the left. | framing: medium | mood: Casual, conversational, relaxed | editorial_hooks: Man gesturing with hands, man looking off-camera",
+        "caption_json": "{\"subject\": \"A shirtless man with sunglasses and a backward cap.\", \"action\": \"A man sits in a blue camping chair, gesturing with his hands while looking off-camera. His shoes are off and on the ground next to him, along with a beverage can.\", \"setting\": \"An outdoor, dusty or sandy area with trees and bushes in the background, and a wooden fence post with a sign on the left.\", \"framing\": \"medium\", \"mood\": \"Casual, conversational, relaxed\", \"editorial_hooks\": \"Man gesturing with hands, man looking off-camera\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      }
+    ]
+  }
+}

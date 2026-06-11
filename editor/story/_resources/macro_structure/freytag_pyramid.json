@@ -1,0 +1,86 @@
+{
+  "framework_id": "freytag_pyramid",
+  "title": "Freytag's Pyramid",
+  "author": "Gustav Freytag",
+  "year": 1863,
+  "source": "Die Technik des Dramas, 1863.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "five_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics",
+      "horace_five_acts"
+    ],
+    "descendants": [
+      "field_paradigm",
+      "yorke_into_the_woods"
+    ],
+    "siblings": [
+      "donatus_protasis"
+    ],
+    "note": "Built to describe five-act Classical and Shakespearean tragedy, NOT contemporary film. The pyramid's symmetry (equal fall after the central climax) fits almost no modern movie."
+  },
+  "stages": [
+    {
+      "stage_id": "fp01_exposition",
+      "position": 1,
+      "name": "Exposition",
+      "function": "Introduction of setting, characters, and initial conditions."
+    },
+    {
+      "stage_id": "fp02_rising_action",
+      "position": 2,
+      "name": "Rising Action",
+      "function": "Inciting incident (exciting force) plus escalating complications."
+    },
+    {
+      "stage_id": "fp03_climax_apex",
+      "position": 3,
+      "name": "Climax (apex)",
+      "function": "Structural center; turning point at maximum tension. For Freytag this is at the middle, NOT the end."
+    },
+    {
+      "stage_id": "fp04_falling_action",
+      "position": 4,
+      "name": "Falling Action",
+      "function": "Consequences of the central reversal play out; the protagonist's fate clarifies."
+    },
+    {
+      "stage_id": "fp05_catastrophe",
+      "position": 5,
+      "name": "Catastrophe",
+      "function": "Final outcome — disaster (tragedy) or restoration (comedy). What modern audiences usually call 'the climax.'"
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Freytag's 'climax' ≠ modern 'climax.' His apex-climax is at the center (STC Midpoint / Field Midpoint / Vogler Ordeal). His 'catastrophe' is what modern usage calls the climax. Do not equate Freytag-climax with Snyder-Finale or Field-Climax.",
+    "field_paradigm": {
+      "fp03_climax_apex": "fd04_midpoint",
+      "fp05_catastrophe": "fd06_climax"
+    },
+    "vogler_writers_journey": {
+      "fp03_climax_apex": "v08_the_ordeal",
+      "fp05_catastrophe": "v11_the_resurrection"
+    },
+    "snyder_save_the_cat": {
+      "fp03_climax_apex": "sn09_midpoint",
+      "fp05_catastrophe": "sn14_finale"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "five_act_tragedy",
+      "shakespeare",
+      "classical_drama_review"
+    ],
+    "weak_for": [
+      "modern_film",
+      "documentary",
+      "asymmetric_arcs"
+    ],
+    "limitations": "Demands symmetric rise and fall, which almost no modern movie obeys. Modern climaxes sit at ~90%, not at the center. Useful as a lens on tragedy; misleading as a screenwriting template."
+  },
+  "project_relevance": null
+}

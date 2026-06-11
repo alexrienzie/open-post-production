@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+  <sequence id="sequence-sample-scene">
+    <uuid>sample-scene-v1</uuid>
+    <duration>372</duration>
+    <rate>
+      <timebase>24</timebase>
+      <ntsc>TRUE</ntsc>
+    </rate>
+    <name>sample scene v1</name>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <width>1280</width>
+            <height>720</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+            <colordepth>24</colordepth>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-1">
+            <masterclipid>masterclip-1</masterclipid>
+            <name>runner warm-up (C8962)</name>
+            <enabled>TRUE</enabled>
+            <duration>144</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>96</end>
+            <in>12</in>
+            <out>108</out>
+            <pproTicksIn>127135008000</pproTicksIn>
+            <pproTicksOut>1144215072000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-101">
+              <name>C8962.MP4</name>
+              <pathurl>file://localhost/E%3a/open-post-stack/derivative%20media/sample/C8962.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>144</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1280</width>
+                    <height>720</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>centerOffset</parameterid>
+                  <name>Anchor Point</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>antiflicker</parameterid>
+                  <name>Anti-flicker Filter</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>1.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>leftcrop</parameterid>
+                  <name>Left</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>topcrop</parameterid>
+                  <name>Top</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rightcrop</parameterid>
+                  <name>Right</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>bottomcrop</parameterid>
+                  <name>Bottom</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-1</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-3">
+            <masterclipid>masterclip-2</masterclipid>
+            <name>bull moose b-roll (C0215)</name>
+            <enabled>TRUE</enabled>
+            <duration>252</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>96</start>
+            <end>192</end>
+            <in>72</in>
+            <out>168</out>
+            <pproTicksIn>762810048000</pproTicksIn>
+            <pproTicksOut>1779890112000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-102">
+              <name>C0215.MP4</name>
+              <pathurl>file://localhost/E%3a/open-post-stack/derivative%20media/sample/C0215.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>252</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1280</width>
+                    <height>720</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>centerOffset</parameterid>
+                  <name>Anchor Point</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>antiflicker</parameterid>
+                  <name>Anti-flicker Filter</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>1.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>leftcrop</parameterid>
+                  <name>Left</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>topcrop</parameterid>
+                  <name>Top</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rightcrop</parameterid>
+                  <name>Right</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>bottomcrop</parameterid>
+                  <name>Bottom</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-3</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-4</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-5">
+            <masterclipid>masterclip-3</masterclipid>
+            <name>Nobel banter (A003C0028)</name>
+            <enabled>TRUE</enabled>
+            <duration>457</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>192</start>
+            <end>372</end>
+            <in>192</in>
+            <out>372</out>
+            <pproTicksIn>2034160128000</pproTicksIn>
+            <pproTicksOut>3941185248000</pproTicksOut>
+            <alphatype>none</alphatype>
+            <pixelaspectratio>square</pixelaspectratio>
+            <anamorphic>FALSE</anamorphic>
+            <file id="file-103">
+              <name>A003C0028_240826_K29Y06.MOV</name>
+              <pathurl>file://localhost/E%3a/open-post-stack/derivative%20media/sample/A003C0028_240826_K29Y06.MOV</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>457</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1280</width>
+                    <height>720</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>centerOffset</parameterid>
+                  <name>Anchor Point</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>antiflicker</parameterid>
+                  <name>Anti-flicker Filter</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>1.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>leftcrop</parameterid>
+                  <name>Left</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>topcrop</parameterid>
+                  <name>Top</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rightcrop</parameterid>
+                  <name>Right</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>bottomcrop</parameterid>
+                  <name>Bottom</name>
+                  <valuemin>0.0</valuemin>
+                  <valuemax>100.0</valuemax>
+                  <value>0</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-5</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-6</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>48000</samplerate>
+          </samplecharacteristics>
+        </format>
+        <track currentExplodedTrackIndex="0" totalExplodedTrackCount="1" premiereTrackType="Stereo">
+          <clipitem id="clipitem-2" premiereChannelType="stereo">
+            <masterclipid>masterclip-1</masterclipid>
+            <name>runner warm-up (C8962)</name>
+            <enabled>TRUE</enabled>
+            <duration>144</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>96</end>
+            <in>12</in>
+            <out>108</out>
+            <pproTicksIn>127135008000</pproTicksIn>
+            <pproTicksOut>1144215072000</pproTicksOut>
+            <file id="file-101"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-1</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-4" premiereChannelType="stereo">
+            <masterclipid>masterclip-2</masterclipid>
+            <name>bull moose b-roll (C0215)</name>
+            <enabled>TRUE</enabled>
+            <duration>252</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>96</start>
+            <end>192</end>
+            <in>72</in>
+            <out>168</out>
+            <pproTicksIn>762810048000</pproTicksIn>
+            <pproTicksOut>1779890112000</pproTicksOut>
+            <file id="file-102"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-3</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-4</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-6" premiereChannelType="stereo">
+            <masterclipid>masterclip-3</masterclipid>
+            <name>Nobel banter (A003C0028)</name>
+            <enabled>TRUE</enabled>
+            <duration>457</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>192</start>
+            <end>372</end>
+            <in>192</in>
+            <out>372</out>
+            <pproTicksIn>2034160128000</pproTicksIn>
+            <pproTicksOut>3941185248000</pproTicksOut>
+            <file id="file-103"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <pproBypass>false</pproBypass>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-5</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-6</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <outputchannelindex>1</outputchannelindex>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>

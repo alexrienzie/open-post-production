@@ -1,0 +1,63 @@
+{
+  "framework_id": "mosaic_portrait",
+  "title": "Mosaic Portrait — Ensemble Without Protagonist",
+  "author": "(implicit in films like Koyaanisqatsi, Manakamana, Faces Places; theorized by Bill Nichols, Michael Renov)",
+  "year": null,
+  "source": "Documentary tradition of building meaning from many small portraits rather than following a single protagonist's arc. Theoretical underpinning in Nichols's modes of documentary (poetic, expository, participatory, reflexive).",
+  "tradition": "non_western",
+  "engine": "accumulation",
+  "act_envelope": "free",
+  "resolution": null,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "direct_cinema_observational"
+    ],
+    "note": "Where Western narrative wants one protagonist with an arc, mosaic portrait builds a collective picture from many small pieces. Each piece may not have an arc; the WHOLE acquires shape through accumulation, contrast, and pattern. Common in ensemble documentaries and films about communities."
+  },
+  "stages": [
+    {
+      "stage_id": "mo01_tile",
+      "position": 1,
+      "name": "Tile",
+      "function": "A small unit: a portrait, a vignette, an interaction. Self-contained, often without arc."
+    },
+    {
+      "stage_id": "mo02_juxtaposition",
+      "position": 2,
+      "name": "Juxtaposition",
+      "function": "Adjacent tiles generate meaning. Similarities, contrasts, echoes."
+    },
+    {
+      "stage_id": "mo03_pattern",
+      "position": 3,
+      "name": "Pattern",
+      "function": "Across many tiles, themes emerge. The audience starts to see what the film is about without being told."
+    },
+    {
+      "stage_id": "mo04_completion",
+      "position": 4,
+      "name": "Completion",
+      "function": "Final tile lands. The audience understands the picture as a whole."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Mosaic portrait is methodologically distinct from beat-driven frameworks; it shares philosophy with Kishōtenketsu (accumulation rather than conflict) and direct cinema (no imposed structure)."
+  },
+  "applicability": {
+    "best_for": [
+      "ensemble_documentary",
+      "community_films",
+      "tribute_films",
+      "essay_films"
+    ],
+    "weak_for": [
+      "single_protagonist_quest",
+      "legal_thriller",
+      "investigative_with_clear_question"
+    ],
+    "limitations": "Audiences trained on protagonist-driven story may feel a mosaic film 'doesn't go anywhere' until they recalibrate. Requires confident editorial restraint not to force a single thread."
+  },
+  "project_relevance": null
+}

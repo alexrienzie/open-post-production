@@ -1,0 +1,65 @@
+{
+  "framework_id": "boston_fourfold_state",
+  "title": "Human Nature in Its Fourfold State",
+  "author": "Thomas Boston",
+  "year": 1720,
+  "source": "Human Nature in Its Fourfold State, 1720.",
+  "tradition": "borrowed",
+  "engine": "salvation",
+  "act_envelope": "four_part",
+  "resolution": 4,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "augustinian_redemptive_history"
+    ],
+    "note": "Scottish Calvinist theologian's four states of humanity. Adjacent on the chart to the Augustinian redemptive-historical arc. The Bible's macro-structure as four-act story (paradise, loss, redemption, restoration) is why redemption arcs feel archetypal."
+  },
+  "stages": [
+    {
+      "stage_id": "bo01_primitive_integrity",
+      "position": 1,
+      "name": "Primitive Integrity",
+      "function": "Original innocence / Eden state."
+    },
+    {
+      "stage_id": "bo02_entire_depravity",
+      "position": 2,
+      "name": "Entire Depravity",
+      "function": "The fall; fallen nature."
+    },
+    {
+      "stage_id": "bo03_begun_recovery",
+      "position": 3,
+      "name": "Begun Recovery",
+      "function": "Grace enters; partial restoration begins."
+    },
+    {
+      "stage_id": "bo04_consummate_happiness",
+      "position": 4,
+      "name": "Consummate Happiness",
+      "function": "Glory; full restoration."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "augustinian_redemptive_history": {
+      "bo01_primitive_integrity": "au01_creation",
+      "bo02_entire_depravity": "au02_fall",
+      "bo03_begun_recovery": "au03_salvation",
+      "bo04_consummate_happiness": "au04_eternity"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "redemption_arc_films",
+      "religious_documentary",
+      "spiritual_transformation"
+    ],
+    "weak_for": [
+      "secular_documentary_without_redemption_frame"
+    ],
+    "limitations": "Explicitly theological; secularizing it changes its meaning."
+  },
+  "project_relevance": null
+}

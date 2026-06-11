@@ -1,0 +1,118 @@
+{
+  "id": "unscripted_construction",
+  "display_name": "Unscripted construction — reality TV / docuseries / competition tradition",
+  "family": "unscripted_construction",
+  "tradition_id": "bunim_murray_burnett",
+  "attribution": {
+    "work": "Reality television and modern docuseries editing craft (Real World, Survivor, The Last Dance, Free Solo, Cheer, Tiger King)",
+    "author": "Bunim-Murray Productions, Mark Burnett, the modern docuseries showrunner tradition (synthesized)",
+    "usage_note": "The most-developed, least-credited body of editorial wisdom in nonfiction. Reality TV editors solve problems documentary editors pretend not to have: how to make people watch through commercials, how to construct a coherent character from disparate footage, how to make an interview answer recontextualize a verite scene. The tradition gets dismissed as 'manipulative' by documentary purists who use exactly the same moves with less skill. Read these principles as craft tools — the ethics question lives in the documentary_honesty family, where it belongs."
+  },
+  "application_guidance": "Use whenever the cut leans on interview/confessional material to drive narrative. Reality TV's biggest single contribution is the **interview button** — every verite scene ends with a testimonial bite that retroactively gives the scene its meaning. Documentary editors trained only in the verite tradition often leave scenes meaning-less because they refuse to deploy this move. The other principles cover music cueing, character construction in the cut, the reveal escalator, and the line between composite editing as craft vs. as deception.",
+  "principles": [
+    {
+      "id": "interview_button",
+      "label": "The interview button — testimonial closes the scene",
+      "description": "Reality TV's structural innovation: every verite scene ends (or is punctuated mid-way) by a testimonial — the same character, in the confessional booth, making the scene's meaning explicit. The verite shows what happened; the testimonial tells you what it meant to the person it happened to. Without the button, scenes meander; with it, every scene has a closing thought.",
+      "documentary_application": "For each verite-heavy scene in the cut, ask: where's the button? If the speaker has interview footage reflecting on this moment, deploy a 3–8 second bite at the scene's end (or just before its climax). The result is invisibly good editing — audiences don't register the move, they just feel the scene 'paid off.' Documentaries that refuse this move out of misplaced verite purism leave audiences confused about what scenes were ABOUT.",
+      "review_questions": [
+        "Does each verite scene have a closing thought from someone IN that scene?",
+        "If not, is the missing closing thought because the interview material doesn't exist, or because the editor is being purist?",
+        "Is there a testimonial bite that could be moved to retroactively recontextualize an earlier scene?"
+      ],
+      "tags": ["interview", "scene_structure", "confessional"],
+      "see_also": ["interview_sync/the_question_in_the_answer", "documentary_craft/specific_beats_general"]
+    },
+    {
+      "id": "character_construction_in_the_cut",
+      "label": "Characters are constructed in the edit",
+      "description": "Reality TV editors openly acknowledge what documentary editors often deny: the character the audience meets is the character the EDITOR chose to construct. Five hours of footage of someone yields a hero, a villain, a comic relief, a love interest, or a background presence depending on which moments the editor selects. This is not deception; it's the unavoidable nature of editing a person down to screen time. The principle is to do it with awareness, not by accident.",
+      "documentary_application": "For each significant subject in the film, ask: what character have I constructed for them? Is it the character I intended? Are there beats in the rushes that would shift the read — make the antagonist more sympathetic, make an ally more flawed, make the subject less heroic — and would those beats produce a more honest portrayal? Reality TV teaches that you ARE constructing characters whether you call it that or not; the only choice is whether to do it deliberately.",
+      "review_questions": [
+        "For each major subject: what's their on-screen character? Hero, victim, antagonist, witness, comic relief?",
+        "Is that the read I want — or just the read that fell out of which footage was easiest to cut?",
+        "Are there beats in the rushes that would complicate the portrayal — and is complicating the portrayal here MORE honest, or LESS?"
+      ],
+      "tags": ["character", "ethics", "any_beat"],
+      "see_also": ["documentary_craft/show_by_behavior_not_speech", "documentary_honesty/lower_thirds_are_evidence"]
+    },
+    {
+      "id": "reveal_escalator",
+      "label": "The reveal escalator — each piece recontextualizes the last",
+      "description": "Reality TV competition shows live and die on this. The audience learns piece A; then piece B arrives that makes A mean something different; then C arrives that makes B mean something different; then the climax detonates all three at once. Each reveal is BOTH new information AND a recontextualization of prior information. This is what gives binge-watching its compulsive quality — every reveal makes you want to reread the prior scenes.",
+      "documentary_application": "For an investigative arc with stacked reveals: they aren't independent events — they're an escalator where each reveal should make the AUDIENCE rethink the prior beat. Each new document or admission should make the audience rewatch the earlier scene in their head and realize what was actually being concealed. If the cut treats each reveal as a standalone event rather than a recontextualization, the cumulative force is lost.",
+      "review_questions": [
+        "Does each Act III reveal change the meaning of the prior reveal, or just add new information?",
+        "After the final reveal, does the audience reread the earlier scene in their head — and does the cut support that rereading?",
+        "Is there a reveal that's currently structural noise because it doesn't recontextualize anything?"
+      ],
+      "tags": ["reveals", "act_iii", "investigative", "structure"],
+      "see_also": ["snyder_principles/lay_pipe"]
+    },
+    {
+      "id": "music_as_emotional_script",
+      "label": "Music as emotional script, not decoration",
+      "description": "Reality TV uses music as a continuous emotional script — every emotional beat has a corresponding musical cue that tells the audience what to feel. Documentary tradition often treats this as manipulation and underuses music; the result is scenes the audience doesn't know how to receive. The reality TV tradition's wisdom is that music IS the editorial position on the emotional content of the scene. Refusing to use music is a position too — usually 'I want the audience to feel this without my guidance' — but it's a position, not neutrality.",
+      "documentary_application": "Audit the music in each Act III scene specifically. Is the cue carrying the emotion, supporting it, or contradicting it? Are there scenes where the absence of music is making the scene harder to read, not more honest? Reality TV's discipline: every emotional turn should have a corresponding musical turn (cue in, cue out, key change, tempo shift). Apply this even sparingly to surface where the cut is currently music-mute when it shouldn't be.",
+      "review_questions": [
+        "For each significant emotional beat: is the music doing the work it could?",
+        "Is the music telling the audience what to feel, or fighting what the picture is doing?",
+        "Are there scenes that are music-mute by default rather than by deliberate choice?"
+      ],
+      "tags": ["music", "emotion", "any_beat"],
+      "see_also": ["rhythm_pacing/silence_is_content"]
+    },
+    {
+      "id": "frankenbite_line",
+      "label": "The frankenbite line — composite editing as craft vs. as lying",
+      "description": "Frankenbiting — assembling a sentence from words spoken at different times — exists on a spectrum. At one end: trimming a long answer down to its essential clause (universally acceptable). In the middle: combining two separate answers from the same interview into one statement that preserves the speaker's meaning (acceptable with caveats). At the other end: constructing a sentence the speaker never actually meant (deception). Reality TV editors live on this spectrum daily and have developed practical wisdom about where the line is. Documentary editors face the same choices and often pretend they don't.",
+      "documentary_application": "For each cut interview answer in the film, ask: how composite is this? Three tiers — pure (one continuous take, only trimmed); assembled (clauses combined from one interview session, meaning preserved); constructed (combined material crossing sessions or contexts in a way the speaker did not intend). The first is craft; the second is craft with disclosure obligations; the third needs justification or removal. Documentary editors who deny the spectrum exists tend to drift into the third tier without noticing.",
+      "review_questions": [
+        "For each composite interview answer: which tier is it on?",
+        "If a tier-2 or tier-3 answer is essential, can it be replaced with a tier-1 alternative?",
+        "Would the speaker recognize the constructed sentence as something they meant, or feel misrepresented?"
+      ],
+      "tags": ["ethics", "interview", "composite_editing"],
+      "see_also": ["documentary_honesty/dont_lie_with_the_cut", "interview_sync/dont_ask_question_answer_needs"]
+    },
+    {
+      "id": "stakes_reset_before_climax",
+      "label": "Reset the stakes immediately before the climax",
+      "description": "Reality competition shows are obsessive about restating what's at stake right before the climactic moment. The eliminator round opens with a recap of who's left, what they're competing for, and what they lose if eliminated — even though the audience knows. The reason: stakes degrade with screen time. By the climax of a 60-minute episode, the audience has half-forgotten what they should care about. The reset is invisible craft that re-arms emotional engagement at exactly the moment when engagement is about to be tested.",
+      "documentary_application": "Before any climactic scene, audit: is the audience CURRENTLY clear on what's at stake? Two hours into the film, the jeopardy that landed clearly in the first act has degraded. A 10–20 second reset — interview line, document, prior scene callback, lower-third on a current state — re-arms the climax. Without it, the audience receives the climax intellectually but not emotionally.",
+      "review_questions": [
+        "Right before the climax: is the audience clear on what specifically is at stake?",
+        "Could a brief stakes-reset (one interview line, one document, one shot) make the climax land harder?",
+        "Is the scene currently assuming engagement the runtime has already eroded?"
+      ],
+      "tags": ["stakes", "act_iii", "pacing"],
+      "see_also": ["snyder_principles/six_things_that_need_fixing"]
+    },
+    {
+      "id": "reaction_carries_the_meaning",
+      "label": "The reaction carries the meaning",
+      "description": "Reality TV's most-borrowed move: cut to the OTHER person, not the speaking person, at the moment a line lands. The speaker's words tell you what happened; the listener's face tells you what it MEANS. A line about loss spoken to a friend lands differently when we see the friend than when we see the speaker. Reality TV editors organize coverage around reaction shots — they're often the most-used material in the cut.",
+      "documentary_application": "For each emotionally significant line in the film, ask: where does the camera cut? If it stays on the speaker, the film is delivering information. If it cuts to a listener (family member, lawyer, friend, journalist), the film is delivering meaning. Reality TV's discipline: be hungry for reaction footage in the field, and cut to it at every emotional landing. The most powerful moment of a verdict-type scene is often a reaction shot of someone who is NOT the subject — a family member, an attorney, a court reporter.",
+      "review_questions": [
+        "At each emotional landing: does the cut stay on the speaker or cut to the listener?",
+        "Is reaction footage being used at all, or is the film mostly speaker-focused?",
+        "Are there reactions in the rushes that would carry more meaning than the line they accompany?"
+      ],
+      "tags": ["reaction_shots", "emotion", "interview"],
+      "see_also": ["editing_room_tactical/cut_on_emotion_not_dialogue"]
+    },
+    {
+      "id": "single_camera_intimacy",
+      "label": "Use single-camera intimacy on purpose",
+      "description": "Reality TV's confessional booth is the canonical example: one camera, eye-line directly to lens, the subject speaking as if to a friend. This formal choice creates intimacy the multi-camera or off-axis interview can't. The audience feels granted private access. Documentary often uses off-axis interview by default (the interviewer is to the side, the subject's eyeline is off-camera) and loses this intimacy without realizing the cost. The off-axis vs. on-axis choice is a craft decision, not a neutral default.",
+      "documentary_application": "For each interview subject, audit: on-axis (direct to lens) or off-axis (slightly off)? If all interviews are off-axis by default, the film is missing the intimacy register. Reality TV uses on-axis for the moments of admission and confession; off-axis for moments of explanation and exposition. If the field captured both, the cut can deploy them deliberately — confession moments get on-axis; explanatory moments get off-axis.",
+      "review_questions": [
+        "Are all interviews shot off-axis by default? If so, is the missing intimacy register costing the film?",
+        "For confession-level moments: is the framing matching the emotional register?",
+        "Could mixing on-axis and off-axis selectively create a register difference the audience reads as truth-telling vs. context?"
+      ],
+      "tags": ["interview", "framing", "intimacy"],
+      "see_also": ["interview_sync/moment_they_stop_performing"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "generator": "sample",
+  "entries": {
+    "1148663386ef1a526ba5db90bb01c49b229551435616471b059bb53d7f22549a": {
+      "sample_proxy": {
+        "relative_path": "sample\\DJI_20250908172418_0028_D.MP4"
+      }
+    },
+    "39d738c96f04b4648995258840e0fd47b6eaba1267d1ed9a700e32db7b0f6f41": {
+      "sample_proxy": {
+        "relative_path": "sample\\C0578.MP4"
+      }
+    },
+    "50b6de0fd0c800f81735c2675c8ac4e506e8b019a21416b614b2689ca2c5df4f": {
+      "sample_proxy": {
+        "relative_path": "sample\\C0443.MP4"
+      }
+    },
+    "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e": {
+      "sample_proxy": {
+        "relative_path": "sample\\C8962.MP4"
+      }
+    },
+    "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495": {
+      "sample_proxy": {
+        "relative_path": "sample\\C0215.MP4"
+      }
+    },
+    "b5c55dd3e2a00de55e249697057d34f6a3614f4692511761919cc72cd365a693": {
+      "sample_proxy": {
+        "relative_path": "sample\\IMG_7983.JPG"
+      }
+    },
+    "be7cffbc251537988f359d2e20ea48fc17d863619a51a7def5609b2d027eb2a1": {
+      "sample_proxy": {
+        "relative_path": "sample\\IMG_4683.jpg"
+      }
+    },
+    "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7": {
+      "sample_proxy": {
+        "relative_path": "sample\\A003C0028_240826_K29Y06.MOV"
+      }
+    }
+  }
+}

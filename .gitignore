@@ -1,0 +1,61 @@
+# open-post-production repo — tooling + editorial; exclude bulk binaries and cold storage
+
+derivative media/*
+!derivative media/derivative_media_README.md
+!derivative media/_index/
+!derivative media/sample/
+node_modules/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+editor/.venv/
+editor/__pycache__/
+_cache/
+**/_cache/
+.cache/
+.fuse_hidden*
+.claude/
+.git/
+
+editor/premiere projects/
+editor/premiere projects/Adobe Premiere Pro Auto-Save/
+
+editor/_archive/*
+!editor/_archive/README.md
+
+indexes/*.sqlite
+!indexes/editorial_catalog.sqlite
+!indexes/clip_and_still_embeddings.sqlite
+!indexes/transcript_rolling_embeddings.sqlite
+!indexes/audio_events.sqlite
+!indexes/audio_fingerprints.sqlite
+indexes/*.sqlite-wal
+indexes/*.sqlite-shm
+indexes/*.faiss
+indexes/*.faiss.meta.json
+indexes/_cache/
+
+dataset/_runs/
+dataset/_scripts/extraction/verify_ssd_match_report.json
+
+dataset/_audit/*
+!dataset/_audit/README.md
+
+dataset/_archive/*
+!dataset/_archive/README.md
+!dataset/_archive/history/
+
+.env
+.env.*
+
+premiere mcp/node_modules/
+premiere mcp/dist/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

@@ -1,0 +1,80 @@
+{
+  "framework_id": "vonnegut_shapes",
+  "title": "Shapes of Stories",
+  "author": "Kurt Vonnegut",
+  "year": 1947,
+  "source": "From Vonnegut's rejected University of Chicago anthropology master's thesis (1947); popularized in lectures.",
+  "tradition": "heuristic",
+  "engine": "felt_trajectory",
+  "act_envelope": "free",
+  "resolution": null,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "kubler_ross_grief",
+      "scientific_method"
+    ],
+    "note": "Plots graphed as lines on a good-fortune / ill-fortune axis. Philosophy: emotional TRAJECTORY matters more than event taxonomy. The most useful lens for documentary because it's about felt shape, not plot mechanics."
+  },
+  "stages": [
+    {
+      "stage_id": "vn01_man_in_hole",
+      "position": 1,
+      "name": "Man in Hole",
+      "function": "Protagonist starts at neutral, falls into trouble, climbs out, ends higher than they started."
+    },
+    {
+      "stage_id": "vn02_boy_meets_girl",
+      "position": 2,
+      "name": "Boy Meets Girl",
+      "function": "Finds something wonderful, loses it, regains it."
+    },
+    {
+      "stage_id": "vn03_cinderella",
+      "position": 3,
+      "name": "Cinderella",
+      "function": "Step-rise (incremental gains), sudden collapse, then off-the-chart happiness."
+    },
+    {
+      "stage_id": "vn04_from_bad_to_worse",
+      "position": 4,
+      "name": "From Bad to Worse",
+      "function": "Starts low and gets worse — Kafka's territory."
+    },
+    {
+      "stage_id": "vn05_creation_story",
+      "position": 5,
+      "name": "Creation Story",
+      "function": "Starts in chaos / void and ends in stable order."
+    },
+    {
+      "stage_id": "vn06_old_testament",
+      "position": 6,
+      "name": "Old Testament",
+      "function": "Series of falls and partial recoveries; non-monotonic."
+    },
+    {
+      "stage_id": "vn07_new_testament",
+      "position": 7,
+      "name": "New Testament",
+      "function": "Creation Story plus a Cinderella spike at the end — off-the-chart happiness after order is established."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Vonnegut shapes are orthogonal to beat-ladder frameworks; they describe emotional trajectory and can be overlaid on any of them."
+  },
+  "applicability": {
+    "best_for": [
+      "documentary",
+      "emotional_pacing_review",
+      "earned_descent_check",
+      "non_western_material"
+    ],
+    "weak_for": [
+      "beat_by_beat_assembly"
+    ],
+    "limitations": "Doesn't tell you WHAT scenes to use — only whether the cumulative emotional shape is what you wanted. A diagnostic, not a template."
+  },
+  "project_relevance": null
+}

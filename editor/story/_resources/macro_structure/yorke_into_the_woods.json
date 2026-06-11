@@ -1,0 +1,81 @@
+{
+  "framework_id": "yorke_into_the_woods",
+  "title": "Into the Woods — Fractal Five-Act Change",
+  "author": "John Yorke",
+  "year": 2013,
+  "source": "Into the Woods: A Five-Act Journey Into Story, 2013.",
+  "tradition": "dramatic",
+  "engine": "change",
+  "act_envelope": "five_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "horace_five_acts",
+      "freytag_pyramid",
+      "field_paradigm",
+      "campbell_monomyth"
+    ],
+    "descendants": [],
+    "siblings": [],
+    "note": "The synthesizer. A BBC drama executive who argues every story is a FRACTAL five-act structure of CHANGE: the protagonist moves from no-knowledge through doubt, reluctance, and regression to reawakening and mastery — and the same shape recurs at the level of the whole film, the act, the scene, and the beat."
+  },
+  "stages": [
+    {
+      "stage_id": "yo01_act_i_setup",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Act I — No Knowledge",
+      "function": "Protagonist unaware of their flaw or true situation. The 'mask' is on."
+    },
+    {
+      "stage_id": "yo02_act_ii_doubt",
+      "position": 2,
+      "movement": "Act II",
+      "name": "Act II — Awakening / Doubt",
+      "function": "Doubt about the old self enters; first attempts to act on new knowledge."
+    },
+    {
+      "stage_id": "yo03_act_iii_midpoint",
+      "position": 3,
+      "movement": "Act III",
+      "name": "Act III — Midpoint Knowledge / Acceptance",
+      "function": "Protagonist accepts what they couldn't see before. Pivots from reactive to proactive."
+    },
+    {
+      "stage_id": "yo04_act_iv_regression",
+      "position": 4,
+      "movement": "Act IV",
+      "name": "Act IV — Reluctance / Regression",
+      "function": "Backslide; the old self reasserts under pressure; deepest test."
+    },
+    {
+      "stage_id": "yo05_act_v_reawakening",
+      "position": 5,
+      "movement": "Act V",
+      "name": "Act V — Reawakening / Mastery",
+      "function": "Knowledge integrated; mastery demonstrated; new equilibrium."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "horace_five_acts": {
+      "yo01_act_i_setup": "ho01_act_i",
+      "yo02_act_ii_doubt": "ho02_act_ii",
+      "yo03_act_iii_midpoint": "ho03_act_iii",
+      "yo04_act_iv_regression": "ho04_act_iv",
+      "yo05_act_v_reawakening": "ho05_act_v"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "any_form_unified_theory",
+      "fractal_review",
+      "scene_level_diagnostics",
+      "tv_series"
+    ],
+    "weak_for": [
+      "short_form_only"
+    ],
+    "limitations": "The fractal claim is strong — verifying it at every level requires care. Best used as a lens that asks 'is THIS scene also a five-act change?'"
+  },
+  "project_relevance": null
+}

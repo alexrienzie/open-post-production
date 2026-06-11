@@ -1,0 +1,80 @@
+{
+  "framework_id": "dual_dramatic_question",
+  "title": "Dual Dramatic Question — Parallel A/B Arcs",
+  "author": "(implicit in many ensemble films; theorized variously)",
+  "year": null,
+  "source": "The dual-dramatic-question structure: two stacked goals resolved in reverse order. Closest theoretical antecedent in Snyder's A-story/B-story logic, but where Snyder treats B as a relationship-and-theme subplot, dual dramatic question treats both A and B as substantive external goals.",
+  "tradition": "hybrid",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 6,
+  "lineage": {
+    "predecessors": [
+      "snyder_save_the_cat",
+      "hauge_two_journeys"
+    ],
+    "descendants": [],
+    "siblings": [],
+    "note": "Two stacked dramatic questions (a global Problem A and a local Problem B; Solution B resolves before Solution A). Two parallel arcs that mutually inform each other; resolution of one provides the conditions or insight for resolving the other."
+  },
+  "stages": [
+    {
+      "stage_id": "dq01_problem_a_global",
+      "position": 1,
+      "name": "Problem A — Global",
+      "function": "The larger, systemic question. Often the one the audience can't immediately act on."
+    },
+    {
+      "stage_id": "dq02_problem_b_local",
+      "position": 2,
+      "name": "Problem B — Local",
+      "function": "The smaller, character-scale question. The one that gets the protagonist into the story."
+    },
+    {
+      "stage_id": "dq03_pursuit_b",
+      "position": 3,
+      "name": "Pursuit of B",
+      "function": "Protagonist pursues B; encounters A through that pursuit."
+    },
+    {
+      "stage_id": "dq04_solution_b",
+      "position": 4,
+      "name": "Solution B",
+      "function": "B is resolved — but in resolving B, A becomes both clearer and harder."
+    },
+    {
+      "stage_id": "dq05_pursuit_a",
+      "position": 5,
+      "name": "Pursuit of A",
+      "function": "With B resolved, protagonist now pursues A — armed with what B taught."
+    },
+    {
+      "stage_id": "dq06_solution_a",
+      "position": 6,
+      "name": "Solution A",
+      "function": "A is resolved, often differently than the protagonist expected. The nested structure makes both resolutions feel earned."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "snyder_save_the_cat": {
+      "_note": "Dual-DQ A-story ≈ Snyder A-story; Dual-DQ B-story ≈ Snyder B-story, but with B treated as a substantive external goal, not just a theme/relationship subplot.",
+      "dq02_problem_b_local": "sn07_b_story",
+      "dq04_solution_b": "sn09_midpoint",
+      "dq06_solution_a": "sn14_finale"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "legal_films",
+      "investigative_documentary",
+      "two_question_narratives",
+      "personal_into_systemic"
+    ],
+    "weak_for": [
+      "single_question_films",
+      "pure_character_drama"
+    ],
+    "limitations": "Requires two genuinely substantive questions. If B is just a relationship subplot, use Snyder directly. If A and B aren't actually distinct, the structure collapses."
+  },
+  "project_relevance": null
+}

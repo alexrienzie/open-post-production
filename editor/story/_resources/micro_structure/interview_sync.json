@@ -1,0 +1,79 @@
+{
+  "id": "interview_sync",
+  "display_name": "Interview & sync craft — Morris/journalism tradition",
+  "family": "interview_sync",
+  "tradition_id": "morris",
+  "attribution": {
+    "work": "Errol Morris interviewing technique (Interrotron, etc.) + documentary journalism craft",
+    "author": "Errol Morris, Marshall Curry, journalistic interview practice (synthesized)",
+    "usage_note": "Principles for how interview material was captured and how it should be cut. Some are field-side (what the interviewer should have done); editors inherit those decisions. Most are cut-side: how to use the material you actually have, including the failures."
+  },
+  "application_guidance": "Use during interview-cut review. These principles diagnose problems specific to talking-head material — questions that produce response-shaped answers, the moment the speaker stops performing, the difference between the answer and the after-answer. If a scene leans on interview, run this checklist.",
+  "principles": [
+    {
+      "id": "dont_ask_question_answer_needs",
+      "label": "Don't ask the question the answer needs",
+      "description": "The best interview answer is a complete statement that stands without context. 'Why was Tuesday important?' produces 'Because…' — the answer is a response, not a statement. 'Tell me what happened Tuesday' produces 'On Tuesday I was…' — the answer is now an independent sentence that can be cut into any context. Editors inherit the interviewer's question structure; if the answers are response-shaped, the editing options collapse.",
+      "documentary_application": "For each interview clip in the cut, ask: does this stand alone, or does it require the question to make sense? If the latter, the clip can only be used in places where the question can be implied — drastically narrowing edit options. When recutting, prioritize clips that are statement-shaped.",
+      "review_questions": [
+        "Does this interview line stand alone, or does it need the question for context?",
+        "Are there alternate takes of the same content that are statement-shaped instead of response-shaped?",
+        "If the answer starts with 'Yes,' 'No,' 'Because,' or 'Well,' it's response-shaped — is that usable here?"
+      ],
+      "tags": ["interview", "language", "act_i", "act_ii"],
+      "see_also": ["documentary_craft/specific_beats_general"]
+    },
+    {
+      "id": "wait_one_beat",
+      "label": "Wait one beat after the natural ending",
+      "description": "The most important sentence often comes after the speaker has 'finished.' A trained interviewer waits one beat in silence after the apparent answer; the speaker often continues with the line they didn't plan to say — the one that's actually true. Editors inherit these moments only if the interviewer left the camera rolling and the speaker was given space.",
+      "documentary_application": "In the rushes for any important interview moment, check 3–10 seconds AFTER the apparent end of the answer. Is there a line that continues the thought, contradicts it, or qualifies it? Those lines are often the strongest material. They're frequently the line that should be in the cut.",
+      "review_questions": [
+        "What's in the 10 seconds after the apparent end of this answer? Anything stronger than what's in the cut?",
+        "Did the speaker say one more thing that the interviewer didn't follow up on?",
+        "Is the line I'm using the speaker's planned answer or their actual one?"
+      ],
+      "tags": ["interview", "rushes_review"],
+      "see_also": ["documentary_craft/verite_breath", "rhythm_pacing/wait_one_beat"]
+    },
+    {
+      "id": "moment_they_stop_performing",
+      "label": "Use the moment they stop performing",
+      "description": "Interviewees perform for the camera for a while, then forget it's there. The strongest material is often the moment of forgetting — when the answer becomes the actual thought rather than the rehearsed line. Editors can usually identify these moments by tonal shift: voice drops, pace slows, eye contact pattern changes.",
+      "documentary_application": "For any interviewee who appears in multiple scenes, identify the moment in their footage where they stopped performing. Use the post-performance material wherever possible. If a key claim is delivered in the performing register, look for the same content in the post-performing register.",
+      "review_questions": [
+        "Where in this interview did the speaker stop performing? Is that material in the cut?",
+        "Is the current selected line in performing or post-performing register?",
+        "Is there an unrehearsed moment of the same content elsewhere in the rushes?"
+      ],
+      "tags": ["interview", "rushes_review", "character"],
+      "see_also": ["documentary_craft/show_by_behavior_not_speech"]
+    },
+    {
+      "id": "one_head_fatigue",
+      "label": "One-head fatigue",
+      "description": "Cutting repeatedly to the same talking head within 30–60 seconds — even with different content — induces audience fatigue. The face becomes a metronome. The cure is variety: different speakers, b-roll, archival, sync footage, observation. A scene with 4 cuts to the same head is structurally identical to a scene with 1 cut to the same head; the extra 3 are decoration.",
+      "documentary_application": "For each interview-heavy scene, count returns to the same speaker. If a speaker appears 3+ times in 60 seconds, consolidate or replace with b-roll. The exception: emotional escalation — if the speaker is visibly changing across the cuts, the returns earn themselves. Otherwise they're filler.",
+      "review_questions": [
+        "How many times does this scene cut back to the same head in 60 seconds?",
+        "Is each return earning itself — is the speaker visibly changing, or is the content just continuing?",
+        "Could 2 returns be consolidated into 1 longer take with b-roll under it?"
+      ],
+      "tags": ["interview", "pacing"],
+      "see_also": ["editing_room_tactical/pace_by_feeling_not_clock"]
+    },
+    {
+      "id": "the_question_in_the_answer",
+      "label": "Put the question inside the answer",
+      "description": "When the interviewer's question is necessary for context, the best answers absorb the question into the answer's first clause. 'When the decision came down, I was…' is the answer that contains the question. Editors can engineer this in two ways: pick rushes takes where the speaker did this naturally, or sequence the cut so a previous scene supplies the question implicitly.",
+      "documentary_application": "Audit interview lines for clarity: does the line tell the audience what was being asked, or do you need to insert a card / VO / prior context to set up the answer? If the latter, look for an alternative take that absorbs the question, OR put the answer in a context where the question is implicit from what just happened.",
+      "review_questions": [
+        "Could this interview answer be inserted into a new context without losing meaning?",
+        "Does the line absorb the question, or does it require external setup?",
+        "Is there a take where the speaker self-contextualizes more naturally?"
+      ],
+      "tags": ["interview", "language"],
+      "see_also": ["interview_sync/dont_ask_question_answer_needs"]
+    }
+  ]
+}

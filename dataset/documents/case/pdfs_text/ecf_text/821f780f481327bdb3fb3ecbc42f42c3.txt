@@ -1,0 +1,503 @@
+Case L:24-po-00893-SAH Document 33-1 Filed 04/08/25 Page 1 of 12
+
+Edward S. Bushnell Bushnell Law Office [address redacted] [phone redacted] [email redacted]
+
+Alexander G. Rienzie Rienzie, LLC [address redacted] [phone redacted] [email redacted]
+
+Attorneys for Defendant
+
+IN THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF WYOMING
+
+UNITED STATES OF AMERICA, ) )
+
+Plaintiff, ) Case No. L:24-po-00893
+
+) vs. ) ) MICHELINO SUNSERI, ) ) Defendant. ) )
+
+BRIEF IN SUPPORT OF MOTION TO DISMISS
+
+Defendant Michelino Sunseri respectfully requests this Court dismiss the
+
+violation notice filed against him (ECF 1) with prejudice. This motion is brought
+
+pursuant to Fed. R. of Crim. P. (FRCrP) 12(b)(1), (3)(A) asserting (A) failure to
+
+state an offense; violation of Defendant's Fifth Amendment rights to (B) equal
+
+protection and (C) due process; and (D) violation of U.S. const. Art. I. § 1 for
+
+unconstitutional delegation of legislative power.
+
+In support thereof, Defendant states as follows:
+
+I. INTRODUCTION
+
+1. Defendant was cited under 36 CFR § 2.1(b) for using an allegedly closed
+
+social trail in Grand Teton National Park on Sep. 2, 2024 (ECF 1).
+
+2. The Defendant seeks dismissal based on: (A) insufficient evidence of a
+
+valid closure under 36 CFR §§ 2.1(b), 1.5 and 1.7; (B) selective
+
+enforcement violating equal protection; (C) inadequate notice violating
+
+due process; and (D) unconstitutional delegation of legislative power.
+
+3. Under FRCrP 12(b)(3)(B)(v), a charge may be dismissed for failure to state
+
+an offense where the alleged facts do not establish a violation. See U.S. v.
+
+Pope, 613 F.3d 1255, 1259 (10th Cir. 2010).
+
+4. Dismissal is also warranted where enforcement violates constitutional
+
+rights, including due process and equal protection under the Fifth
+
+Amendment (see U.S. v. Armstrong, 517 U.S. 456, 464 (1996)), or the
+
+nondelegation doctrine under Article I § 1 (see Touby v. U.S., 500 U.S.
+
+160, 165-66 (1991) ("something more than an 'intelligible principle'" may
+
+be required when criminal sanctions are implicated)).
+
+II. BACKGROUND
+
+5. Defendant used a widely-traveled social trail on Sep. 2, 2024, while
+
+pursuing a speed record ascending and descending Grand Teton. On
+
+Strava—from which the government also retrieved data in this case—at
+
+least 57 users posted 83 public runs using the trail (ECF 32-2). Despite
+
+consistent, ongoing public use, Defendant is not aware of any other
+
+citations for use of the old climber's trail.
+
+6. The old climber's trail is incomparable to other sensible applications of
+
+36 CFR § 2.1(b)—e.g., boardwalks in Yellowstone's West Thumb Geyser
+
+Basin protecting visitors from inadvertently falling into the Abyss Pool or
+
+damaging delicate thermophiles, switchbacks descending from the Grand
+
+Canyon's South Rim where shortcuts from one section to the next could
+
+dislodge rocks onto hikers below.
+
+7. To the contrary, the old climber's trail is a historically-significant, and
+
+the original, trail into Garnet Canyon used for Grand Teton speed
+
+records since the 1930s. As clearly evident from maps and photographs,
+
+the trail is hard-packed and well-traveled with no trails below that would
+
+expose other travelers to falling debris from its use.
+
+8. Until at least Sep. 6, 2024, the Fastest Known Time website displayed
+
+four accepted speed records using the old climber's trail without any
+
+flags or warnings (ECF 32-4)—one accepted in 2022 with a public GPX
+
+file (ECF 32-8 at 2). On Sep. 6, 2024, Ranger Bellino instructed staff of
+
+Fastest Known Time—a private website owned by Outside Inc.—to reject
+
+Defendant's speed record (ECF 32-8 at 2).
+
+9. Before Defendant's citation, third-party maps showed the trail as open,
+
+akin to the popular, nearby Delta Lake social trail (which has over eleven
+
+thousand reviews (AllTrails.com)). Off-trail travel is broadly permitted in
+
+National Parks, as clarified in the 1983 rulemaking intent behind 36 CFR
+
+§ 2.1(b). See 48 FR 30263 (Jun. 30, 1983).
+
+10. The government's only reference to alleged interest in a citation for use of
+
+the old climber's trail related to the most recent men's speed record
+
+using that trail: Kilian Jornet in 2012. (ECF 32-8 at 2). A public YouTube
+
+video with 711K views published by Anton Krupicka, a resident of
+
+Colorado, shows Anton and Kilian running on the old climber's trail
+
+during that trip (ECF 32-7). Anton and Kilian were never charged.
+
+11. On Sep. 11, 2024, after Defendant learned from Fastest Known Time
+
+staff of a potential criminal investigation, the Defendant reached out to
+
+Grand Teton NPS via Instagram expressing his surprise and offering his
+
+volunteer efforts to properly close the trail (ECF 32-8 at 2):
+
+"I recently ran a speed record on [G]rand Teton and took the switchback on the way down. I was hoping to talk to someone about making sure this doesn't happen again by helping out with closing the specific trail. I love the parks and deeply respect what everyone who works in the park does. These are important places to me and I want to set a good example for anyone in the future. I've heard rumblings from Fastest Known Time that the [NPS] plans on pressing charges against me. This is quite alarming as I was under the assumption this trail was okay due to the Fastest Known Time's website posting of other [athletes] who have used this route. After my attempt, they went back and changed the rules [. . .] I'm hoping to talk to someone about rectifying this situation."
+
+12. On Sep. 12, 2024, a ranger called Defendant noting that the NPS
+
+received his message and would be in touch. On Sep. 25, 2024, Ranger
+
+Bellino contacted the Defendant, joined by Ranger Michelle Altizer (ECF
+
+32-8 at 2). At trial Defendant is prepared to testify as to the following: on
+
+that call, Defendant asked Bellino, "What's the scope of this call?" to
+
+which Bellino replied, "We want to drag you in front of a judge and make
+
+you apologize"—ignoring Defendant's prior efforts to "[rectify] this
+
+situation" and forcing involvement of counsel.
+
+13. Following the Sep. 25, 2024, conversation with Bellino, Defendant was
+
+charged with a Federal misdemeanor for running on an allegedly closed
+
+trail and threatened with "a fine of up to $5,000 or six months in jail" by
+
+an NPS spokesperson in press comments (ECF 32-6 at 2).
+
+14. According to the Federal Rulemaking behind 36 CFR § 2.1(b), such
+
+restrictions are "not intended to prohibit cross-country travel, or off-trail
+
+exploring." 48 FR 30263. The NPS explicitly allow many activities that
+
+require off-trail travel in similar, or more fragile and erosion-prone,
+
+terrain: climbing (https://nps.gov/grte/planyourvisit/climb.htm), elk
+
+hunting (https://nps.gov/grte/planyourvisit/elkreduction.htm), wildlife
+
+viewing (https://nps.gov/grte/planyourvisit/wildview.htm), and fishing
+
+(https://nps.gov/grte/planyourvisit/fish.htm).
+
+15. NPS representatives further elaborated in public statements that the
+
+decision to press charges was motivated by: Defendant's (1) identity as
+
+an "influencer and sponsored athlete," (2) "effort to achieve the fastest
+
+known time," and (3) related public race report on Strava and Instagram
+
+post with sponsor, The North Face, with photographs from the film crew
+
+documenting the feat (ECF 32-6 at 2; ECF 32-8 corroborates)—activities
+
+protected under U.S. const. amend. I. and V.
+
+16. All plea offers to date have included a five-year ban from Grand Teton
+
+National Park, which would force the Defendant—a local bartender and
+
+professional mountain runner who regularly trains in the Tetons—to
+
+move from his home in Victor, ID.
+
+III. ARGUMENT
+
+A. Invalid Closure Under 36 CFR § 2.1(b)
+
+17. To sustain a violation of 36 CFR § 2.1(b), the government must prove the
+
+trail was closed under 36 CFR §§ 1.5 (written determination) and 1.7
+
+(notice). 36 CFR § 2.1(b) is not intended to prevent "off-trail exploring,"
+
+(48 FR 30263), such as that permitted on the nearby Delta Lake trail.
+
+18. Notice: Given the consistent public use of the old climber's trail without
+
+citation (ECF 32-2) and historical use for speed records (ECF 32-4), 36
+
+CFR § 1.7 requires far clearer closure notice than two small, earth-toned,
+
+and ambiguous signs lacking CFR references, hidden in sagebrush and
+
+behind a pine tree, respectively. ECF 21-1 at 9-10. The sign from the
+
+direction of Defendant's entry merely states "Short cutting causes
+
+erosion" and is located next to, not in front of, the old climber's trail,
+
+hardly notice of a misdemeanor given the trail's consistent, uncited
+
+public use. ECF 21-1 at 9. By contrast, the unofficial Delta Lake trail—
+
+where the NPS explicitly allows heavy use of a social path within a mile of
+
+the old climber's trail through nearly identical terrain—is marked by a
+
+sign significantly larger and clearer than the alleged closure signs. See
+
+AllTrails, Delta Lake via Lupine Meadows Access; ECF 21-1 at 9-10.
+
+19. Written Determination: For any 36 CFR § 2.1(b) closure, 36 CFR §
+
+1.5(c) requires a "written determination" laying out the "reason(s)" for the
+
+area closure and "an explanation of why less restrictive measures will not
+
+suffice." For any closure resulting "in a significant alteration in the public
+
+use pattern of the park area," the NPS must issue a Federal Rulemaking
+
+under 36 CFR § 1.5(c). After exhaustive search, Defendant has not found
+
+any such written determination or Federal Rulemaking discussing
+
+closure of the old climber's trail.
+
+20. The government seems to rely upon the 2024 Compendium's vague
+
+reference to "revegetation and restoration efforts" as evidence of CFR
+
+compliance (ECF 22 at 2). Furthermore, no restoration efforts—e.g., soil
+
+decompaction, planting, barriers—are evident from photographs of the
+
+old climber's trail (ECF 21-1 at 2-3). By contrast, the 2024 Compendium
+
+includes many explicit area closure maps for restrictions motivated by
+
+wildlife activity, seasonal road closures, boat retrieval / launches, etc.
+
+Even if applicable, "revegetation and restoration efforts" is woefully
+
+inadequate to provide a layperson with notice that an area might be
+
+legally closed, subjecting travelers to misdemeanor liability.1
+
+21. Absent a bona fide area closure under 36 CFR §§ 1.5 and 1.7, the
+
+criminal charge under 36 CFR § 2.1(b) fails.
+
+B. Selective Enforcement Violates Equal Protection
+
+22. Selective enforcement with discriminatory effect and purpose violates the
+
+Fifth Amendment. See U.S. v. Armstrong, 517 U.S. 456, 465 (1996).
+
+1 Should the case not be dismissed, the lack of visible revegetation and restoration efforts on the old climber's trail is why Defendant's expert witness is so essential.
+
+23. Effect: Defendant has produced clear, affirmative evidence of consistent
+
+public use of the allegedly closed trail, such as 57 users posting 83 runs
+
+on Strava (ECF 32-2), four unflagged speed records including one in
+
+2022 on Fastest Known Time (ECF 32-4), and a public YouTube video
+
+with 711K views published by a Colorado resident (ECF 32-7). PACER
+
+searches and community outreach returned no citations.
+
+24. Purpose: Public NPS statements (ECF 32-6) and Bellino's animus
+
+suggest targeting based on Defendant's identity, activity and speech—
+
+collectively protected under U.S. const. amend. I. and V. See Wayte; see
+
+also Steele.
+
+25. This evidence of animus, bias, and inconsistent enforcement in violation
+
+of Defendant's protected rights under U.S. const. amend. I. and V.
+
+mandates dismissal.
+
+C. Inadequate Notice Violates Due Process
+
+26. The Fifth Amendment prohibits the "depriv[ation] of life, liberty or
+
+property, without due process of law." U.S. const. amend. V. While
+
+"'ignorance of the law will not excuse,'" due process invokes "the
+
+requirement of notice." Lambert v. People of the State of California, 355
+
+U.S. 225, 228 (1957) (overturning a vague registration law) (quoting
+
+Shevlin-Carpenter Co. v. State of Minn., 218 U.S. 57, 68 (1910)); see also
+
+Johnson v. U.S., 576 U.S. 591, 595 (2015) (finding unconstitutional a
+
+vague law that failed to "give ordinary people fair notice").
+
+27. Signage for the "old climber's trail" was woefully inadequate—small,
+
+vague, and lacking CFR references. ECF 21-1 at 9-10. The sign from
+
+Defendant's direction of entry states "short cutting causes erosion"
+
+placed next to the trail, camouflage in a sagebrush plant, which most
+
+passing hikers would miss. Even if a passerby noticed the sign, it
+
+provides no indication of a prohibited pathway.
+
+28. The NPS clearly has the resources and ability to make signs visible—e.g.,
+
+the Delta Lake trail, an unofficial trail yet open to parkgoers, has a large,
+
+highly visible sign (ECF 21-1 at 9-11). The NPS also has the resources to
+
+publish maps—e.g., the 2024 Compendium includes many detailed area
+
+closure maps, such as seasonal road closures (snow clearing);
+
+Prospector's Mountain winter closure (bighorn sheep); Antelope Flats
+
+(sage grouse); and Willow Flats (nesting bald eagles) to name a few. The
+
+NPS maintains a separate detailed wildlife closure map and designations
+
+online (https://nps.gov/grte/learn/management/wildlife-closures.htm).
+
+29. Meanwhile, third-party maps showed the trail as open (ECF 32-5),
+
+consistent public use went uncharged (ECF 32-2), similar social trails
+
+are explicitly allowed (ECF 21-1 at 9-10)—including those causing far
+
+greater impact, e.g., Delta Lake trail—and multiple uncited speed records
+
+using the trail were displayed without flag or closure notice (ECF 32-4).
+
+30. NPS's endorsement of Delta Lake in particular, use of which causes far
+
+greater land impact, challenges any claim of risk or damage justifying a
+
+misdemeanor charge for use of the old climber's trail. See Earth
+
+Trekkers, Ultimate Guide to Delta Lake Hike
+
+(https://earthtrekkers.com/surprise-amphitheater-delta-lake-hike)
+
+(showing near-identical terrain to the old climber's trail). Furthermore,
+
+the NPS explicitly allows, and even encourages, activities that require off-
+
+trail travel, such as climbing, hunting, fishing, and wildlife viewing /
+
+photography (see https://nps.gov/grte/planyourvisit).
+
+31. To dispel this consistent, ongoing use, the government could have
+
+installed clear and prominent signage, issued a map in the
+
+Compendium—as the NPS does for many other area closures in Grand
+
+Teton National Park—filed a press release, etc. Instead, the NPS is using
+
+criminal charges to provide closure notice, a violation of Defendant's due
+
+process rights under U.S. const. amend. V.
+
+D. Unconstitutional Delegation of Legislative Power
+
+32. The Constitution vests "[a]ll legislative Powers" in Congress, prohibiting
+
+delegation of "powers which are strictly and exclusively legislative," such
+
+as defining crimes. U.S. Const., art. I, § 1. Only Congress can create
+
+criminal laws and, in doing so, must "write statutes that give ordinary
+
+people fair warning about what the law demands of them." U.S. v. Davis,
+
+588 U.S. 445, 447 (2019) (determining a violent felon statute to be
+
+unconstitutionally vague).
+
+33. In the 1916 Organic Act, Congress delegated authority to the Secretary of
+
+the Interior under 16 U.S.C. § 3 (recodified to 54 U.S.C. § 100751(a)) to
+
+"make and publish such rules and regulations as he may deem
+
+necessary or proper" for national parks, in the early 1900s wild-west era
+
+of poaching and wanton resource destruction. See Paul D. Berkowitz,
+
+U.S. Rangers, The Law of the Land: The History of Law Enforcement in the
+
+Federal Land Management Agencies 18-25 (CT Publ'g Co. n.d.). Through
+
+the criminal statute 18 USC 1865(a), Congress criminalized violation of
+
+any regulation promulgated under the Organic Act's broad mandate. 36
+
+CFR § 2.1(b) and its criminal penalties are authorized by that single
+
+sentence from 1916, which allows unelected officials to criminalize a
+
+wide array of conduct, including running on a trail.
+
+34. 16 U.S.C. § 3 provides no "intelligible principle" to constrain the
+
+Secretary's power, merely offering vague aspirational goals to "conserve"
+
+and "provide for the enjoyment" of parks (recodified to 54 U.S.C. §
+
+100101(a)), allowing the NPS to "roam at will," inventing crimes like trail
+
+shortcutting that Congress never proscribed and which, in this case, are
+
+not even reflected in the NPS's own regulations. See Consumers'
+
+Research v. FCC, 109 F.4th 743, 760 (5th Cir. 2024). This "standardless
+
+sweep" undermines self-government and due process. Kolender v.
+
+Lawson, 461 U.S. 352, 358 (1983).
+
+35. This delegation's severity is heightened by criminal penalties—up to six
+
+months' imprisonment, $5,000 fines, and five years of probation under
+
+18 U.S.C. § 1865(a)—potentially requiring even "more than an intelligible
+
+principle" to survive scrutiny. Touby v. United States, 500 U.S. 160, 165-
+
+66 (1991). Absent such limits, 36 CFR § 2.1(b), as applied via vague
+
+signage and Compendium language, violates Article I § 1, rendering the
+
+criminal charge against Defendant unconstitutional.
+
+36. A lawsuit was filed on Feb. 24, 2025 by the New Civil Liberties Alliance
+
+challenging the constitutionality of NPS application of the Organic Act in
+
+the U.S. District Court for the Southern District of Texas. See BASE
+
+Access v. NPS, No. 4:25-cv-790 (S.D. Tex. 2024).
+
+IV. CONCLUSION
+
+The government (A) cannot prove a valid closure; the prosecution reflects
+
+(B) selective enforcement and (C) inadequate notice violating Fifth Amendment
+
+rights; and (D) 36 CFR § 2.1(b) stems from an unconstitutional delegation of
+
+legislative power. Dismissal with prejudice is warranted.
+
+DATED this 8th day of April, 2025.
+
+/s/Edward S. Bushnell Edward S. Bushnell WY Bar No. 7-4951 Bushnell Law Office, LLC [address redacted] [phone redacted] [email redacted]
+
+/s/Alexander G. Rienzie Alexander G. Rienzie NY Bar No. 5556147 Rienzie, LLC [address redacted] [phone redacted] [email redacted]
+
+Attorneys for Defendant

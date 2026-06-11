@@ -1,0 +1,73 @@
+{
+  "framework_id": "kubler_ross_grief",
+  "title": "Five Stages of Grief",
+  "author": "Elisabeth Kübler-Ross",
+  "year": 1969,
+  "source": "On Death and Dying, 1969.",
+  "tradition": "borrowed",
+  "engine": "grief",
+  "act_envelope": "free",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "scientific_method",
+      "vonnegut_shapes"
+    ],
+    "note": "Not a story theory at all; a clinical model of dying that writers co-opted as a ready-made emotional arc. Kübler-Ross herself never meant it as linear or universal, which is the standard caution. The chart sometimes adds an initiating 'trauma' beat."
+  },
+  "stages": [
+    {
+      "stage_id": "kr00_trauma",
+      "position": 0,
+      "name": "Trauma",
+      "function": "The precipitating loss or shock that initiates the process. (Some charts include this; original Kübler-Ross does not.)"
+    },
+    {
+      "stage_id": "kr01_denial",
+      "position": 1,
+      "name": "Denial",
+      "function": "Refusing to accept the loss. 'This isn't happening.'"
+    },
+    {
+      "stage_id": "kr02_anger",
+      "position": 2,
+      "name": "Anger",
+      "function": "Outrage at the situation, at others, at fate."
+    },
+    {
+      "stage_id": "kr03_bargaining",
+      "position": 3,
+      "name": "Bargaining",
+      "function": "Attempts to negotiate the loss away — pleading, deal-making."
+    },
+    {
+      "stage_id": "kr04_depression",
+      "position": 4,
+      "name": "Depression",
+      "function": "Recognition of the loss; withdrawal and despair."
+    },
+    {
+      "stage_id": "kr05_acceptance",
+      "position": 5,
+      "name": "Acceptance",
+      "function": "Integrating the loss; a new equilibrium that includes the loss."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Kübler-Ross stages don't map to plot frameworks; they map to emotional state of a specific character at a specific moment. Useful overlay, not equivalent vocabulary."
+  },
+  "applicability": {
+    "best_for": [
+      "grief_arc_characters",
+      "loss_thread",
+      "documentary_following_bereavement"
+    ],
+    "weak_for": [
+      "plot_macrostructure"
+    ],
+    "limitations": "Real grief is non-linear, recursive, and skips stages. Used rigidly, this framework misrepresents how loss actually feels. Use the vocabulary, not the order."
+  },
+  "project_relevance": null
+}

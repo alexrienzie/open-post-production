@@ -1,0 +1,92 @@
+{
+  "id": "short_form_attention",
+  "display_name": "Short-form attention — YouTube / TikTok / retention-curve tradition",
+  "family": "short_form_attention",
+  "tradition_id": "mrbeast_neistat_shortform",
+  "attribution": {
+    "work": "YouTube long-form video editing, TikTok/Reels craft, the short-form retention-curve tradition",
+    "author": "MrBeast (Jimmy Donaldson), Casey Neistat, Marques Brownlee, the modern short-form practitioner community (synthesized)",
+    "usage_note": "The most data-driven editorial tradition in the catalog. Short-form creators watch retention curves — minute-by-minute graphs of how many viewers are still watching — and recut accordingly. The discipline is empirical: the cut that holds attention is right; the cut that doesn't isn't. Most of these principles look obvious in isolation; they're load-bearing because the data forces practitioners to apply them with discipline most long-form editors lack. Documentary editors who dismiss the tradition as 'attention-hacking' miss that the same techniques operate under the surface of every successful long-form work — just less visibly."
+  },
+  "application_guidance": "Lower direct relevance for feature documentary than the other families, but the DIAGNOSTIC discipline transfers: test screenings can produce the same data short-form creators get from analytics, and the principles below tell you what to do with that data. Particularly useful for: the first 90 seconds of each Act (where attention is most at risk), the long Act II middle (where attention is most likely to lapse), and any sequence that test audiences report as 'slow' (where pattern-interrupt and visible-payoff principles diagnose specific causes).",
+  "principles": [
+    {
+      "id": "hook_in_first_five_seconds",
+      "label": "Hook in the first 5 seconds, not the first 90",
+      "description": "Short-form discovered hard that audiences decide to keep watching within the first FIVE seconds, not the first 90 (which is the serial-TV scale). The hook isn't an event; it's a SIGNAL — a striking visual, a counterintuitive claim, a question the audience can't immediately answer. Long-form documentary doesn't face the same instant-decide pressure, but the principle still applies at micro-scale: the first frames of every Act and every cold-open scene are doing 5-second-hook work whether the editor knows it or not.",
+      "documentary_application": "For each Act opening and each scene that follows a hard cut, audit the first 5 seconds specifically. Is there a hook signal, or is the time being spent on transition/setup? The Opening Image is the most-scrutinized 5 seconds in the film; the first 5 seconds of Acts II and III deserve the same scrutiny. Short-form discipline: lead with the most compelling visual or claim available, even if it requires re-sequencing the scene.",
+      "review_questions": [
+        "First 5 seconds of this Act / scene: is there a hook signal, or just setup?",
+        "Could the most compelling moment in this scene's first minute be moved to its first 5 seconds without breaking the scene?",
+        "If a viewer dropped in here, would they want to keep watching after 5 seconds?"
+      ],
+      "tags": ["openings", "act_break", "attention"],
+      "see_also": ["episodic_pacing/cold_open_hook"]
+    },
+    {
+      "id": "pattern_interrupt",
+      "label": "Pattern interrupt every 8–12 seconds",
+      "description": "Short-form retention research shows audiences drop without an audio-visual 'event' every 8–12 seconds. An event is anything that changes the pattern — a cut, a zoom, a sound effect, a graphic overlay, a music cue change, a new on-screen element. Sustained no-change footage (a slow zoom across a single talking head, an unchanging wide of a landscape, ambient with no edit) reads as boring even when the content is good. The principle isn't 'cut every 8 seconds' — it's 'something must change every 8–12 seconds, even if subtly.'",
+      "documentary_application": "Audit long-take sequences (anything 15+ seconds without an event). Is the content sustaining attention, or is the runtime working against the cut? Three resolutions per long stretch: (1) accept the slowness as intentional (Ma-style hold for emphasis); (2) introduce pattern interrupts that don't break the take (subtle zoom, audio shift, graphic overlay); (3) shorten or break up the take. Long talking-head stretches mid-film are typically the highest-risk content. The principle doesn't mandate aggressive cutting; it mandates KNOWING which long takes are choices vs. defaults.",
+      "review_questions": [
+        "Which sequences in this Act go 15+ seconds without a pattern interrupt?",
+        "For each: is the sustained hold intentional and earned, or accidental?",
+        "Could subtle interrupts (zoom, audio shift, graphic) be added without breaking the take's emotional integrity?"
+      ],
+      "tags": ["pacing", "attention", "any_beat"],
+      "see_also": ["rhythm_pacing/longest_hold_strongest", "editing_room_tactical/pace_by_feeling_not_clock"]
+    },
+    {
+      "id": "retention_curve_audit",
+      "label": "Audit the retention curve — let the data direct the recut",
+      "description": "Short-form creators watch minute-by-minute retention graphs and recut where viewers drop. The discipline: act on the data rather than defend the cut. Documentary tradition treats test-screening data as input to be filtered through artistic intent; short-form treats it as ground truth. Neither extreme is right. The principle in between: when test audiences consistently disengage at a specific moment, that moment IS a problem, even if the editor can articulate why it shouldn't be. The data tells you where to look; what you do is still craft.",
+      "documentary_application": "For test screenings, capture per-minute engagement data (verbal or written feedback timestamped to specific scenes). When multiple viewers report disengaging at the same moment, treat that moment as a confirmed problem. Apply the other principles in this family (and elsewhere) to diagnose: is it a pattern-interrupt failure, a stakes-degradation problem, a visible-payoff issue? The retention-curve audit isn't a principle that applies during the cut; it's a discipline that applies AFTER each screening.",
+      "review_questions": [
+        "Where do test audiences consistently disengage?",
+        "For each consistent drop: which family's principles diagnose the cause?",
+        "Are recuts being driven by data, by editorial intent, or by reaction?"
+      ],
+      "tags": ["test_screenings", "diagnostics", "any_beat"],
+      "see_also": []
+    },
+    {
+      "id": "title_card_placement",
+      "label": "Title card placement — earn the title, don't lead with it",
+      "description": "MrBeast doesn't put the title card at 0:00; he puts it after the opening hook lands. The title card is a moment of 'okay, now I know what this IS' — placed AFTER attention is earned, not before. Most long-form documentaries lead with credits/title and waste the most-attention seconds of the runtime on text the audience won't remember. The principle inverts the convention: open with the hook, deploy the title 30–90 seconds in when the audience is already engaged.",
+      "documentary_application": "Where is the title card placed? If at 0:00, the film is using the most attention-rich moment for credits. Consider: open on the hook (your strongest audio or image), then drop the title card at 30–60 seconds. The audience receives the title card with attention already engaged; they're not deciding whether to watch — they're deciding what they're watching. This is a single-shot change with high impact.",
+      "review_questions": [
+        "Where is the title card currently placed?",
+        "What's in the first 30 seconds of runtime? Is it earning the title, or just preceding it?",
+        "Would moving the title to 30–90 seconds in let the opening hook do more work?"
+      ],
+      "tags": ["title_card", "openings"],
+      "see_also": ["snyder_principles/save_the_cat", "episodic_pacing/cold_open_hook"]
+    },
+    {
+      "id": "visible_payoff",
+      "label": "Visible payoff — show what they came for, repeatedly",
+      "description": "Short-form discovered that audiences need to SEE what they came for, not just be told it's coming. If the title is 'I built a 100-foot tower,' the tower needs to appear repeatedly throughout, not just at the climax. Documentary tradition often hides its payoffs until Act III; short-form tradition delivers them in TEASE form throughout. The principle: the audience that came for X needs to see X repeatedly, even if the full X arrives only at the end. Without tease-delivery, attention starves.",
+      "documentary_application": "What did the audience come for? Whatever one-line story brought them in, its iconic visual elements should appear in tease form throughout, not save for late acts. Audit the cut: are the iconic visual elements of the story present from the first act, or do they only arrive when the plot needs them? If iconic elements are absent from early Acts, the audience is being asked to wait for what they came for — and short-form research suggests they won't.",
+      "review_questions": [
+        "What did the audience come for? Is it visible from Act I, or only in Act III?",
+        "Are there iconic visual elements (the signature location, the subject's arena, the key documents) that should appear in tease form throughout?",
+        "Is the cut making the audience wait for payoff content that could appear earlier?"
+      ],
+      "tags": ["payoff", "structure", "act_i", "act_ii"],
+      "see_also": ["snyder_principles/promise_of_the_premise", "snyder_principles/lay_pipe"]
+    },
+    {
+      "id": "but_wait_signal",
+      "label": "The 'but wait' signal — tell the audience a reveal is coming",
+      "description": "Short-form's signature verbal/visual cue: 'But wait, it gets weirder.' A specific signal that tells the audience a recontextualization is about to land, so they pay attention to it. The principle inverts the convention that reveals should be surprises; here, the audience is TOLD a reveal is imminent and asked to be present for it. The reveal still surprises (the audience doesn't know WHAT is coming), but they're alert when it lands. This dramatically improves how the reveal is received.",
+      "documentary_application": "For each major late-film reveal, audit: does anything in the cut SIGNAL that a reveal is imminent? Not a spoiler — a tonal/structural cue (an interview line that hints, a music shift, a card, a graphic). Without the signal, reveals can land with the audience half-distracted. With the signal, the audience is alert and the reveal lands harder. The discipline isn't to remove surprise; it's to ensure the audience is PRESENT when surprises arrive.",
+      "review_questions": [
+        "Before each major reveal: is there a structural/tonal signal that something is about to happen?",
+        "If no signal: is the reveal landing on a distracted audience?",
+        "Could a 2–4 second tonal shift (music, framing, line) ensure the audience is alert for the reveal?"
+      ],
+      "tags": ["reveals", "act_iii", "attention"],
+      "see_also": ["unscripted_construction/reveal_escalator", "unscripted_construction/stakes_reset_before_climax"]
+    }
+  ]
+}

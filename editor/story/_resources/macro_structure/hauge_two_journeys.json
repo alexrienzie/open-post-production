@@ -1,0 +1,99 @@
+{
+  "framework_id": "hauge_two_journeys",
+  "title": "Six-Stage Plot Structure with Two Journeys",
+  "author": "Michael Hauge",
+  "year": 1988,
+  "source": "Writing Screenplays That Sell, 1988; The Hero's 2 Journeys (with Christopher Vogler), 2003.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 6,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm"
+    ],
+    "descendants": [],
+    "siblings": [
+      "snyder_save_the_cat"
+    ],
+    "note": "Six-stage plot structure hinged on five turning points (Opportunity 10%, Change of Plans 25%, Point of No Return 50%, Major Setback 75%, Climax 90%). Real contribution: TWO PARALLEL JOURNEYS — the outer plot goal AND the inner arc from Identity (false self / mask) to Essence (true self)."
+  },
+  "stages": [
+    {
+      "stage_id": "hg01_setup",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Setup",
+      "function": "Protagonist in Identity (the mask). Outer plot world established. Inner arc seeded — what the protagonist is hiding from."
+    },
+    {
+      "stage_id": "hg02_change_of_plans",
+      "position": 2,
+      "movement": "Act I/II hinge",
+      "name": "Change of Plans",
+      "function": "10-25%. Opportunity, then a hard commitment. Identity begins to be threatened."
+    },
+    {
+      "stage_id": "hg03_point_of_no_return",
+      "position": 3,
+      "movement": "Act II center",
+      "name": "Point of No Return",
+      "function": "~50%. Outer commitment irrevocable; inner self begins to emerge."
+    },
+    {
+      "stage_id": "hg04_major_setback",
+      "position": 4,
+      "movement": "Act II late",
+      "name": "Major Setback",
+      "function": "~75%. Outer plot crisis; inner self is fully exposed."
+    },
+    {
+      "stage_id": "hg05_climax",
+      "position": 5,
+      "movement": "Act III",
+      "name": "Climax",
+      "function": "~90%. Outer goal resolved (won or lost); inner journey completes — Essence revealed."
+    },
+    {
+      "stage_id": "hg06_aftermath",
+      "position": 6,
+      "movement": "Act III",
+      "name": "Aftermath",
+      "function": "New equilibrium; protagonist is now living in Essence."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "field_paradigm": {
+      "hg02_change_of_plans": "fd02_plot_point_1",
+      "hg03_point_of_no_return": "fd04_midpoint",
+      "hg04_major_setback": "fd05_plot_point_2",
+      "hg05_climax": "fd06_climax"
+    },
+    "snyder_save_the_cat": {
+      "hg02_change_of_plans": "sn06_break_into_two",
+      "hg03_point_of_no_return": "sn09_midpoint",
+      "hg04_major_setback": "sn11_all_is_lost",
+      "hg05_climax": "sn14_finale"
+    },
+    "vogler_writers_journey": {
+      "hg02_change_of_plans": "v05_crossing_the_first_threshold",
+      "hg03_point_of_no_return": "v08_the_ordeal",
+      "hg04_major_setback": "v10_the_road_back",
+      "hg05_climax": "v11_the_resurrection"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "transformation_arcs",
+      "character_driven_film",
+      "documentary_with_protagonist",
+      "dual_arc_films"
+    ],
+    "weak_for": [
+      "pure_plot_thrillers",
+      "ensemble_without_protagonist"
+    ],
+    "limitations": "The Identity/Essence framing assumes a single protagonist with a clear internal transformation. Ensemble films need separate Hauge passes per character."
+  },
+  "project_relevance": null
+}

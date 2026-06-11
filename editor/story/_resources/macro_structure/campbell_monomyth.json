@@ -1,0 +1,179 @@
+{
+  "framework_id": "campbell_monomyth",
+  "title": "The Hero with a Thousand Faces — Monomyth",
+  "author": "Joseph Campbell",
+  "year": 1949,
+  "source": "The Hero with a Thousand Faces, 1949. Synthesized from Jung (archetypes, the collective unconscious), Frazer, and especially Van Gennep's rites of passage (1909).",
+  "tradition": "mythic",
+  "engine": "external_conflict",
+  "act_envelope": "three_movement",
+  "resolution": 17,
+  "lineage": {
+    "predecessors": [
+      "propp_morphology"
+    ],
+    "descendants": [
+      "vogler_writers_journey",
+      "harmon_story_circle",
+      "watts_eight_point"
+    ],
+    "siblings": [],
+    "note": "Synthesized from Jung, Frazer, Van Gennep. Hugely influential, also fairly criticized for cherry-picking and flattening cultural specificity. Vogler's adaptation (1992) is what actually runs Hollywood."
+  },
+  "stages": [
+    {
+      "stage_id": "c01_call_to_adventure_world",
+      "position": 1,
+      "movement": "Departure",
+      "name": "The Call to Adventure",
+      "function": "Hero is called to leave the ordinary world."
+    },
+    {
+      "stage_id": "c02_refusal_of_the_call",
+      "position": 2,
+      "movement": "Departure",
+      "name": "Refusal of the Call",
+      "function": "Hero hesitates or refuses."
+    },
+    {
+      "stage_id": "c03_supernatural_aid",
+      "position": 3,
+      "movement": "Departure",
+      "name": "Supernatural Aid",
+      "function": "A mentor or guide appears, often with a gift."
+    },
+    {
+      "stage_id": "c04_crossing_the_first_threshold",
+      "position": 4,
+      "movement": "Departure",
+      "name": "Crossing the First Threshold",
+      "function": "Hero commits to the adventure; enters the special world."
+    },
+    {
+      "stage_id": "c05_belly_of_the_whale",
+      "position": 5,
+      "movement": "Departure",
+      "name": "Belly of the Whale",
+      "function": "The final separation from the known world; metaphorical death."
+    },
+    {
+      "stage_id": "c06_road_of_trials",
+      "position": 6,
+      "movement": "Initiation",
+      "name": "The Road of Trials",
+      "function": "A series of tests, challenges, and ordeals."
+    },
+    {
+      "stage_id": "c07_meeting_the_goddess",
+      "position": 7,
+      "movement": "Initiation",
+      "name": "Meeting with the Goddess",
+      "function": "Hero encounters a powerful figure of love or unconditional acceptance."
+    },
+    {
+      "stage_id": "c08_woman_as_temptress",
+      "position": 8,
+      "movement": "Initiation",
+      "name": "Woman as Temptress",
+      "function": "Temptation to abandon the quest. (Note: the name is Campbell's; the function is 'temptation toward easy gratification' and is not gendered.)"
+    },
+    {
+      "stage_id": "c09_atonement_with_the_father",
+      "position": 9,
+      "movement": "Initiation",
+      "name": "Atonement with the Father",
+      "function": "Confrontation with the ultimate authority figure — often the source of the hero's fear."
+    },
+    {
+      "stage_id": "c10_apotheosis",
+      "position": 10,
+      "movement": "Initiation",
+      "name": "Apotheosis",
+      "function": "Hero achieves a higher state of being or understanding."
+    },
+    {
+      "stage_id": "c11_the_ultimate_boon",
+      "position": 11,
+      "movement": "Initiation",
+      "name": "The Ultimate Boon",
+      "function": "The goal of the quest is achieved."
+    },
+    {
+      "stage_id": "c12_refusal_of_the_return",
+      "position": 12,
+      "movement": "Return",
+      "name": "Refusal of the Return",
+      "function": "Hero reluctant to return to the ordinary world."
+    },
+    {
+      "stage_id": "c13_the_magic_flight",
+      "position": 13,
+      "movement": "Return",
+      "name": "The Magic Flight",
+      "function": "Escape with the boon, often pursued."
+    },
+    {
+      "stage_id": "c14_rescue_from_without",
+      "position": 14,
+      "movement": "Return",
+      "name": "Rescue from Without",
+      "function": "Hero needs help to return; the ordinary world reaches in."
+    },
+    {
+      "stage_id": "c15_crossing_the_return_threshold",
+      "position": 15,
+      "movement": "Return",
+      "name": "The Crossing of the Return Threshold",
+      "function": "Hero returns; integration of the two worlds."
+    },
+    {
+      "stage_id": "c16_master_of_two_worlds",
+      "position": 16,
+      "movement": "Return",
+      "name": "Master of Two Worlds",
+      "function": "Hero comfortable in both special and ordinary worlds."
+    },
+    {
+      "stage_id": "c17_freedom_to_live",
+      "position": 17,
+      "movement": "Return",
+      "name": "Freedom to Live",
+      "function": "Hero lives in the present, freed from fear of death; community is restored."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "vogler_writers_journey": {
+      "c01_call_to_adventure_world": "v02_call_to_adventure",
+      "c02_refusal_of_the_call": "v03_refusal_of_the_call",
+      "c03_supernatural_aid": "v04_meeting_the_mentor",
+      "c04_crossing_the_first_threshold": "v05_crossing_the_first_threshold",
+      "c05_belly_of_the_whale": "v05_crossing_the_first_threshold",
+      "c06_road_of_trials": "v06_tests_allies_enemies",
+      "c10_apotheosis": "v08_the_ordeal",
+      "c11_the_ultimate_boon": "v09_the_reward",
+      "c13_the_magic_flight": "v10_the_road_back",
+      "c16_master_of_two_worlds": "v11_the_resurrection",
+      "c17_freedom_to_live": "v12_return_with_the_elixir"
+    },
+    "harmon_story_circle": {
+      "c04_crossing_the_first_threshold": "ha03_go",
+      "c10_apotheosis": "ha05_find_it",
+      "c17_freedom_to_live": "ha08_changed"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "mythic_films",
+      "epic_transformation",
+      "fantasy",
+      "adventure"
+    ],
+    "weak_for": [
+      "ensemble_documentary",
+      "no_conflict_stories",
+      "anti_heroic_narratives"
+    ],
+    "limitations": "17 stages is too many for routine assembly. The gendered names ('Meeting with the Goddess', 'Woman as Temptress') are dated and read awkwardly today — translate them by FUNCTION not by NAME. Critics (notably feminist + cultural-studies scholarship) argue Campbell flattened culturally specific myths into one Western-coded shape."
+  },
+  "project_relevance": null
+}

@@ -1,0 +1,33 @@
+[project]
+name = "editor-utilities"
+version = "0.1.0"
+description = "Plain Python utilities for the editor layer: sidecars, queries, xmeml round-trip"
+readme = "editor_README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "lxml>=5.0",
+    # SigLIP cut-delta wiring — sidecar_cut_eval.py::eval_visual_cut_deltas
+    # loads the FAISS HNSW index over SigLIP keyframes. The visual-cut phase
+    # silently no-ops if the FAISS files aren't on this drive's indexes/, but
+    # the deps need to be present for it to attempt the import.
+    "faiss-cpu>=1.14",
+    "numpy>=1.24",
+    # editor/queries/transcript.py::find_similar_transcript_windows uses MiniLM
+    # via sentence-transformers over `transcript_rolling_embeddings.sqlite`.
+    "sentence-transformers>=2.7",
+    # editor/queries/encoder.py loads google/siglip-so400m-patch14-384 via the
+    # HuggingFace transformers stack. Pillow + torch are transitive but listed
+    # here because lazy import surprises hurt; uv sync should provision them up
+    # front rather than fail mid-query.
+    "transformers>=4.40",
+    "torch>=2.2",
+    "Pillow>=10.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

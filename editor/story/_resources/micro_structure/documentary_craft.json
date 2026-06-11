@@ -1,0 +1,118 @@
+{
+  "id": "documentary_craft",
+  "display_name": "Documentary craft — evidence, behavior, and the cut as argument",
+  "family": "documentary_craft",
+  "tradition_id": "maysles_wiseman_morris",
+  "attribution": {
+    "work": "Direct cinema and reflexive documentary traditions",
+    "author": "Maysles brothers, Frederick Wiseman, D.A. Pennebaker, Errol Morris, Joshua Oppenheimer, Werner Herzog (synthesized)",
+    "usage_note": "Principles specific to nonfiction. Where Snyder's principles assume you control the story, these assume the story exists in the world and the editor is making choices ABOUT it — what to surface, what to juxtapose, what NOT to do. Read against any documentary scene; especially load-bearing for interview-heavy or evidentiary scenes."
+  },
+  "application_guidance": "Use during scene review to ask: am I making my argument via the strongest available means (behavior, juxtaposition, sustained observation) or via the weakest (one talking head asserting a claim)? Documentary's authority comes from what the editor LETS happen on screen, not from what speakers say. These principles are diagnostic tools for finding scenes where the editor is over-relying on assertion.",
+  "principles": [
+    {
+      "id": "reveal_cannot_live_in_interview",
+      "label": "The reveal can never live in the interview",
+      "description": "If the only evidence for a key claim is an interviewee asserting it on camera, you don't have the claim yet — you have a person who says it. The reveal must arrive via document, behavior, contradiction, or the camera catching the moment. Interview audio is at most the corroboration, never the proof.",
+      "documentary_application": "A pivotal documentary reveal can be spoken about, but it has to LAND via the document on screen, a phone call as it happens, or a face changing in real time. An interviewee saying 'and then we found out' is a confirmation; the reveal lives in the paper.",
+      "review_questions": [
+        "What is the single most important claim in this scene? Is it asserted by a head, or is it shown?",
+        "If we removed the interview audio, would the scene still convey what happened?",
+        "Is there a document, gesture, location, or reaction shot that could carry the claim instead?"
+      ],
+      "tags": ["evidence", "interview", "act_iii", "investigative"],
+      "see_also": ["snyder_principles/pope_in_the_pool", "documentary_honesty/lower_thirds_are_evidence"]
+    },
+    {
+      "id": "b_roll_is_the_argument",
+      "label": "B-roll IS the argument",
+      "description": "What the editor cuts TO under a line of interview is the editorial position. There is no neutral B-roll. A line about 'years of struggle' cut over footage of someone smiling has one meaning; the same line over the prison release form has another. The editor is making the argument with the picture, regardless of what the speaker says.",
+      "documentary_application": "Audit every interview line in the cut: what picture is currently under it, and what does that picture imply? If the picture is generic (landscape, walking, b-roll filler), the editor is abdicating the argument to the speaker. Every cut-to choice is an editorial position; make them deliberately.",
+      "review_questions": [
+        "Under this interview line, what is the picture saying? Does that match what I want the audience to feel?",
+        "Is the b-roll under this line specific enough to matter, or is it generic filler?",
+        "If I changed the picture, would the meaning of the line change?"
+      ],
+      "tags": ["b_roll", "interview", "any_beat"],
+      "see_also": ["snyder_principles/pope_in_the_pool", "editing_room_tactical/audio_leads_picture"]
+    },
+    {
+      "id": "show_by_behavior_not_speech",
+      "label": "Show by behavior, not speech",
+      "description": "What a person says about themselves is the weakest form of characterization. What a person DOES under pressure — how they argue with a colleague, how they answer the phone, what they reach for when stressed — is the strongest. Documentary's gift is access to behavior; squandering it on talking-head self-description is the genre's commonest failure.",
+      "documentary_application": "If a character trait is established only by interview ('he was always the calm one,' 'she's very driven'), find the verite moment that shows it instead. If you don't have that moment, the trait is unproven and probably shouldn't be claimed. The phrase 'I think he was/she was' is a signal to cut for behavior.",
+      "review_questions": [
+        "What's the most important character trait this scene establishes? Is it shown or stated?",
+        "Are there verite moments in the rushes that show the trait? If yes, are they in the cut?",
+        "If a trait is asserted with no behavior to back it, should it be asserted at all?"
+      ],
+      "tags": ["character", "interview", "act_i", "act_ii"],
+      "see_also": ["snyder_principles/save_the_cat"]
+    },
+    {
+      "id": "cut_is_the_argument",
+      "label": "The cut IS the argument",
+      "description": "Documentary editors sometimes imagine they're being 'objective' by avoiding narration. But adjacency creates meaning whether the editor intends it or not — two scenes side by side generate an implicit claim about their relationship. There is no neutral cut. 'Letting the material speak for itself' is a stylistic choice (and often the most argumentative one).",
+      "documentary_application": "Audit every scene-to-scene transition: what claim is the adjacency making? A courtroom scene cut directly against an agency scene implies a causal link the audience will absorb subliminally. If you don't want the audience to draw that inference, the cut needs to be different, or a bridge needs to mediate.",
+      "review_questions": [
+        "What does the adjacency of these two scenes IMPLY? Is that the implication I want?",
+        "Are there scene-to-scene transitions making claims the film hasn't earned?",
+        "Could a bridge shot, a card, or a music cue defuse an unintended implication?"
+      ],
+      "tags": ["transitions", "structure", "any_beat"],
+      "see_also": ["documentary_honesty/dont_lie_with_the_cut"]
+    },
+    {
+      "id": "verite_breath",
+      "label": "Let scenes breathe — the verite hold",
+      "description": "Most documentaries cut too early. The most important moment of a verite scene is often after the natural cut point — a beat of silence, a glance, a shift in posture that reveals what the action just cost. Editors trained on broadcast pace tend to cut at the verbal completion; the emotional completion is two seconds later.",
+      "documentary_application": "When reviewing a verite scene, ask: is there one more beat in the raw footage that would land harder than the current end? Try extending each verite scene by 1–3 seconds and see what surfaces. The audience needs time to feel what just happened before the next thing arrives.",
+      "review_questions": [
+        "Did I cut on the verbal completion or the emotional completion?",
+        "If I add 2 seconds to the end of this scene, what would the audience see?",
+        "Am I cutting fast because the pacing demands it, or because I'm uncomfortable with silence?"
+      ],
+      "tags": ["pacing", "verite", "any_beat"],
+      "see_also": ["rhythm_pacing/wait_one_beat", "rhythm_pacing/two_beat_rule"]
+    },
+    {
+      "id": "dont_take_victory_lap",
+      "label": "Don't take a victory lap",
+      "description": "When the audience understands the point, leave. The strongest documentary moments end one beat earlier than the editor wants to end them. Driving the point home is the cardinal sin: it reads as didactic, distrusts the audience, and drains the moment that earned the point.",
+      "documentary_application": "After every emotionally landed scene, the next 5–15 seconds are temptation to underline. Resist. Look at the scene 'tail' — is there reaction footage, a slow nod, a confirmatory line — and cut all of it. Trust the audience to carry the moment forward into the next scene.",
+      "review_questions": [
+        "Once the point lands, how many more seconds of the same point are still on screen?",
+        "Could the cut to the next scene be earlier without losing meaning?",
+        "Am I underlining for the audience, or because I doubt them?"
+      ],
+      "tags": ["pacing", "endings", "any_beat"],
+      "see_also": ["editing_room_tactical/trim_entrance_keep_exit"]
+    },
+    {
+      "id": "specific_beats_general",
+      "label": "Specific beats general",
+      "description": "Documentary's power comes from specificity. A particular hand, a particular phrase, a particular Tuesday morning. General claims ('it was a difficult time,' 'they fought for justice') are dead air; their job is to be replaced by a specific moment that means the same thing. If you can't find the specific moment, the general claim probably isn't earned.",
+      "documentary_application": "Audit any line in the cut that uses general words (difficult, important, struggle, hope, justice). For each, ask: is there a 5-second moment in the rushes that means this concretely? If yes, the general line should be replaced (or pre-loaded) by the specific moment.",
+      "review_questions": [
+        "Where does this scene use general language? What specific moment could replace it?",
+        "Is the most important claim in this scene supported by a specific image, or only by general words?",
+        "Can a single object, gesture, or location do the work of a sentence?"
+      ],
+      "tags": ["language", "interview", "any_beat"],
+      "see_also": ["snyder_principles/save_the_cat", "documentary_craft/show_by_behavior_not_speech"]
+    },
+    {
+      "id": "antagonist_must_be_seen",
+      "label": "The antagonist must be seen, not just named",
+      "description": "Documentary films often refer to their antagonist (the system, the prosecutor, the institution) without ever putting that antagonist on screen. The audience absorbs the antagonist's absence as the editor's weakness. Even one shot of the antagonist — a building, a face from a press photo, the courtroom door — transforms a complaint into a confrontation.",
+      "documentary_application": "When a film's antagonists are institutions, and the only representation is interviewees referring to them, the film is making the case without the opponent in the room. Stock photos, courtroom architecture, statements-of-record, opposing counsel's website — any visible representation strengthens the film's claim to fairness.",
+      "review_questions": [
+        "Who or what is the antagonist of this scene? Is anything visible on screen that represents them?",
+        "Am I asking the audience to be angry at someone they've never seen?",
+        "Could a single shot of the antagonist's presence (a building, a sign, a quoted document) sharpen the scene's stakes?"
+      ],
+      "tags": ["antagonist", "ethics", "act_ii", "act_iii"],
+      "see_also": ["documentary_honesty/lower_thirds_are_evidence"]
+    }
+  ]
+}

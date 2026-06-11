@@ -1,0 +1,120 @@
+{
+  "schema_version": 4,
+  "asset_id": "be7cffbc251537988f359d2e20ea48fc17d863619a51a7def5609b2d027eb2a1",
+  "source_path": "<redacted-source-path>",
+  "filename": "IMG_4683.jpg",
+  "filesize_bytes": 15416275,
+  "mtime": "2025-06-14T00:11:00.0000000Z",
+  "exif": {
+    "date_taken": "2025:06:12 18:41:14",
+    "width": 6048,
+    "height": 8064,
+    "camera_make": "Apple",
+    "camera_model": "iPhone 14 Pro",
+    "lens": "iPhone 14 Pro back triple camera 6.86mm f/1.78",
+    "iso": 100,
+    "aperture": 1.8,
+    "shutter_speed": 0.0001470588235,
+    "focal_length": 6.86,
+    "orientation": null,
+    "gps_lat": null,
+    "gps_lon": null,
+    "gps_alt": null,
+    "color_space": 1,
+    "software": "Adobe Lightroom 10.3.1 (iOS)"
+  },
+  "path_metadata": {
+    "top_level": "sample",
+    "shoot_date": null,
+    "shoot_date_source": null,
+    "shoot_label": "sample_still_02",
+    "category_number": 2,
+    "category_name": "sample_stills",
+    "sub_location": "sample_still_02",
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "iphone"
+  },
+  "indexed_at": "2026-05-02T18:12:08Z",
+  "primary_timeline_date": "2025-06-12",
+  "date_source": "camera_metadata",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "phash": null,
+  "record_kind": "still",
+  "asset_bucket": "in_house_other",
+  "shoot_location": {
+    "place": "pl_jackson_wy",
+    "source": "path_top_level_map",
+    "confidence": 0.7,
+    "_evidence": {
+      "top_level": "sample_stills"
+    }
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "verite"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:06:37Z",
+    "chunks": [
+      {
+        "chunk_id": "be7cffbc251537988f359d2e20ea48fc17d863619a51a7def5609b2d027eb2a1",
+        "chunk_idx": 0,
+        "start_sec": null,
+        "end_sec": null,
+        "model": "gemini-2.5-pro",
+        "subject": "A rugged, rocky mountain range.",
+        "setting": {
+          "location": "Exterior mountain ridge",
+          "time_of_day": "midday",
+          "weather": "clear"
+        },
+        "camera": {
+          "shot_size": "WS",
+          "perspective": "eye_level"
+        },
+        "emotional_tone": "Majestic, vast, rugged",
+        "editorial_notes": "This is a strong establishing shot or transitional B-roll to showcase the immense scale and challenging beauty of the alpine environment. It would fit well in an opening sequence or a montage highlighting the landscape."
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "still_aesthetic": {
+    "processed_at": "2026-05-25T22:57:46Z",
+    "metrics": {
+      "aesthetic_score": 5.5446858406066895,
+      "is_aesthetic": 0,
+      "image_ext": "jpg"
+    }
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 0.0,
+        "ocr_engine": "apple_vision",
+        "shot_idx": null,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:39:54Z"
+      },
+      {
+        "frame_time_sec": 0.0,
+        "ocr_engine": "rapidocr",
+        "shot_idx": null,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:39:54Z"
+      }
+    ],
+    "items": []
+  }
+}

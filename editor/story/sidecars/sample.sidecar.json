@@ -1,0 +1,665 @@
+{
+  "schema_version": 2,
+  "act_id": "sample",
+  "label": "Sample scene",
+  "xml_source": "xml exports\\scene_workspace\\scene_sample.v1.xml",
+  "xml_sha256": "80adab64600c2ed80faa392042a722040e938bc31ca00b9e00effd4d483f79d1",
+  "frame_rate": 23.976023976023978,
+  "timeline_range_frames": [
+    0,
+    372
+  ],
+  "timeline_range_seconds": [
+    0.0,
+    15.515
+  ],
+  "generated_by": "make_act_sidecar.py",
+  "generated_at_utc": "2026-06-11T01:30:25Z",
+  "prior_sidecar": "E:\\open-post-stack\\editor\\story\\sidecars\\sample.sidecar.json",
+  "seed_v1_sidecars": null,
+  "beats": [
+    {
+      "id": "b_01",
+      "label": "Sample beat",
+      "timeline_range_frames": [
+        0,
+        372
+      ],
+      "timeline_range_seconds": [
+        0.0,
+        15.515
+      ],
+      "scenes": [
+        {
+          "id": "b_01_s01_warmup_and_moose",
+          "label": "Warm-up and moose",
+          "timeline_range_frames": [
+            0,
+            192
+          ],
+          "purpose": "Open on the athlete in routine, then breathe with a wildlife transition - establishes place and tone before the first spoken beat.",
+          "timeline_range_seconds": [
+            0.0,
+            8.008
+          ]
+        },
+        {
+          "id": "b_01_s02_the_banter",
+          "label": "The banter",
+          "timeline_range_frames": [
+            192,
+            372
+          ],
+          "purpose": "Land the scene on character: the post-run Nobel Prize joke, ending on the strongest soundbite.",
+          "timeline_range_seconds": [
+            8.008,
+            15.515
+          ]
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "key": {
+        "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+        "source_in_frames": 12,
+        "source_out_frames": 108,
+        "timeline_start_frames": 0,
+        "track": "V1"
+      },
+      "clip_id": "c0000",
+      "name": "runner warm-up (C8962)",
+      "scene": "b_01_s01_warmup_and_moose",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [],
+      "chunk_subject": "A male runner in athletic gear.",
+      "chunk_action": "A man performs a light, dynamic warm-up on a yoga mat next to his camper van. He jogs lightly in place and does side-to-side leg movements. He appears focused and is preparing for a physical activity.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "This is good B-roll to establish the character's routine and dedication. It works well in a pre-run preparation montage or as part of a lifestyle sequence.",
+      "chunk_emotional_tone": "Focused, calm, preparatory.",
+      "chunk_audio_character": "Ambient, motivational electronic music plays.",
+      "chunk_setting": {
+        "location": "Exterior campsite in a wooded area.",
+        "time_of_day": "golden_hour",
+        "weather": "clear"
+      },
+      "chunk_setting_location": "Exterior campsite in a wooded area.",
+      "chunk_camera": {
+        "shot_size": "WS",
+        "movement": "static",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 3.2,
+          "description": "He continues his warm-up, shifting his weight from side to side."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 1.2,
+        "end_sec": 4.504,
+        "anchor_timestamp_sec": 3.2,
+        "description": "He continues his warm-up, shifting his weight from side to side.",
+        "reason": "key_moment_in_clip_window"
+      },
+      "scene_label": "Warm-up and moose",
+      "asset": {
+        "filename": "C8962.MP4",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 6.01,
+        "shoot_date": "2024-09-01",
+        "shoot_label": "Morning W Mike",
+        "primary_timeline_date": "2024-09-01",
+        "camera_id": "sony_c8xxx",
+        "audio_recorder": null,
+        "codec": "h264",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "verite"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 0.5,
+        "source_out_sec": 4.504,
+        "source_duration_sec": 4.004,
+        "timeline_start_sec": 0.0,
+        "timeline_end_sec": 4.004
+      },
+      "transcript_segments": [],
+      "transcript_text": "",
+      "_glossary_hits": null
+    },
+    {
+      "key": {
+        "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+        "source_in_frames": 12,
+        "source_out_frames": 108,
+        "timeline_start_frames": 0,
+        "track": "A1"
+      },
+      "clip_id": "a0000",
+      "name": "runner warm-up (C8962)",
+      "scene": "b_01_s01_warmup_and_moose",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [],
+      "chunk_subject": "A male runner in athletic gear.",
+      "chunk_action": "A man performs a light, dynamic warm-up on a yoga mat next to his camper van. He jogs lightly in place and does side-to-side leg movements. He appears focused and is preparing for a physical activity.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "This is good B-roll to establish the character's routine and dedication. It works well in a pre-run preparation montage or as part of a lifestyle sequence.",
+      "chunk_emotional_tone": "Focused, calm, preparatory.",
+      "chunk_audio_character": "Ambient, motivational electronic music plays.",
+      "chunk_setting": {
+        "location": "Exterior campsite in a wooded area.",
+        "time_of_day": "golden_hour",
+        "weather": "clear"
+      },
+      "chunk_setting_location": "Exterior campsite in a wooded area.",
+      "chunk_camera": {
+        "shot_size": "WS",
+        "movement": "static",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 3.2,
+          "description": "He continues his warm-up, shifting his weight from side to side."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 1.2,
+        "end_sec": 4.504,
+        "anchor_timestamp_sec": 3.2,
+        "description": "He continues his warm-up, shifting his weight from side to side.",
+        "reason": "key_moment_in_clip_window"
+      },
+      "scene_label": "Warm-up and moose",
+      "asset": {
+        "filename": "C8962.MP4",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 6.01,
+        "shoot_date": "2024-09-01",
+        "shoot_label": "Morning W Mike",
+        "primary_timeline_date": "2024-09-01",
+        "camera_id": "sony_c8xxx",
+        "audio_recorder": null,
+        "codec": "h264",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "verite"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 0.5,
+        "source_out_sec": 4.504,
+        "source_duration_sec": 4.004,
+        "timeline_start_sec": 0.0,
+        "timeline_end_sec": 4.004
+      },
+      "transcript_segments": [],
+      "transcript_text": "",
+      "_glossary_hits": null
+    },
+    {
+      "key": {
+        "asset_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495",
+        "source_in_frames": 72,
+        "source_out_frames": 168,
+        "timeline_start_frames": 96,
+        "track": "V1"
+      },
+      "clip_id": "c0001",
+      "name": "bull moose b-roll (C0215)",
+      "scene": "b_01_s01_warmup_and_moose",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [],
+      "chunk_subject": "A bull moose with large antlers",
+      "chunk_action": "A large bull moose walks from right to left across a sagebrush flat. Another moose is partially visible walking alongside it. The moose walks out of frame, with a hazy mountain range visible in the distant background.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "This is high-quality wildlife B-roll, perfect for establishing the setting of Grand Teton National Park. It can be used as a transitional scene or under narration about the wildness and beauty of the area.",
+      "chunk_emotional_tone": "Peaceful, majestic, natural",
+      "chunk_audio_character": "Sync sound of the moose walking through brush and ambient nature sounds.",
+      "chunk_setting": {
+        "location": "A sagebrush flat in Grand Teton National Park",
+        "time_of_day": "blue_hour",
+        "weather": "overcast"
+      },
+      "chunk_setting_location": "A sagebrush flat in Grand Teton National Park",
+      "chunk_camera": {
+        "shot_size": "MWS",
+        "movement": "pan",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 7.0,
+          "description": "The moose begins to exit the left side of the frame."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 5.0,
+        "end_sec": 7.007,
+        "anchor_timestamp_sec": 7.0,
+        "description": "The moose begins to exit the left side of the frame.",
+        "reason": "key_moment_in_clip_window"
+      },
+      "place_ids": [
+        "pl_grand_teton",
+        "pl_grand_teton_national_park",
+        "pl_teton",
+        "pl_teton_national_park",
+        "pl_united_states",
+        "pl_wyoming"
+      ],
+      "scene_label": "Warm-up and moose",
+      "asset": {
+        "filename": "C0215.MP4",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 10.5105,
+        "shoot_date": "2025-09-07",
+        "shoot_label": null,
+        "primary_timeline_date": "2025-09-07",
+        "camera_id": "sony_c0xxx",
+        "audio_recorder": null,
+        "codec": "hevc",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "b_roll"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 3.003,
+        "source_out_sec": 7.007,
+        "source_duration_sec": 4.004,
+        "timeline_start_sec": 4.004,
+        "timeline_end_sec": 8.008
+      },
+      "transcript_segments": [],
+      "transcript_text": "",
+      "_glossary_hits": null
+    },
+    {
+      "key": {
+        "asset_id": "fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495",
+        "source_in_frames": 72,
+        "source_out_frames": 168,
+        "timeline_start_frames": 96,
+        "track": "A1"
+      },
+      "clip_id": "a0001",
+      "name": "bull moose b-roll (C0215)",
+      "scene": "b_01_s01_warmup_and_moose",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [],
+      "chunk_subject": "A bull moose with large antlers",
+      "chunk_action": "A large bull moose walks from right to left across a sagebrush flat. Another moose is partially visible walking alongside it. The moose walks out of frame, with a hazy mountain range visible in the distant background.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/fc944e7a76a0ea0dfbc437be91c9f298da638d0c01d28bc130a78f04af7ba495.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "This is high-quality wildlife B-roll, perfect for establishing the setting of Grand Teton National Park. It can be used as a transitional scene or under narration about the wildness and beauty of the area.",
+      "chunk_emotional_tone": "Peaceful, majestic, natural",
+      "chunk_audio_character": "Sync sound of the moose walking through brush and ambient nature sounds.",
+      "chunk_setting": {
+        "location": "A sagebrush flat in Grand Teton National Park",
+        "time_of_day": "blue_hour",
+        "weather": "overcast"
+      },
+      "chunk_setting_location": "A sagebrush flat in Grand Teton National Park",
+      "chunk_camera": {
+        "shot_size": "MWS",
+        "movement": "pan",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 7.0,
+          "description": "The moose begins to exit the left side of the frame."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 5.0,
+        "end_sec": 7.007,
+        "anchor_timestamp_sec": 7.0,
+        "description": "The moose begins to exit the left side of the frame.",
+        "reason": "key_moment_in_clip_window"
+      },
+      "place_ids": [
+        "pl_grand_teton",
+        "pl_grand_teton_national_park",
+        "pl_teton",
+        "pl_teton_national_park",
+        "pl_united_states",
+        "pl_wyoming"
+      ],
+      "scene_label": "Warm-up and moose",
+      "asset": {
+        "filename": "C0215.MP4",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 10.5105,
+        "shoot_date": "2025-09-07",
+        "shoot_label": null,
+        "primary_timeline_date": "2025-09-07",
+        "camera_id": "sony_c0xxx",
+        "audio_recorder": null,
+        "codec": "hevc",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "b_roll"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 3.003,
+        "source_out_sec": 7.007,
+        "source_duration_sec": 4.004,
+        "timeline_start_sec": 4.004,
+        "timeline_end_sec": 8.008
+      },
+      "transcript_segments": [],
+      "transcript_text": "",
+      "_glossary_hits": null
+    },
+    {
+      "key": {
+        "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+        "source_in_frames": 192,
+        "source_out_frames": 372,
+        "timeline_start_frames": 192,
+        "track": "V1"
+      },
+      "clip_id": "c0002",
+      "name": "Nobel banter (A003C0028)",
+      "scene": "b_01_s02_the_banter",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [
+        {
+          "p_id": "p_michelino_sunseri",
+          "name": "Michelino Sunseri",
+          "seconds": 3.24
+        },
+        {
+          "p_id": null,
+          "name": "Unknown",
+          "seconds": 1.5
+        }
+      ],
+      "chunk_subject": "A shirtless man sitting in a camping chair.",
+      "chunk_action": "A man sits in a camping chair at a trailhead, taking off his shoes. He jokes with an off-camera person about winning a Nobel Prize for running and using the prize money to buy a new house.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "A good character-building verite moment showing the athlete in a relaxed, post-activity state. Suitable for a transitional sequence or to provide a moment of levity between more intense scenes.",
+      "chunk_emotional_tone": "Casual, humorous, relaxed",
+      "chunk_audio_character": "The man jokes with a friend about winning a Nobel Prize for running in order to buy a new house.",
+      "chunk_setting": {
+        "location": "Exterior, trailhead parking lot",
+        "time_of_day": "midday",
+        "weather": "clear"
+      },
+      "chunk_setting_location": "Exterior, trailhead parking lot",
+      "chunk_camera": {
+        "shot_size": "MS",
+        "movement": "static",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 9.0,
+          "description": "The friend off-camera jokes that the 'prize comes with a million dollars.'"
+        },
+        {
+          "timestamp_sec": 12.0,
+          "description": "The man says he did the run so he could 'buy a new house.'"
+        },
+        {
+          "timestamp_sec": 15.0,
+          "description": "He casually tosses his other shoe to the side."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 8.008,
+        "end_sec": 15.515,
+        "anchor_timestamp_sec": 9.0,
+        "description": "The friend off-camera jokes that the 'prize comes with a million dollars.'",
+        "reason": "key_moment_in_clip_window"
+      },
+      "place_ids": [
+        "pl_grand_teton_national_park",
+        "pl_lupine_meadows",
+        "pl_wyoming"
+      ],
+      "scene_label": "The banter",
+      "asset": {
+        "filename": "A003C0028_240826_K29Y06.MOV",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 19.050667,
+        "shoot_date": "2024-09-02",
+        "shoot_label": "FKT!",
+        "primary_timeline_date": "2024-09-02",
+        "camera_id": "unknown",
+        "audio_recorder": null,
+        "codec": "prores",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "verite"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 8.008,
+        "source_out_sec": 15.515,
+        "source_duration_sec": 7.508,
+        "timeline_start_sec": 8.008,
+        "timeline_end_sec": 15.515
+      },
+      "transcript_segments": [
+        {
+          "start_sec": 8.12,
+          "end_sec": 9.28,
+          "speaker": "EB3826F511174B16BE06F8DEC6874153",
+          "text": "- That comes with a million dollars."
+        },
+        {
+          "start_sec": 9.6,
+          "end_sec": 9.94,
+          "speaker": "EB3826F511174B16BE06F8DEC6874153",
+          "text": "- Hell yeah."
+        },
+        {
+          "start_sec": 10.66,
+          "end_sec": 12.36,
+          "speaker": "p_michelino_sunseri",
+          "text": "I told you, I just did this so I can buy a new house."
+        },
+        {
+          "start_sec": 13.06,
+          "end_sec": 14.06,
+          "speaker": "p_michelino_sunseri",
+          "text": "- You just sold your house."
+        },
+        {
+          "start_sec": 14.44,
+          "end_sec": 14.98,
+          "speaker": "p_michelino_sunseri",
+          "text": "- Yeah, I know."
+        }
+      ],
+      "transcript_text": "- That comes with a million dollars. - Hell yeah. I told you, I just did this so I can buy a new house. - You just sold your house. - Yeah, I know.",
+      "_glossary_hits": null
+    },
+    {
+      "key": {
+        "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+        "source_in_frames": 192,
+        "source_out_frames": 372,
+        "timeline_start_frames": 192,
+        "track": "A1"
+      },
+      "clip_id": "a0002",
+      "name": "Nobel banter (A003C0028)",
+      "scene": "b_01_s02_the_banter",
+      "rationale": null,
+      "lower_third": null,
+      "location_title": null,
+      "date_tracker": null,
+      "speakers": [
+        {
+          "p_id": "p_michelino_sunseri",
+          "name": "Michelino Sunseri",
+          "seconds": 3.24
+        },
+        {
+          "p_id": null,
+          "name": "Unknown",
+          "seconds": 1.5
+        }
+      ],
+      "chunk_subject": "A shirtless man sitting in a camping chair.",
+      "chunk_action": "A man sits in a camping chair at a trailhead, taking off his shoes. He jokes with an off-camera person about winning a Nobel Prize for running and using the prize money to buy a new house.",
+      "audio_spine": false,
+      "transcript_ref": "dataset/assets/transcripts/7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7.transcript.json",
+      "_resolved_from_sentinel": null,
+      "beat": "b_01",
+      "chunk_editorial_notes": "A good character-building verite moment showing the athlete in a relaxed, post-activity state. Suitable for a transitional sequence or to provide a moment of levity between more intense scenes.",
+      "chunk_emotional_tone": "Casual, humorous, relaxed",
+      "chunk_audio_character": "The man jokes with a friend about winning a Nobel Prize for running in order to buy a new house.",
+      "chunk_setting": {
+        "location": "Exterior, trailhead parking lot",
+        "time_of_day": "midday",
+        "weather": "clear"
+      },
+      "chunk_setting_location": "Exterior, trailhead parking lot",
+      "chunk_camera": {
+        "shot_size": "MS",
+        "movement": "static",
+        "perspective": "eye_level"
+      },
+      "chunk_key_moments": [
+        {
+          "timestamp_sec": 9.0,
+          "description": "The friend off-camera jokes that the 'prize comes with a million dollars.'"
+        },
+        {
+          "timestamp_sec": 12.0,
+          "description": "The man says he did the run so he could 'buy a new house.'"
+        },
+        {
+          "timestamp_sec": 15.0,
+          "description": "He casually tosses his other shoe to the side."
+        }
+      ],
+      "chunk_suggested_span": {
+        "start_sec": 8.008,
+        "end_sec": 15.515,
+        "anchor_timestamp_sec": 9.0,
+        "description": "The friend off-camera jokes that the 'prize comes with a million dollars.'",
+        "reason": "key_moment_in_clip_window"
+      },
+      "place_ids": [
+        "pl_grand_teton_national_park",
+        "pl_lupine_meadows",
+        "pl_wyoming"
+      ],
+      "scene_label": "The banter",
+      "asset": {
+        "filename": "A003C0028_240826_K29Y06.MOV",
+        "source_path": "<redacted-source-path>",
+        "duration_sec": 19.050667,
+        "shoot_date": "2024-09-02",
+        "shoot_label": "FKT!",
+        "primary_timeline_date": "2024-09-02",
+        "camera_id": "unknown",
+        "audio_recorder": null,
+        "codec": "prores",
+        "classifications": {
+          "bucket": "in_house_other",
+          "type": "verite"
+        }
+      },
+      "subject": null,
+      "timing": {
+        "source_in_sec": 8.008,
+        "source_out_sec": 15.515,
+        "source_duration_sec": 7.508,
+        "timeline_start_sec": 8.008,
+        "timeline_end_sec": 15.515
+      },
+      "transcript_segments": [
+        {
+          "start_sec": 8.12,
+          "end_sec": 9.28,
+          "speaker": "EB3826F511174B16BE06F8DEC6874153",
+          "text": "- That comes with a million dollars."
+        },
+        {
+          "start_sec": 9.6,
+          "end_sec": 9.94,
+          "speaker": "EB3826F511174B16BE06F8DEC6874153",
+          "text": "- Hell yeah."
+        },
+        {
+          "start_sec": 10.66,
+          "end_sec": 12.36,
+          "speaker": "p_michelino_sunseri",
+          "text": "I told you, I just did this so I can buy a new house."
+        },
+        {
+          "start_sec": 13.06,
+          "end_sec": 14.06,
+          "speaker": "p_michelino_sunseri",
+          "text": "- You just sold your house."
+        },
+        {
+          "start_sec": 14.44,
+          "end_sec": 14.98,
+          "speaker": "p_michelino_sunseri",
+          "text": "- Yeah, I know."
+        }
+      ],
+      "transcript_text": "- That comes with a million dollars. - Hell yeah. I told you, I just did this so I can buy a new house. - You just sold your house. - Yeah, I know.",
+      "_glossary_hits": null
+    }
+  ],
+  "_counts": {
+    "n_beats": 1,
+    "n_annotations": 6,
+    "n_v1": 3,
+    "n_v_higher": 0,
+    "n_audio": 3,
+    "n_audio_spine": 0,
+    "n_unresolved_asset_id": 0,
+    "n_unassigned_beat": 0,
+    "n_unassigned_scene": 0,
+    "n_inherited_editorial": 0,
+    "n_orphans_in_xml": 0
+  }
+}

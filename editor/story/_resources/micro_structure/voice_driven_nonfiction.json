@@ -1,0 +1,105 @@
+{
+  "id": "voice_driven_nonfiction",
+  "display_name": "Voice-driven nonfiction — podcast / radio / longform-audio tradition",
+  "family": "voice_driven_nonfiction",
+  "tradition_id": "ira_glass_radiolab",
+  "attribution": {
+    "work": "This American Life, Radiolab, Serial, 99% Invisible, the broader narrative-podcast tradition",
+    "author": "Ira Glass, Jad Abumrad and Robert Krulwich, Sarah Koenig, Roman Mars (synthesized)",
+    "usage_note": "Audio-first storytellers operate without the visual continuity documentary editors take for granted. The tradition's discipline — building meaning from sentence-by-sentence rhythm, narrator timing, and music underscoring — translates back to documentary because video-with-narration faces the same problem at a smaller scale. Where unscripted_construction teaches how to construct character and reveals, voice_driven_nonfiction teaches how to build SENTENCE-BY-SENTENCE momentum so the audience is pulled forward by appetite rather than pushed by exposition."
+  },
+  "application_guidance": "Most useful when interview audio or narration is doing scene-driving work — the audience is following voice, not picture. Even in a film with no explicit narrator, interview lines often function AS narration when they're driving the story rather than commenting on it. These principles apply to those moments. Particularly valuable for: long testimonial stretches, sequences explaining a complex mechanism or process, transitions between locations, and any place where the audio carries more story-weight than the image.",
+  "principles": [
+    {
+      "id": "action_anecdote_alternation",
+      "label": "Action + anecdote — alternate momentum and reflection",
+      "description": "Ira Glass's foundational teaching: a story is built from two alternating modes — ACTION (the moment-by-moment, 'then this happened, then this happened') and ANECDOTE (the meaning-making, 'and that's when I realized'). Action provides momentum; anecdote provides depth. Documentary editors often deliver one or the other across an entire scene; the magic is in the alternation, often at the paragraph or even sentence level. Pure action exhausts; pure anecdote bores.",
+      "documentary_application": "Audit each long interview-driven sequence: is it pure action (chain of events without meaning-making), pure anecdote (philosophizing without specifics), or alternating? If pure action, the sequence reads as a recitation; the audience knows what happened but not why it matters. If pure anecdote, the sequence reads as opining; the audience hears what it means but not what happened. A discovery sequence should alternate — action (the actual call/research/finding), anecdote (what it meant when they found it), action (what they did next), anecdote (why that next move mattered). Glass-style alternation makes long sequences feel short.",
+      "review_questions": [
+        "In this sequence: are action and anecdote both present, or only one?",
+        "If only one, can the missing mode be found in the rushes and interleaved?",
+        "Are anecdote moments followed by action that PROVES the anecdote, not just confirms it?"
+      ],
+      "tags": ["interview", "structure", "narration"],
+      "see_also": ["documentary_craft/show_by_behavior_not_speech", "unscripted_construction/interview_button"]
+    },
+    {
+      "id": "the_host_turn",
+      "label": "The host turn — when the narrator steps in",
+      "description": "Voice-driven nonfiction has a craft category Western documentary often refuses to discuss: the moment the host/narrator steps in to make meaning explicit. The host turn is a deliberate craft choice with a tradeoff — clarity gained, immersion lost. Glass treats the host turn as a precision tool: deploy it when the audience NEEDS the meaning made explicit (a complicated legal mechanism, a confusing timeline, a subtle emotional landing), refuse it when the material is doing the work. Documentary editors who refuse the host turn on principle often produce material the audience can't follow; editors who lean on it too heavily produce work that feels condescending.",
+      "documentary_application": "Even without an explicit narrator, most documentaries have 'host turn' moments — places where an interview line, a card, or a voice-over could clarify what's happening. Identify the 3–5 places in the cut where the audience is currently working harder than they should. Each of those is a candidate for a host turn — a line of voice-over, a clarifying card, an interview line repositioned to function as narration. The discipline: deploy the turn ONLY where the material can't carry the load. If the material can carry it, refusing the turn is the right call.",
+      "review_questions": [
+        "Where in the cut is the audience working harder than they should?",
+        "Could a host turn (card, voice-over, repositioned interview) clarify without flattening?",
+        "Conversely: are any current host-turn moments redundant because the material is already clear?"
+      ],
+      "tags": ["narration", "clarity", "structure"],
+      "see_also": ["snyder_principles/theme_stated_never_preached"]
+    },
+    {
+      "id": "music_as_tense_underscore",
+      "label": "Music as tense underscore — a continuous question, not decoration",
+      "description": "Radiolab's signature contribution: music isn't emotional decoration; it's a continuous TENSION underscore that tells the audience 'something is being figured out.' The music score functions like a sustained note — present but not directing — for most of a scene. When the music DROPS OUT, attention spikes; the audience knows something important is about to land. The principle inverts the common-documentary tendency to use music to TELL the audience what to feel; here, music is a continuous tension state that gets resolved by silence.",
+      "documentary_application": "Audit climactic scenes specifically — reveals, verdicts, resolutions all benefit from sustained low-tension music that drops out at the load-bearing line or image. The drop-out is the editorial emphasis, not the cue itself. Compare with `unscripted_construction/music_as_emotional_script` which uses music to CUE specific emotions; voice_driven nonfiction uses music to SUSTAIN tension and drops to focus attention. Both are valid; they're different traditions.",
+      "review_questions": [
+        "In each Act III scene: is music telling the audience what to feel, or is it sustaining a tension that the picture/dialogue resolves?",
+        "Where does the music drop out? Is the drop-out aligned with the most important moment?",
+        "Are there scenes where adding sustained low-tension music (and removing it at the climax) would sharpen the landing?"
+      ],
+      "tags": ["music", "act_iii", "emphasis"],
+      "see_also": ["unscripted_construction/music_as_emotional_script", "rhythm_pacing/silence_is_content"]
+    },
+    {
+      "id": "voice_led_vs_tape_led",
+      "label": "Voice-led vs. tape-led scenes — decide which mode each scene is in",
+      "description": "Radio craft distinguishes two scene modes. A VOICE-LED scene is driven by narration/host commentary, with recorded material (tape) supporting. A TAPE-LED scene is driven by recorded material, with narration only bridging or pointing. Most scenes work as one or the other; few work as both simultaneously. Documentary has the same distinction at the picture level (b-roll-led vs. interview-led) but rarely names it. Naming it lets the editor decide deliberately rather than landing in a hybrid mode by accident.",
+      "documentary_application": "For each scene in the cut, identify its mode: voice-led (an interview line or VO is driving the story; pictures support) or tape-led (the verite is driving; interview audio supports). Hybrid scenes — where both modes contend — often feel unfocused. Decide the mode per scene and commit. A courtroom verdict scene is usually tape-led (the room is the engine; commentary supports); a document-discovery scene is usually voice-led (someone explaining what they found; b-roll of documents supports). Knowing which mode each scene is in clarifies a lot of mid-cut confusion.",
+      "review_questions": [
+        "For each scene: voice-led, tape-led, or hybrid?",
+        "If hybrid: is the hybrid working, or is the scene unfocused because no mode is dominant?",
+        "Can hybrid scenes be re-cut to commit to one mode?"
+      ],
+      "tags": ["structure", "scenes", "interview"],
+      "see_also": ["documentary_craft/b_roll_is_the_argument"]
+    },
+    {
+      "id": "mid_scene_pause",
+      "label": "The mid-scene pause — let meaning settle WITHIN scenes",
+      "description": "Voice-driven nonfiction discovered something different from rhythm_pacing's two-beat-rule (which applies AT scene boundaries). The mid-scene pause is a moment of silence or sustained ambient INSIDE a scene, after a key sentence lands, before the next thing happens. The audience needs a beat to process what they just heard before receiving what's next. Radio editors are obsessive about these — they're often the difference between a scene the audience follows and one that washes over them.",
+      "documentary_application": "Audit interview-driven scenes for mid-scene pauses. After a key line lands, is there a beat of silence (or sustained ambient) before the next line or scene-element arrives? If everything is wall-to-wall audio, the audience can't process. If the pauses are at scene boundaries only, the scene feels packed. The discipline: every important line in an interview-driven scene deserves a half-second to two-second hold afterward. The audience doesn't notice the pauses; they notice that they followed the scene.",
+      "review_questions": [
+        "After each key line in this scene: is there a beat for the audience to process?",
+        "Could 0.5–2 seconds of sustained ambient (no dialogue, no new event) be inserted at key moments?",
+        "Is the scene wall-to-wall, and is that intentional or accidental?"
+      ],
+      "tags": ["pacing", "interview", "any_beat"],
+      "see_also": ["rhythm_pacing/two_beat_rule", "rhythm_pacing/wait_one_beat"]
+    },
+    {
+      "id": "setup_question_reveal",
+      "label": "Setup-question-reveal — pull the audience forward by appetite",
+      "description": "Glass's 'I had to know what happened next' architecture, applied at the sentence and scene level. Every scene (or paragraph, or sentence) should plant a question that the next scene answers. The audience is pulled forward by appetite, not pushed forward by exposition. The principle inverts the common-documentary tendency to deliver context first and event second; voice-driven nonfiction delivers event first ('she opened the file and froze') and context after ('what she saw was a document that should not have existed').",
+      "documentary_application": "Audit Act III's scene order. Does each scene end with a question the next scene answers, or does each scene resolve its own question with no carryover? The latter is structurally fine but emotionally weak — the audience watches because they're committed, not because they NEED to know what's next. Re-sequencing to create question-chains across Act III could sharpen engagement significantly. For each scene transition, ask: what does the audience NEED to know at the end of this scene that the next scene will answer?",
+      "review_questions": [
+        "At each scene end: what question is unanswered?",
+        "Does the next scene begin by answering it?",
+        "Could re-sequencing create a question-chain that pulls the audience forward?"
+      ],
+      "tags": ["structure", "scene_order", "act_iii"],
+      "see_also": ["episodic_pacing/cold_open_hook", "episodic_pacing/act_break_tease", "snyder_principles/lay_pipe"]
+    },
+    {
+      "id": "the_kicker",
+      "label": "The kicker — end on the line that recontextualizes",
+      "description": "Serial's signature move (and 99% Invisible's, and every great essay): end the scene/segment/episode on a single punchy line that recontextualizes everything just delivered. Different from a `tag scene` (which is a separate scene); the kicker is the LAST LINE of the existing scene. The audience receives the scene, then the kicker reframes it, then the cut moves on. The reframing happens in the audience's head between the kicker and the next scene's first frame — that gap is where the meaning lives.",
+      "documentary_application": "For each scene with significant interview material, identify the kicker candidate: the single line that, placed last, would recontextualize the rest. Most scenes have a kicker buried in the middle of an interview answer; the discipline is to find it and move it to the end. In a document-reveal scene, the kicker usually isn't the line about WHAT was in the document; it's the line about what it MEANT. Audit each late scene for its potential kicker.",
+      "review_questions": [
+        "What's the last line of this scene? Is it a kicker, or just the last thing said?",
+        "Is there a stronger line elsewhere in the scene that could be repositioned as the closer?",
+        "Does the kicker recontextualize, or just summarize?"
+      ],
+      "tags": ["scene_endings", "interview", "structure"],
+      "see_also": ["episodic_pacing/tag_scene", "unscripted_construction/interview_button"]
+    }
+  ]
+}

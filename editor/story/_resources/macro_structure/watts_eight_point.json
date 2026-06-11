@@ -1,0 +1,94 @@
+{
+  "framework_id": "watts_eight_point",
+  "title": "Eight-Point Arc",
+  "author": "Nigel Watts",
+  "year": 1996,
+  "source": "Writing a Novel and Getting Published, 1996.",
+  "tradition": "mythic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 8,
+  "lineage": {
+    "predecessors": [
+      "campbell_monomyth"
+    ],
+    "descendants": [],
+    "siblings": [
+      "harmon_story_circle",
+      "wells_seven_point"
+    ],
+    "note": "A clean, novel-oriented restatement of the same monomyth spine. Distinctive contribution: 'Critical Choice' as an active decision, not a passive sweeping-along."
+  },
+  "stages": [
+    {
+      "stage_id": "wa01_stasis",
+      "position": 1,
+      "name": "Stasis",
+      "function": "The everyday world before the story starts."
+    },
+    {
+      "stage_id": "wa02_trigger",
+      "position": 2,
+      "name": "Trigger",
+      "function": "An event sets the protagonist's quest in motion."
+    },
+    {
+      "stage_id": "wa03_quest",
+      "position": 3,
+      "name": "The Quest",
+      "function": "The protagonist sets out to resolve the disturbance."
+    },
+    {
+      "stage_id": "wa04_surprise",
+      "position": 4,
+      "name": "Surprise",
+      "function": "Obstacles, challenges, and revelations along the way."
+    },
+    {
+      "stage_id": "wa05_critical_choice",
+      "position": 5,
+      "name": "Critical Choice",
+      "function": "The protagonist must actively choose — under pressure — between competing goods or evils. (Distinctive Watts emphasis.)"
+    },
+    {
+      "stage_id": "wa06_climax",
+      "position": 6,
+      "name": "Climax",
+      "function": "Highest stakes confrontation; consequences of the critical choice play out."
+    },
+    {
+      "stage_id": "wa07_reversal",
+      "position": 7,
+      "name": "Reversal",
+      "function": "The change brought about by the climax — a new state."
+    },
+    {
+      "stage_id": "wa08_resolution",
+      "position": 8,
+      "name": "Resolution",
+      "function": "A new stasis is established."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "harmon_story_circle": {
+      "wa01_stasis": "ha01_you",
+      "wa02_trigger": "ha02_need",
+      "wa03_quest": "ha03_go",
+      "wa05_critical_choice": "ha06_take",
+      "wa08_resolution": "ha08_changed"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "novel",
+      "character_decision_review",
+      "moral_dilemma_stories"
+    ],
+    "weak_for": [
+      "pure_action",
+      "documentary_without_protagonist_choice"
+    ],
+    "limitations": "Hinges entirely on a single 'Critical Choice' — stories without a clear single decision moment fit poorly."
+  },
+  "project_relevance": null
+}

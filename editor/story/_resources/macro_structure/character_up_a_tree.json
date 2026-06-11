@@ -1,0 +1,59 @@
+{
+  "framework_id": "character_up_a_tree",
+  "title": "Character Up a Tree (folk maxim)",
+  "author": "(folk attribution disputed)",
+  "year": null,
+  "source": "Folk writing maxim: 'Put your character up a tree, throw rocks at him, get him down.' Variants include 'set the tree on fire.' Attributed variously to Mark Twain, James M. Cain, screenwriting teachers — no reliable single source.",
+  "tradition": "heuristic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 3,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics"
+    ],
+    "descendants": [],
+    "siblings": [],
+    "note": "The entire dramatic tradition compressed to a joke: establish a goal, escalate obstacles, resolve. Useful as a quick gut-check."
+  },
+  "stages": [
+    {
+      "stage_id": "ut01_up_the_tree",
+      "position": 1,
+      "name": "Up the tree",
+      "function": "Establish the protagonist's predicament — a clear goal or stuck position."
+    },
+    {
+      "stage_id": "ut02_throw_rocks",
+      "position": 2,
+      "name": "Throw rocks",
+      "function": "Escalate obstacles. McKee's 'progressive complications' in folk form."
+    },
+    {
+      "stage_id": "ut03_get_them_down",
+      "position": 3,
+      "name": "Get them down",
+      "function": "Resolve the situation. The protagonist either makes it down or doesn't — either way, the story ends."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "aristotle_poetics": {
+      "ut01_up_the_tree": "ar01_beginning",
+      "ut02_throw_rocks": "ar02_middle",
+      "ut03_get_them_down": "ar03_end"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "gut_check",
+      "pitching",
+      "diagnosing_lack_of_pressure"
+    ],
+    "weak_for": [
+      "assembly_decisions",
+      "fine_grained_work"
+    ],
+    "limitations": "Folk maxim, not a craft tool. Best used as a smell-test: 'is anyone throwing any rocks?' If not, the middle is probably sagging."
+  },
+  "project_relevance": null
+}

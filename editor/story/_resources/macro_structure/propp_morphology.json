@@ -1,0 +1,260 @@
+{
+  "framework_id": "propp_morphology",
+  "title": "Morphology of the Folktale",
+  "author": "Vladimir Propp",
+  "year": 1928,
+  "source": "Morphology of the Folktale (1928); Russian Formalist analysis of ~100 Russian fairy tales.",
+  "tradition": "mythic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 31,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [
+      "campbell_monomyth"
+    ],
+    "siblings": [],
+    "note": "Russian Formalist; the scientific, bottom-up counterpart to Campbell's mystical, top-down monomyth. Direct ancestor of computational/structuralist story analysis. Propp extracted 31 narrative functions and 7 character roles. Stable: the SEQUENCE of functions, not the surface content."
+  },
+  "stages": [
+    {
+      "stage_id": "pr01_absentation",
+      "position": 1,
+      "movement": "Preparation",
+      "name": "Absentation",
+      "function": "A member of the family leaves home."
+    },
+    {
+      "stage_id": "pr02_interdiction",
+      "position": 2,
+      "movement": "Preparation",
+      "name": "Interdiction",
+      "function": "A prohibition is addressed to the hero."
+    },
+    {
+      "stage_id": "pr03_violation",
+      "position": 3,
+      "movement": "Preparation",
+      "name": "Violation",
+      "function": "The prohibition is violated."
+    },
+    {
+      "stage_id": "pr04_reconnaissance",
+      "position": 4,
+      "movement": "Preparation",
+      "name": "Reconnaissance",
+      "function": "The villain seeks information."
+    },
+    {
+      "stage_id": "pr05_delivery",
+      "position": 5,
+      "movement": "Preparation",
+      "name": "Delivery",
+      "function": "The villain receives information about the victim."
+    },
+    {
+      "stage_id": "pr06_trickery",
+      "position": 6,
+      "movement": "Preparation",
+      "name": "Trickery",
+      "function": "Villain attempts to deceive."
+    },
+    {
+      "stage_id": "pr07_complicity",
+      "position": 7,
+      "movement": "Preparation",
+      "name": "Complicity",
+      "function": "Victim falls for trick or unknowingly helps."
+    },
+    {
+      "stage_id": "pr08_villainy_lack",
+      "position": 8,
+      "movement": "Complication",
+      "name": "Villainy or Lack",
+      "function": "Villain causes harm OR a family member lacks something. (This is the inciting incident.)"
+    },
+    {
+      "stage_id": "pr09_mediation",
+      "position": 9,
+      "movement": "Complication",
+      "name": "Mediation",
+      "function": "Misfortune made known; hero is dispatched."
+    },
+    {
+      "stage_id": "pr10_counteraction",
+      "position": 10,
+      "movement": "Complication",
+      "name": "Beginning Counteraction",
+      "function": "Hero decides to act."
+    },
+    {
+      "stage_id": "pr11_departure",
+      "position": 11,
+      "movement": "Complication",
+      "name": "Departure",
+      "function": "Hero leaves home."
+    },
+    {
+      "stage_id": "pr12_first_function_donor",
+      "position": 12,
+      "movement": "Donor sequence",
+      "name": "First Function of the Donor",
+      "function": "Hero is tested, attacked, or interrogated; prepares to receive a magical agent."
+    },
+    {
+      "stage_id": "pr13_hero_reaction",
+      "position": 13,
+      "movement": "Donor sequence",
+      "name": "Hero's Reaction",
+      "function": "Hero reacts to the donor's test."
+    },
+    {
+      "stage_id": "pr14_receipt_magical_agent",
+      "position": 14,
+      "movement": "Donor sequence",
+      "name": "Receipt of Magical Agent",
+      "function": "Hero acquires the gift, helper, or knowledge."
+    },
+    {
+      "stage_id": "pr15_guidance",
+      "position": 15,
+      "movement": "Donor sequence",
+      "name": "Guidance",
+      "function": "Hero is led to the object of search."
+    },
+    {
+      "stage_id": "pr16_struggle",
+      "position": 16,
+      "movement": "Climax",
+      "name": "Struggle",
+      "function": "Hero and villain join in direct combat."
+    },
+    {
+      "stage_id": "pr17_branding",
+      "position": 17,
+      "movement": "Climax",
+      "name": "Branding",
+      "function": "Hero is marked (wound, ring, scar)."
+    },
+    {
+      "stage_id": "pr18_victory",
+      "position": 18,
+      "movement": "Climax",
+      "name": "Victory",
+      "function": "Villain is defeated."
+    },
+    {
+      "stage_id": "pr19_liquidation",
+      "position": 19,
+      "movement": "Climax",
+      "name": "Liquidation",
+      "function": "Initial misfortune or lack is resolved."
+    },
+    {
+      "stage_id": "pr20_return",
+      "position": 20,
+      "movement": "Return",
+      "name": "Return",
+      "function": "Hero returns."
+    },
+    {
+      "stage_id": "pr21_pursuit",
+      "position": 21,
+      "movement": "Return",
+      "name": "Pursuit",
+      "function": "Hero is chased."
+    },
+    {
+      "stage_id": "pr22_rescue",
+      "position": 22,
+      "movement": "Return",
+      "name": "Rescue",
+      "function": "Hero is rescued from pursuit."
+    },
+    {
+      "stage_id": "pr23_unrecognized_arrival",
+      "position": 23,
+      "movement": "Recognition",
+      "name": "Unrecognized Arrival",
+      "function": "Hero arrives home or elsewhere, unrecognized."
+    },
+    {
+      "stage_id": "pr24_unfounded_claims",
+      "position": 24,
+      "movement": "Recognition",
+      "name": "Unfounded Claims",
+      "function": "A false hero presents claims."
+    },
+    {
+      "stage_id": "pr25_difficult_task",
+      "position": 25,
+      "movement": "Recognition",
+      "name": "Difficult Task",
+      "function": "A difficult task is proposed to the hero."
+    },
+    {
+      "stage_id": "pr26_solution",
+      "position": 26,
+      "movement": "Recognition",
+      "name": "Solution",
+      "function": "The task is resolved."
+    },
+    {
+      "stage_id": "pr27_recognition",
+      "position": 27,
+      "movement": "Recognition",
+      "name": "Recognition",
+      "function": "Hero is recognized by the mark."
+    },
+    {
+      "stage_id": "pr28_exposure",
+      "position": 28,
+      "movement": "Recognition",
+      "name": "Exposure",
+      "function": "False hero or villain is exposed."
+    },
+    {
+      "stage_id": "pr29_transfiguration",
+      "position": 29,
+      "movement": "Recognition",
+      "name": "Transfiguration",
+      "function": "Hero is given a new appearance."
+    },
+    {
+      "stage_id": "pr30_punishment",
+      "position": 30,
+      "movement": "Recognition",
+      "name": "Punishment",
+      "function": "Villain is punished."
+    },
+    {
+      "stage_id": "pr31_wedding",
+      "position": 31,
+      "movement": "Recognition",
+      "name": "Wedding",
+      "function": "Hero marries and ascends the throne (or equivalent reward)."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "campbell_monomyth": {
+      "pr11_departure": "c04_crossing_the_first_threshold",
+      "pr14_receipt_magical_agent": "c05_belly_of_the_whale",
+      "pr16_struggle": "c07_meeting_the_goddess",
+      "pr27_recognition": "c16_master_of_two_worlds"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "folktale_analysis",
+      "screenplay_diagnostics",
+      "computational_narrative",
+      "ensemble_character_role_review"
+    ],
+    "weak_for": [
+      "modern_literary_fiction",
+      "documentary"
+    ],
+    "limitations": "Propp generalized from Russian fairy tales specifically; the 31-function sequence doesn't survive intact in stories outside that genre. Most useful as a checklist of FUNCTION TYPES rather than a strict sequence."
+  },
+  "project_relevance": null
+}

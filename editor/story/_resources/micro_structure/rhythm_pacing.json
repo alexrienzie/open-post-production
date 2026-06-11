@@ -1,0 +1,92 @@
+{
+  "id": "rhythm_pacing",
+  "display_name": "Rhythm & pacing — micro counterpart to ma (negative space)",
+  "family": "rhythm_pacing",
+  "tradition_id": "ma_ozu_tarkovsky",
+  "attribution": {
+    "work": "Japanese ma aesthetic + Ozu pillow shots + Tarkovsky's sculpting in time (synthesized)",
+    "author": "Yasujirō Ozu, Andrei Tarkovsky, the broader observational tradition",
+    "usage_note": "Concrete craft moves that implement the rhythm-engine philosophy described abstractly by the macro filter `editor/story/_resources/macro_structure/ma_negative_space.json`. Where the macro filter argues 'meaning lives in the gaps,' these principles give the editor specific moves: where to hold, where to release, how to use silence as content."
+  },
+  "application_guidance": "Apply during any pacing-sensitive review pass. Especially load-bearing in Act II (where rhythm carries the cut) and in the descent before Act III's Cinderella spike (where ma is the craft answer to Vonnegut's 'earn the descent' caution). Pair with the macro filter `ma_negative_space` for the underlying theory.",
+  "principles": [
+    {
+      "id": "two_beat_rule",
+      "label": "Two-beat rule after heavy emotion",
+      "description": "After a heavy emotional moment (a revelation, a loss, a moment of decision), give the audience two beats of quiet before the next thing arrives. Without that pause, the next scene lands on top of the previous one and the emotion is squandered. With it, the audience finishes feeling what happened and can receive what's next.",
+      "documentary_application": "For each emotionally heavy moment in the cut, audit the immediately-following content: is there silence, a still shot, a held landscape, a beat of nothing? If the next scene cuts in immediately (especially with music), the previous emotion is being interrupted. Add 2–4 seconds of breath.",
+      "review_questions": [
+        "Does this heavy moment land, or does it get interrupted by the next scene?",
+        "Is there 2–4 seconds of breath after the emotional peak?",
+        "If music is bridging the moment forward, does that earn the bridge or evade the feeling?"
+      ],
+      "tags": ["pacing", "emotion", "act_ii", "act_iii"],
+      "see_also": ["macro_structure/ma_negative_space", "documentary_craft/dont_take_victory_lap"]
+    },
+    {
+      "id": "wait_one_beat",
+      "label": "Wait one beat — the after-shot",
+      "description": "The most important second of a shot is often the one after the apparent action. The reaction beat after the line. The settled silence after the gesture. Editors trained on broadcast pace cut at the action's completion; the meaning lives in the second that follows. This is the same principle as `interview_sync/wait_one_beat` but applied to picture editing instead of interview capture.",
+      "documentary_application": "Audit shot end-points across the cut: how many shots end at action completion vs. one beat after? If most end at completion, the cut is rushing past the meaning. Extend selected shots by 8–24 frames to keep the post-action beat. This adds runtime but adds meaning at greater than linear rate.",
+      "review_questions": [
+        "What's in the second after the apparent end of this shot?",
+        "Am I cutting at the action's end or at the meaning's end?",
+        "Does the cut feel slow — or does it feel deliberate?"
+      ],
+      "tags": ["cuts", "trim", "any_beat"],
+      "see_also": ["editing_room_tactical/trim_entrance_keep_exit", "interview_sync/wait_one_beat"]
+    },
+    {
+      "id": "inhale_exhale",
+      "label": "Inhale, exhale — vary the energy",
+      "description": "Sustained peak intensity is exhausting and ultimately deadening. Fast scenes need to be followed by quieter ones; loud needs silence after it; cut-heavy needs hold-long after it. The audience's attention is a wave, not a constant; the film must breathe with that wave or the audience disengages around minute 45.",
+      "documentary_application": "Audit the rhythm of any 10-minute stretch: where are the high-intensity scenes, and what comes after each? If a high-intensity scene is followed by another high-intensity scene, attention will degrade. Plant a quieter scene — a landscape, a routine, a silent observation — as the exhale.",
+      "review_questions": [
+        "Where in this 10-minute stretch are the peaks? Where are the troughs?",
+        "Are peaks followed by troughs, or are they stacked?",
+        "If I removed one high-intensity scene from this stretch, would the remainder land harder?"
+      ],
+      "tags": ["pacing", "structure", "act_ii"],
+      "see_also": ["editing_room_tactical/pace_by_feeling_not_clock"]
+    },
+    {
+      "id": "silence_is_content",
+      "label": "Silence is content, not absence",
+      "description": "An empty audio track — no music, no dialogue, no ambient sound at all — is a positive editorial choice, not a failure. Silence creates intensity by removing the audio cues that tell the audience how to feel. A held shot with no sound is more discomforting than the same shot with tense music; the audience supplies the tension. Used sparingly, this is the strongest tool in the box.",
+      "documentary_application": "Identify one moment per Act where the cut could go fully silent for 3–6 seconds. The first second after a verdict lands. The breath before a reveal. The morning after the All Is Lost beat. These are the moments where adding music would tell the audience what to feel; removing audio lets them discover it. Use sparingly — silence loses power if it's not rare.",
+      "review_questions": [
+        "Is there a moment in this Act that could carry full silence?",
+        "Where is music doing the work that silence would do better?",
+        "If I removed all audio from these 4 seconds, would the moment grow stronger?"
+      ],
+      "tags": ["audio", "silence", "emphasis"],
+      "see_also": ["rhythm_pacing/two_beat_rule"]
+    },
+    {
+      "id": "bridge_shot",
+      "label": "The bridge shot between locations",
+      "description": "Between two locations, give the audience a moment to travel — a road shot, a sky, a landscape, a held door. Without it, the cut is a teleport and the audience feels the seam. The bridge shot doesn't have to be elaborate; one held wide of the new location's exterior often does. It's the audio of arrival under the picture of departure.",
+      "documentary_application": "For each location change in the cut, ask: is there a bridge shot, or does the audience teleport? If the teleport is intentional (montage, accelerated time), keep it. If the next scene is meant to feel grounded in its place, a bridge shot makes the grounding work.",
+      "review_questions": [
+        "Does this location change have a bridge, or is it a teleport?",
+        "Is the teleport intentional, or just unedited?",
+        "Could a 2-second wide of the new location replace exposition that's now in dialogue?"
+      ],
+      "tags": ["transitions", "locations"],
+      "see_also": ["editing_room_tactical/audio_leads_picture", "editing_room_tactical/l_cut_j_cut"]
+    },
+    {
+      "id": "longest_hold_strongest",
+      "label": "The longest hold is the strongest emphasis",
+      "description": "In a sequence of cuts, the shot held longest is the one the audience reads as most important — regardless of content. This is a corollary of pacing: duration is an editorial claim. Holding one shot 3x longer than its neighbors says 'this matters.' Editors often miss that they're saying this; they hold for technical reasons (no cutaway available) and the audience reads emphasis the editor didn't intend.",
+      "documentary_application": "Audit shot durations across a key sequence. Which shot holds the longest? Is that the shot you WANT the audience to weight as most important? If a shot is held long for a non-content reason (missing coverage, locked into sync), find a cutaway. If the audience-weighted shot is the wrong one, the sequence is making the wrong argument.",
+      "review_questions": [
+        "Which shot in this sequence holds the longest?",
+        "Is that shot the one I want the audience to read as most important?",
+        "Am I holding any shot long for technical reasons rather than editorial ones?"
+      ],
+      "tags": ["pacing", "emphasis", "shot_count"],
+      "see_also": ["editing_room_tactical/pace_by_feeling_not_clock"]
+    }
+  ]
+}

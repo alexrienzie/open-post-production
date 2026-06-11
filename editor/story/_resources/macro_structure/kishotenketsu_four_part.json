@@ -1,0 +1,67 @@
+{
+  "framework_id": "kishotenketsu_four_part",
+  "title": "Kishōtenketsu — four-part structure",
+  "author": "(classical East Asian; literary tradition)",
+  "year": null,
+  "source": "Classical Chinese/Japanese/Korean four-part structure (起承転結 qǐ-chéng-zhuǎn-hé). Originally a poetic form (quatrains); generalized to narrative.",
+  "tradition": "non_western",
+  "engine": "change",
+  "act_envelope": "four_part",
+  "resolution": 4,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "natyashastra_sandhi"
+    ],
+    "note": "Independent tradition; not derived from Aristotle. Crucially: no conflict required. Engine is juxtaposition and recontextualization, not antagonism."
+  },
+  "stages": [
+    {
+      "stage_id": "k01_ki",
+      "position": 1,
+      "name": "Ki (introduction)",
+      "function": "Introduce the elements: a place, a person, a situation. No problem yet."
+    },
+    {
+      "stage_id": "k02_sho",
+      "position": 2,
+      "name": "Shō (development)",
+      "function": "Develop what was introduced; deepen, elaborate, accumulate detail. Still no conflict required."
+    },
+    {
+      "stage_id": "k03_ten",
+      "position": 3,
+      "name": "Ten (twist)",
+      "function": "An apparently unrelated new element appears. Disjunction, surprise, a left turn. The connection is not yet clear."
+    },
+    {
+      "stage_id": "k04_ketsu",
+      "position": 4,
+      "name": "Ketsu (reconciliation)",
+      "function": "The twist retroactively unites all four parts — the meaning of the whole becomes visible. Closure through synthesis, not resolution of conflict."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Cross-framework equivalences here are intentionally sparse. Kishōtenketsu's twist ('ten') has no clean Western analog — it's NOT a plot twist, NOT a reversal, NOT a midpoint complication. Forcing equivalences corrupts the framework's value.",
+    "vogler_writers_journey": {
+      "k02_sho": "v06_tests_allies_enemies"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "documentary_observational",
+      "ensemble_portraits",
+      "essay_film",
+      "no_conflict_stories",
+      "slice_of_life"
+    ],
+    "weak_for": [
+      "thriller",
+      "epic",
+      "single_protagonist_transformation"
+    ],
+    "limitations": "Western audiences trained on conflict-engine stories may read the 'ten' as a structural failure (random tangent) rather than a deliberate juxtaposition. Use sparingly with audiences unaccustomed to the form, or make the ketsu-reconciliation strong enough to retroactively justify the ten."
+  },
+  "project_relevance": null
+}

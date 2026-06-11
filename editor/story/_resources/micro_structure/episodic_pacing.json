@@ -1,0 +1,92 @@
+{
+  "id": "episodic_pacing",
+  "display_name": "Episodic pacing — serial / streaming / binge-attention tradition",
+  "family": "episodic_pacing",
+  "tradition_id": "gilligan_chase_serial",
+  "attribution": {
+    "work": "Serial television and streaming-era editing (Breaking Bad, The Sopranos, modern docuseries, prestige TV)",
+    "author": "Vince Gilligan, David Chase, Mike Flanagan, the modern showrunner-editor tradition (synthesized)",
+    "usage_note": "Originally developed to keep audiences through commercial breaks, refined for the streaming-era binge attention curve. The principles generalize beyond episodic work: every Act break in a feature is structurally an episode break, and the same techniques (cold open hook, act-out tease, planted-payoff thinking) apply. Documentaries that ignore this family produce films that work scene-by-scene but feel uneven at the Act-transition level."
+  },
+  "application_guidance": "Audit at the Act-boundary level. Each act transition in a feature is structurally equivalent to a streaming-era episode break — the audience either continues engaged or drops attention. The principles below diagnose whether each transition is doing the work it could. Particularly load-bearing at the I→II and II→III boundaries, which are where audience attention is most likely to lapse if the cut doesn't actively hold it.",
+  "principles": [
+    {
+      "id": "cold_open_hook",
+      "label": "Cold open hook — first 90 seconds answers 'why am I still watching'",
+      "description": "The serial-TV tradition: the first 90 seconds of every episode must give the audience a concrete reason to keep watching. Not exposition, not setup — a hook. A specific image, an unresolved moment, a question the audience needs an answer to. The cold open isn't the BEGINNING of the story; it's the part of the story that earns the audience's attention for the next 50 minutes.",
+      "documentary_application": "The first 90 seconds of each act are a cold open, and each should land an unresolved hook. An act opening shouldn't recap the prior act's resolution — it should pose its own question concretely. Audit each act's first 90 seconds: is it hooking, or is it transitioning?",
+      "review_questions": [
+        "What's the hook in the first 90 seconds of this Act?",
+        "Is the opening doing transition work (recap, exposition) instead of hook work?",
+        "If a viewer dropped in at this Act's opening, would they want to keep watching?"
+      ],
+      "tags": ["act_break", "structure", "openings"],
+      "see_also": ["snyder_principles/save_the_cat"]
+    },
+    {
+      "id": "act_break_tease",
+      "label": "The act-break tease — never let the audience leave",
+      "description": "Network TV's structural innovation was forcing every act break to function as a cliffhanger. Streaming-era TV inherited this without commercials — every episode ends on a hook designed to make autoplay irresistible. The principle: every Act ends mid-question, not at resolution. The audience leaves wanting an answer the next Act provides. Documentary tradition often closes Acts on resolution (good feeling, sense of closure) and finds the next Act starts from a cold standstill.",
+      "documentary_application": "Audit act endings. Does each act close on a resolution, or on a hook for what's coming next? Resolution-endings feel satisfying in isolation but make the next Act feel like a restart. Hook-endings sustain engagement across the Act break. The choice is genre — verite tradition prefers resolution, serial tradition prefers hook — but most documentary features benefit from at least one Act ending on a hook.",
+      "review_questions": [
+        "Does each Act end on resolution or on hook?",
+        "If resolution: is the next Act forced to do cold-start work that a hook would have avoided?",
+        "Could moving one beat across an Act boundary convert a resolution-ending into a hook-ending?"
+      ],
+      "tags": ["act_break", "endings", "structure"],
+      "see_also": ["snyder_principles/lay_pipe"]
+    },
+    {
+      "id": "previously_on_as_structure",
+      "label": "'Previously on' as structural device, not filler",
+      "description": "Serial TV's 'previously on' recap looks like throat-clearing but is actually a sophisticated editorial choice: WHICH prior moments to recap directs the audience to read this episode in a specific way. A 'previously on' that emphasizes the antagonist's threat tells the audience 'today is about threat resolution'; one that emphasizes the relationship arc tells them 'today is about emotional payoff.' The recap IS the editorial position on what this episode means.",
+      "documentary_application": "Feature documentaries usually don't have explicit 'previously on' segments, but Act II and Act III often need RE-ESTABLISHMENT moments that function the same way. A 5-second sequence at the top of an act recapping the prior turn + the open promise + the pending question reads as 'previously on' even without the label. Which of those the recap emphasizes shapes how the audience reads the act. If recap is happening at Act transitions, make it deliberate.",
+      "review_questions": [
+        "At each Act transition, is there a re-establishment moment? What does it emphasize?",
+        "Is the emphasis matching the editorial argument for the upcoming Act?",
+        "If no recap exists, is the audience expected to remember a stakes from 60+ minutes ago without help?"
+      ],
+      "tags": ["act_break", "recap", "structure"],
+      "see_also": ["unscripted_construction/stakes_reset_before_climax"]
+    },
+    {
+      "id": "season_arc_planting",
+      "label": "Season-arc planting — plant Act III payoffs in Act I",
+      "description": "Serial TV's deepest discipline: things that matter in episode 8 must be planted in episode 2 — visibly enough that the audience can find them in retrospect but quietly enough that they don't telegraph. The same logic at the feature scale: things that matter in Act III must be planted in Act I, briefly, without underlining. This is Snyder's 'lay pipe' principle taken to the serial-narrative scale, where MULTIPLE planted elements are operating in parallel and each needs its setup.",
+      "documentary_application": "For each load-bearing third-act element (a document, a mechanism, a late-arriving ally), audit the first act and early second act for its planting. Is the element introduced — briefly, without explanation — before the third act needs it? If the audience meets a character for the first time in the third act who's load-bearing for the resolution, the resolution feels like exposition. If they were glimpsed earlier, the late appearance reads as a planted callback.",
+      "review_questions": [
+        "For each Act III element: where is it planted earlier?",
+        "Are there Act III characters or institutions introduced for the first time in Act III?",
+        "Can a 5-second beat be added earlier to plant an Act III payoff?"
+      ],
+      "tags": ["planting", "structure", "act_iii"],
+      "see_also": ["snyder_principles/lay_pipe", "snyder_principles/six_things_that_need_fixing"]
+    },
+    {
+      "id": "tag_scene",
+      "label": "The tag scene — beyond the climax",
+      "description": "Serial TV's structural device: a short scene AFTER the apparent climax of the episode that reframes what just happened or sets up what's next. The Sopranos' final-minute scenes, Breaking Bad's pre-credits cold scenes, the modern docuseries' final-minute survival of the cliffhanger. The tag scene is meta-structural — it lives outside the main beat structure and does work the beat structure can't.",
+      "documentary_application": "After the apparent climax: is there a tag scene? A 30-second moment that recontextualizes what the climax means — the subject in the everyday after-world, a quiet shot of what the victory cost, a brief callback to the opening image. The tag scene is where the philosophical climax of Arndt's three-climax architecture can land if it didn't land in the climax scene itself.",
+      "review_questions": [
+        "Is there a moment after the climax that reframes its meaning?",
+        "Does the cut end on the external climax itself, or on something AFTER it (the potential philosophical climax)?",
+        "Could a 30-second tag scene do the philosophical work Arndt's framework asks for?"
+      ],
+      "tags": ["endings", "act_iii", "structure"],
+      "see_also": ["snyder_principles/final_image_mirrors_opening"]
+    },
+    {
+      "id": "midpoint_recommitment",
+      "label": "Midpoint recommitment — the audience renews engagement",
+      "description": "Long-form serial TV discovered something feature-doc tradition often misses: the audience doesn't stay engaged automatically across 90+ minutes. There's a midpoint moment — roughly 45–60 minutes into a feature — where engagement needs to be ACTIVELY renewed, not passively assumed. Serial TV uses a mid-episode jolt; documentary features can use a midpoint reveal, a tonal shift, a new character introduction, or a stakes escalation. Without it, the second half feels long even when individual scenes work.",
+      "documentary_application": "The Midpoint should function as this engagement-renewal moment. The Snyder principle (false victory or false defeat) names the structural slot; the serial-TV principle names the engagement function. Audit the Midpoint specifically: does it ACTIVELY renew audience engagement, or does it just transition into the second half of Act II? If the latter, the cut is leaving engagement on the table at exactly the moment when engagement is most at risk.",
+      "review_questions": [
+        "At the Midpoint: does the scene actively renew audience engagement?",
+        "Is there a tonal shift, a reveal, a stakes escalation that makes the second half feel like a new film?",
+        "If the cut were to lose attention, where in the runtime is that most likely to happen — and is the cut working to prevent it?"
+      ],
+      "tags": ["midpoint", "engagement", "structure"],
+      "see_also": ["snyder_principles/promise_of_the_premise"]
+    }
+  ]
+}

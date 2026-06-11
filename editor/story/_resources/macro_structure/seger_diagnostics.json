@@ -1,0 +1,76 @@
+{
+  "framework_id": "seger_diagnostics",
+  "title": "Making a Good Script Great",
+  "author": "Linda Seger",
+  "year": 1987,
+  "source": "Making a Good Script Great, 1987.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm"
+    ],
+    "descendants": [],
+    "siblings": [
+      "mckee_story"
+    ],
+    "note": "From the development/script-doctor side rather than the auteur side. Three acts, two turning points, a clear central question, and an emphasis on REWRITING as the real work. Where McKee is theory, Seger is diagnostics."
+  },
+  "stages": [
+    {
+      "stage_id": "sg01_act_one_setup",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Setup",
+      "function": "Establish protagonist, central question, world. End with a turning point that locks in the central question."
+    },
+    {
+      "stage_id": "sg02_turning_point_1",
+      "position": 2,
+      "movement": "Act I/II hinge",
+      "name": "Turning Point 1",
+      "function": "Spins the action into Act II."
+    },
+    {
+      "stage_id": "sg03_act_two_development",
+      "position": 3,
+      "movement": "Act II",
+      "name": "Development",
+      "function": "Pursue the central question through escalating obstacles. Subplot ('B-story') develops alongside."
+    },
+    {
+      "stage_id": "sg04_turning_point_2",
+      "position": 4,
+      "movement": "Act II/III hinge",
+      "name": "Turning Point 2",
+      "function": "Spins the action into Act III; the central question is reframed."
+    },
+    {
+      "stage_id": "sg05_act_three_resolution",
+      "position": 5,
+      "movement": "Act III",
+      "name": "Resolution",
+      "function": "Answer the central question. Climax and aftermath."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "field_paradigm": {
+      "sg02_turning_point_1": "fd02_plot_point_1",
+      "sg04_turning_point_2": "fd05_plot_point_2"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "script_diagnostics",
+      "rewrite_passes",
+      "central_question_clarification"
+    ],
+    "weak_for": [
+      "theory_first_work"
+    ],
+    "limitations": "Doesn't add structural innovation over Field; the value is in the diagnostic vocabulary (central question, scene goal, rewrite pass)."
+  },
+  "project_relevance": null
+}

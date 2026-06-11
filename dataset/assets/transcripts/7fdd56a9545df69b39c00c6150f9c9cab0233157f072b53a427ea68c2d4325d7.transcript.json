@@ -1,0 +1,652 @@
+{
+  "schema_version": 5,
+  "asset_id": "7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7",
+  "manifest": {
+    "current_version": 1,
+    "model": {
+      "engine": "whisperKit",
+      "id": "openai_whisper-large-v3-v20240930_626MB"
+    },
+    "language": "en",
+    "transcribed_at": "2026-05-03T09:07:06.474Z",
+    "updated_at": "2026-05-03T19:33:24Z",
+    "_macwhisper_session_id": null
+  },
+  "playback_duration_sec": 19.0506875,
+  "diarized": true,
+  "speakers_raw": {
+    "C92991C8492640E0B56928E31C0BFEBE": {
+      "name": "Speaker 2",
+      "is_stub": true
+    },
+    "EB3826F511174B16BE06F8DEC6874153": {
+      "name": "Speaker 1",
+      "is_stub": true
+    }
+  },
+  "full_text": "- I don't really like these. - Do you get like the Nobel Prize for running now? - I think so. - For this year? - Yeah. - I think that's how it works. - Yeah. - That comes with a million dollars. - Hell yeah. I told you, I just did this so I can buy a new house. - You just sold your house. - Yeah, I know. But now I need",
+  "segments": [
+    {
+      "start_sec": 0.04,
+      "end_sec": 0.96,
+      "text": "- I don't really like these.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - I",
+          "start_sec": 0.04,
+          "end_sec": 0.04
+        },
+        {
+          "text": " don't",
+          "start_sec": 0.04,
+          "end_sec": 0.5
+        },
+        {
+          "text": " really",
+          "start_sec": 0.5,
+          "end_sec": 0.52
+        },
+        {
+          "text": " like",
+          "start_sec": 0.52,
+          "end_sec": 0.7
+        },
+        {
+          "text": " these.",
+          "start_sec": 0.7,
+          "end_sec": 0.96
+        }
+      ]
+    },
+    {
+      "start_sec": 1.72,
+      "end_sec": 3.42,
+      "text": "- Do you get like the Nobel Prize for running now?",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - Do",
+          "start_sec": 1.72,
+          "end_sec": 1.8
+        },
+        {
+          "text": " you",
+          "start_sec": 1.8,
+          "end_sec": 1.84
+        },
+        {
+          "text": " get",
+          "start_sec": 1.84,
+          "end_sec": 1.92
+        },
+        {
+          "text": " like",
+          "start_sec": 1.92,
+          "end_sec": 2.08
+        },
+        {
+          "text": " the",
+          "start_sec": 2.08,
+          "end_sec": 2.18
+        },
+        {
+          "text": " Nobel",
+          "start_sec": 2.18,
+          "end_sec": 2.44
+        },
+        {
+          "text": " Prize",
+          "start_sec": 2.44,
+          "end_sec": 2.66
+        },
+        {
+          "text": " for",
+          "start_sec": 2.66,
+          "end_sec": 2.92
+        },
+        {
+          "text": " running",
+          "start_sec": 2.92,
+          "end_sec": 3.16
+        },
+        {
+          "text": " now?",
+          "start_sec": 3.16,
+          "end_sec": 3.42
+        }
+      ]
+    },
+    {
+      "start_sec": 3.94,
+      "end_sec": 4.4,
+      "text": "- I think so.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - I",
+          "start_sec": 3.94,
+          "end_sec": 4.08
+        },
+        {
+          "text": " think",
+          "start_sec": 4.08,
+          "end_sec": 4.18
+        },
+        {
+          "text": " so.",
+          "start_sec": 4.18,
+          "end_sec": 4.4
+        }
+      ]
+    },
+    {
+      "start_sec": 4.42,
+      "end_sec": 4.9,
+      "text": "- For this year?",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - For",
+          "start_sec": 4.42,
+          "end_sec": 4.5
+        },
+        {
+          "text": " this",
+          "start_sec": 4.5,
+          "end_sec": 4.72
+        },
+        {
+          "text": " year?",
+          "start_sec": 4.72,
+          "end_sec": 4.9
+        }
+      ]
+    },
+    {
+      "start_sec": 5.1,
+      "end_sec": 5.36,
+      "text": "- Yeah.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - Yeah.",
+          "start_sec": 5.1,
+          "end_sec": 5.36
+        }
+      ]
+    },
+    {
+      "start_sec": 5.62,
+      "end_sec": 7.26,
+      "text": "- I think that's how it works.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - I",
+          "start_sec": 5.62,
+          "end_sec": 5.78
+        },
+        {
+          "text": " think",
+          "start_sec": 5.78,
+          "end_sec": 5.94
+        },
+        {
+          "text": " that's",
+          "start_sec": 5.94,
+          "end_sec": 6.24
+        },
+        {
+          "text": " how",
+          "start_sec": 6.24,
+          "end_sec": 6.84
+        },
+        {
+          "text": " it",
+          "start_sec": 6.84,
+          "end_sec": 7.0
+        },
+        {
+          "text": " works.",
+          "start_sec": 7.0,
+          "end_sec": 7.26
+        }
+      ]
+    },
+    {
+      "start_sec": 7.5,
+      "end_sec": 7.64,
+      "text": "- Yeah.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - Yeah.",
+          "start_sec": 7.5,
+          "end_sec": 7.64
+        }
+      ]
+    },
+    {
+      "start_sec": 8.12,
+      "end_sec": 9.28,
+      "text": "- That comes with a million dollars.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - That",
+          "start_sec": 8.12,
+          "end_sec": 8.36
+        },
+        {
+          "text": " comes",
+          "start_sec": 8.36,
+          "end_sec": 8.62
+        },
+        {
+          "text": " with",
+          "start_sec": 8.62,
+          "end_sec": 8.68
+        },
+        {
+          "text": " a",
+          "start_sec": 8.68,
+          "end_sec": 8.8
+        },
+        {
+          "text": " million",
+          "start_sec": 8.8,
+          "end_sec": 8.96
+        },
+        {
+          "text": " dollars.",
+          "start_sec": 8.96,
+          "end_sec": 9.28
+        }
+      ]
+    },
+    {
+      "start_sec": 9.6,
+      "end_sec": 9.94,
+      "text": "- Hell yeah.",
+      "speaker_raw": "EB3826F511174B16BE06F8DEC6874153",
+      "speaker": null,
+      "words": [
+        {
+          "text": " - Hell",
+          "start_sec": 9.6,
+          "end_sec": 9.82
+        },
+        {
+          "text": " yeah.",
+          "start_sec": 9.82,
+          "end_sec": 9.94
+        }
+      ]
+    },
+    {
+      "start_sec": 10.66,
+      "end_sec": 12.36,
+      "text": "I told you, I just did this so I can buy a new house.",
+      "speaker_raw": "C92991C8492640E0B56928E31C0BFEBE",
+      "speaker": "p_michelino_sunseri",
+      "words": [
+        {
+          "text": " I",
+          "start_sec": 10.66,
+          "end_sec": 10.82
+        },
+        {
+          "text": " told",
+          "start_sec": 10.82,
+          "end_sec": 10.98
+        },
+        {
+          "text": " you,",
+          "start_sec": 10.98,
+          "end_sec": 11.08
+        },
+        {
+          "text": " I",
+          "start_sec": 11.08,
+          "end_sec": 11.16
+        },
+        {
+          "text": " just",
+          "start_sec": 11.16,
+          "end_sec": 11.32
+        },
+        {
+          "text": " did",
+          "start_sec": 11.32,
+          "end_sec": 11.44
+        },
+        {
+          "text": " this",
+          "start_sec": 11.44,
+          "end_sec": 11.6
+        },
+        {
+          "text": " so",
+          "start_sec": 11.6,
+          "end_sec": 11.74
+        },
+        {
+          "text": " I",
+          "start_sec": 11.74,
+          "end_sec": 11.74
+        },
+        {
+          "text": " can",
+          "start_sec": 11.74,
+          "end_sec": 11.82
+        },
+        {
+          "text": " buy",
+          "start_sec": 11.82,
+          "end_sec": 12.02
+        },
+        {
+          "text": " a",
+          "start_sec": 12.02,
+          "end_sec": 12.04
+        },
+        {
+          "text": " new",
+          "start_sec": 12.04,
+          "end_sec": 12.14
+        },
+        {
+          "text": " house.",
+          "start_sec": 12.14,
+          "end_sec": 12.36
+        }
+      ]
+    },
+    {
+      "start_sec": 13.06,
+      "end_sec": 14.06,
+      "text": "- You just sold your house.",
+      "speaker_raw": "C92991C8492640E0B56928E31C0BFEBE",
+      "speaker": "p_michelino_sunseri",
+      "words": [
+        {
+          "text": " - You",
+          "start_sec": 13.06,
+          "end_sec": 13.3
+        },
+        {
+          "text": " just",
+          "start_sec": 13.3,
+          "end_sec": 13.44
+        },
+        {
+          "text": " sold",
+          "start_sec": 13.44,
+          "end_sec": 13.74
+        },
+        {
+          "text": " your",
+          "start_sec": 13.74,
+          "end_sec": 13.82
+        },
+        {
+          "text": " house.",
+          "start_sec": 13.82,
+          "end_sec": 14.06
+        }
+      ]
+    },
+    {
+      "start_sec": 14.44,
+      "end_sec": 14.98,
+      "text": "- Yeah, I know.",
+      "speaker_raw": "C92991C8492640E0B56928E31C0BFEBE",
+      "speaker": "p_michelino_sunseri",
+      "words": [
+        {
+          "text": " - Yeah,",
+          "start_sec": 14.44,
+          "end_sec": 14.64
+        },
+        {
+          "text": " I",
+          "start_sec": 14.64,
+          "end_sec": 14.72
+        },
+        {
+          "text": " know.",
+          "start_sec": 14.72,
+          "end_sec": 14.98
+        }
+      ]
+    },
+    {
+      "start_sec": 17.16,
+      "end_sec": 17.72,
+      "text": "But now I need",
+      "speaker_raw": "C92991C8492640E0B56928E31C0BFEBE",
+      "speaker": "p_michelino_sunseri",
+      "words": [
+        {
+          "text": " But",
+          "start_sec": 17.16,
+          "end_sec": 17.36
+        },
+        {
+          "text": " now",
+          "start_sec": 17.36,
+          "end_sec": 17.42
+        },
+        {
+          "text": " I",
+          "start_sec": 17.42,
+          "end_sec": 17.5
+        },
+        {
+          "text": " need",
+          "start_sec": 17.5,
+          "end_sec": 17.72
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "EB3826F511174B16BE06F8DEC6874153",
+      "p_id": null,
+      "label_raw": "Speaker 1",
+      "is_stub": true,
+      "segment_count": 9,
+      "total_duration_sec": 7.1,
+      "first_seen_sec": 0.04
+    },
+    {
+      "speaker_id": "C92991C8492640E0B56928E31C0BFEBE",
+      "p_id": null,
+      "label_raw": "Speaker 2",
+      "is_stub": true,
+      "segment_count": 4,
+      "total_duration_sec": 3.8,
+      "first_seen_sec": 10.66
+    }
+  ],
+  "moment_ids": [
+    "mom_007"
+  ],
+  "record_kind": "transcript",
+  "primary_timeline_date": "2024-09-02",
+  "analysis": {
+    "segment_corrections": [],
+    "speaker_attributions": [
+      {
+        "speaker_raw": "C92991C8492640E0B56928E31C0BFEBE",
+        "p_id": "p_michelino_sunseri",
+        "confidence": 0.9,
+        "reason": "Subject of FKT project per shoot_label; asset_semantic_summary describes the on-camera person making the 'new house' joke, which matches this speaker's dialogue."
+      }
+    ],
+    "relevant_spans": [],
+    "summary_one_line": "Michelino Sunseri jokes about winning a Nobel Prize for running to afford a new house.",
+    "summary_paragraph": "After a run, Michelino Sunseri, shirtless and relaxed, jokes with an off-camera person about the rewards of his athletic endeavors. He humorously suggests that his running achievements should earn him a Nobel Prize, which he would use to buy a new house, despite having recently sold his previous one. The exchange highlights his casual demeanor and lighthearted approach to his sport.",
+    "themes": [
+      "humor",
+      "ambition",
+      "post_run_reflection",
+      "financial_aspirations"
+    ],
+    "topics": [
+      "running",
+      "Nobel Prize",
+      "housing",
+      "FKT"
+    ],
+    "storylines": [
+      "ms_fkt"
+    ],
+    "tone": {
+      "mood": "playful",
+      "energy": "medium",
+      "formality": "casual"
+    },
+    "craft": {
+      "audio_quality": "clean",
+      "context_signals_used": [
+        "asset_semantic_summary",
+        "audio_events"
+      ]
+    },
+    "people_ids": [
+      "p_michelino_sunseri"
+    ],
+    "org_ids": [],
+    "place_ids": [],
+    "_unmatched_people": [],
+    "_unmatched_orgs": [],
+    "_unmatched_places": [],
+    "moment_ids": [],
+    "key_moments": [
+      {
+        "start_sec": 0.04,
+        "end_sec": 17.72,
+        "label": "Michelino jokes about Nobel Prize for running to buy a house",
+        "summary": "Michelino Sunseri and an off-camera person playfully discuss the idea of winning a Nobel Prize for running, with Michelino humorously stating his intention to use the prize money for a new house.",
+        "categories": [
+          "comedic",
+          "story"
+        ],
+        "moment_ids": [],
+        "subjects_on_camera": [
+          "p_michelino_sunseri"
+        ],
+        "salience": 0.9,
+        "key_quote_idxs": [
+          0,
+          1
+        ],
+        "comedy": {
+          "type": "setup_punchline",
+          "confidence": 0.95,
+          "setup_quote_idx": 0,
+          "reaction_quote_idxs": [
+            1
+          ],
+          "signal_evidence": [
+            "explicit comedic device in text (absurd claim)",
+            "setup-payoff structure across adjacent quotes"
+          ]
+        }
+      }
+    ],
+    "key_quotes": [
+      {
+        "speaker": null,
+        "start_sec": 1.72,
+        "end_sec": 3.42,
+        "text": "Do you get like the Nobel Prize for running now?",
+        "linked_moment_idx": 0,
+        "soundbite_quality": {
+          "score": 4,
+          "reasons": [
+            "self_contained",
+            "memorable_phrasing",
+            "concise",
+            "no_fillers"
+          ],
+          "trim_suggestion": null,
+          "delivery_notes": null
+        },
+        "comedic": {
+          "is_comedic": true,
+          "type": "outrageous_claim",
+          "confidence": 0.9,
+          "notes": "Setup line for the joke about buying a house with Nobel Prize money."
+        },
+        "story_function": "setup"
+      },
+      {
+        "speaker": "p_michelino_sunseri",
+        "start_sec": 10.66,
+        "end_sec": 12.36,
+        "text": "I told you, I just did this so I can buy a new house.",
+        "linked_moment_idx": 0,
+        "soundbite_quality": {
+          "score": 5,
+          "reasons": [
+            "self_contained",
+            "no_fillers",
+            "memorable_phrasing",
+            "strong_delivery",
+            "concise"
+          ],
+          "trim_suggestion": null,
+          "delivery_notes": null
+        },
+        "comedic": {
+          "is_comedic": true,
+          "type": "setup_punchline",
+          "confidence": 0.95,
+          "notes": "Punchline to the Nobel Prize setup."
+        },
+        "story_function": "payoff"
+      }
+    ],
+    "analyzed_at": "2026-05-26T05:38:08Z",
+    "analyzer": "g023_flash_meta_v1",
+    "prompt_sha256": "31cc593fb4f8880dd01f6d0687fbdceebc1012b562fc353e2236516bb9afd06a",
+    "_applied_corrections": [],
+    "_apply_run_id": "g023_full_20260526T032314Z"
+  },
+  "craft": {
+    "shot_kind": "verite",
+    "audio_quality": "multiple_speakers"
+  },
+  "embedding_anchor": {
+    "text_sha256": "69e629311f92392d2a6831748239d7f45f3a7b0fae32581aa2c22566ebc82231",
+    "last_embedded_at": null
+  },
+  "_unmatched_people": [],
+  "_unmatched_orgs": [],
+  "_unmatched_places": [],
+  "corrections": [],
+  "_correction_candidates": [],
+  "speaker_provenance": {
+    "schema_version": 1,
+    "sidecar": "_audit/transcript_provenance/7fdd56a9545df69b39c00c6150f9c9cab0233157f072b53a427ea68c2d4325d7.json"
+  },
+  "subject_of_interview": null,
+  "people_ids": [],
+  "org_ids": [],
+  "place_ids": [
+    "pl_lupine_meadows"
+  ],
+  "analyzed_at": "2026-05-26T05:38:08Z"
+}

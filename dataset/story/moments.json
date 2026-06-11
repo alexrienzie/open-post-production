@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "registry_version": "sample-1",
+    "note": "Sample slice of the story-spine registry (2 of 24 production moments). Moments are the corpus-tagging vocabulary (`moment_ids[]` on transcripts/documents); themes roll up from them. Define your own outline and regenerate the prompt context."
+  },
+  "schema_version": 3,
+  "generated_at": "2026-06-10T21:29:29.083569+00:00",
+  "moments_outline": [
+    {
+      "title": "Labor Day Record",
+      "act": 1,
+      "summary_one_line": "Michelino runs 2:50:50 — new Grand Teton FKT.",
+      "themes": [
+        "alpine_risk",
+        "athletic_peak_performance",
+        "twelve_year_record_falls"
+      ],
+      "characters": [
+        "p_michelino_sunseri",
+        "p_connor_burkesmith",
+        "p_alex_rienzie"
+      ],
+      "time_period": "2024-09-02",
+      "setting": "Grand Teton",
+      "secondary_settings": [
+        "Lupine Meadows trailhead",
+        "Lower Saddle"
+      ],
+      "moment_id": "mom_006"
+    },
+    {
+      "title": "Controversy Erupts",
+      "act": 1,
+      "summary_one_line": "Old Climber's Trail use questioned; FKT.com rejects record; press hit-pieces mount.",
+      "themes": [
+        "public_shaming_cycle",
+        "trail_ethics_debate",
+        "anonymous_tip_origin"
+      ],
+      "characters": [
+        "p_michelino_sunseri",
+        "p_connor_burkesmith",
+        "p_alex_rienzie"
+      ],
+      "time_period": "2024-09-04 to 2024-09-15",
+      "setting": "Jackson Hole",
+      "secondary_settings": [
+        "online / social media"
+      ],
+      "moment_id": "mom_007"
+    }
+  ]
+}

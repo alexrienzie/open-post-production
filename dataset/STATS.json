@@ -1,0 +1,56 @@
+{
+  "workspace_version": "2026-05-04",
+  "generated_at": "2026-06-11T01:29:42.002703+00:00",
+  "schema_versions": {
+    "assets/video": 7,
+    "assets/audio": 5,
+    "assets/stills": 4,
+    "assets/transcripts": 5,
+    "people/people.json": 2,
+    "organizations/orgs.json": 1,
+    "documents/case": 1,
+    "documents/press/articles": 3,
+    "documents/press/comments": 3,
+    "documents/press/social_posts": 2,
+    "places/places.json": 1
+  },
+  "registry_meta_versions": {
+    "people": "sample-1",
+    "orgs": "sample-1"
+  },
+  "totals": {
+    "assets": {
+      "video": 6,
+      "audio": 0,
+      "stills": 2,
+      "all_assets": 8,
+      "transcripts": 4,
+      "video_runtime_hours": 0.02,
+      "audio_runtime_hours": 0.0,
+      "total_runtime_hours": 0.02,
+      "total_size_gb": 2.45
+    },
+    "people": {
+      "total": 3,
+      "registry_version": "sample-1",
+      "by_confidence": {}
+    },
+    "orgs": {
+      "total": 1,
+      "registry_version": "sample-1",
+      "by_confidence": {
+        "medium": 1
+      }
+    },
+    "documents_press": {
+      "articles": 1,
+      "social_posts": 0,
+      "comments": 0
+    },
+    "transcript_rolling_embeddings": {
+      "sqlite_exists": true,
+      "window_rows": 3,
+      "embedding_runs": 1
+    }
+  }
+}

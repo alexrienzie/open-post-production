@@ -1,0 +1,177 @@
+{
+  "framework_id": "truby_anatomy",
+  "title": "The Anatomy of Story — 22 Steps",
+  "author": "John Truby",
+  "year": 2007,
+  "source": "The Anatomy of Story: 22 Steps to Becoming a Master Storyteller, 2007.",
+  "tradition": "dramatic",
+  "engine": "change",
+  "act_envelope": "free",
+  "resolution": 22,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm",
+      "mckee_story"
+    ],
+    "descendants": [],
+    "siblings": [],
+    "note": "The deliberate anti-template. 22 steps organized around the character's MORAL and PSYCHOLOGICAL NEED, not act breaks. Structure should grow organically from the protagonist's desire line and moral argument; rigid 3-act counting kills stories."
+  },
+  "stages": [
+    {
+      "stage_id": "tr01_self_revelation_need_desire",
+      "position": 1,
+      "name": "Self-revelation, need, and desire",
+      "function": "What the character will learn and the surface goal. Plant these first."
+    },
+    {
+      "stage_id": "tr02_ghost_and_story_world",
+      "position": 2,
+      "name": "Ghost and story world",
+      "function": "The past wound (ghost) and the present-day world that embodies it."
+    },
+    {
+      "stage_id": "tr03_weakness_and_need",
+      "position": 3,
+      "name": "Weakness and need",
+      "function": "Psychological and moral weaknesses. Moral need = a wrong the character does to others."
+    },
+    {
+      "stage_id": "tr04_inciting_event",
+      "position": 4,
+      "name": "Inciting event",
+      "function": "The event that disrupts and forces the desire to crystallize."
+    },
+    {
+      "stage_id": "tr05_desire",
+      "position": 5,
+      "name": "Desire",
+      "function": "The specific, concrete goal the protagonist now pursues."
+    },
+    {
+      "stage_id": "tr06_ally_or_allies",
+      "position": 6,
+      "name": "Ally or allies",
+      "function": "Companions; foils that highlight the protagonist's traits."
+    },
+    {
+      "stage_id": "tr07_opponent_and_or_mystery",
+      "position": 7,
+      "name": "Opponent and/or mystery",
+      "function": "A figure (or system) competing for the same goal."
+    },
+    {
+      "stage_id": "tr08_fake_ally_opponent",
+      "position": 8,
+      "name": "Fake-ally opponent",
+      "function": "A character who appears to help but secretly opposes."
+    },
+    {
+      "stage_id": "tr09_first_revelation_decision",
+      "position": 9,
+      "name": "First revelation and decision",
+      "function": "New information forces a changed plan."
+    },
+    {
+      "stage_id": "tr10_plan",
+      "position": 10,
+      "name": "Plan",
+      "function": "The strategy the protagonist will execute against the opponent."
+    },
+    {
+      "stage_id": "tr11_opponents_plan_main_counterattack",
+      "position": 11,
+      "name": "Opponent's plan and main counterattack",
+      "function": "Antagonist's strategy is revealed; first major counterattack."
+    },
+    {
+      "stage_id": "tr12_drive",
+      "position": 12,
+      "name": "Drive",
+      "function": "Series of actions in pursuit of the goal; protagonist may become increasingly immoral."
+    },
+    {
+      "stage_id": "tr13_attack_by_ally",
+      "position": 13,
+      "name": "Attack by ally",
+      "function": "An ally calls out the protagonist's flaws."
+    },
+    {
+      "stage_id": "tr14_apparent_defeat",
+      "position": 14,
+      "name": "Apparent defeat",
+      "function": "Major loss — appears unrecoverable."
+    },
+    {
+      "stage_id": "tr15_second_revelation_decision_obsessive_drive_changed_desire",
+      "position": 15,
+      "name": "Second revelation and decision",
+      "function": "New insight; obsessive drive replaces or transforms the original desire."
+    },
+    {
+      "stage_id": "tr16_audience_revelation",
+      "position": 16,
+      "name": "Audience revelation",
+      "function": "Audience learns something the protagonist doesn't yet know."
+    },
+    {
+      "stage_id": "tr17_third_revelation_decision",
+      "position": 17,
+      "name": "Third revelation and decision",
+      "function": "Another insight forces another plan change."
+    },
+    {
+      "stage_id": "tr18_gate_gauntlet_visit_to_death",
+      "position": 18,
+      "name": "Gate, gauntlet, visit to death",
+      "function": "Crossing into the climactic space; metaphorical death-encounter."
+    },
+    {
+      "stage_id": "tr19_battle",
+      "position": 19,
+      "name": "Battle",
+      "function": "Climactic confrontation."
+    },
+    {
+      "stage_id": "tr20_self_revelation",
+      "position": 20,
+      "name": "Self-revelation",
+      "function": "Protagonist sees their own moral need clearly — the heart of the story."
+    },
+    {
+      "stage_id": "tr21_moral_decision",
+      "position": 21,
+      "name": "Moral decision",
+      "function": "Acting on the self-revelation; the character chooses rightly under pressure."
+    },
+    {
+      "stage_id": "tr22_new_equilibrium",
+      "position": 22,
+      "name": "New equilibrium",
+      "function": "Aftermath; new state expresses the protagonist's transformation."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "mckee_story": {
+      "tr04_inciting_event": "mc01_inciting_incident",
+      "tr14_apparent_defeat": "mc03_crisis",
+      "tr19_battle": "mc04_climax",
+      "tr20_self_revelation": "mc04_climax",
+      "tr22_new_equilibrium": "mc05_resolution"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "character_driven_film",
+      "moral_argument_stories",
+      "ensemble_documentary",
+      "complex_subjects"
+    ],
+    "weak_for": [
+      "pure_plot_thrillers",
+      "short_form"
+    ],
+    "limitations": "22 steps is too many for routine assembly. Best used as a DIAGNOSTIC checklist: is the moral need present? Is there a self-revelation moment? Has the protagonist's desire transformed? Not as a slot-filling template."
+  },
+  "project_relevance": null
+}

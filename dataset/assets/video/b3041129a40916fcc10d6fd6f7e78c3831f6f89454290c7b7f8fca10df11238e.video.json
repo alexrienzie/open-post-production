@@ -1,0 +1,340 @@
+{
+  "schema_version": 7,
+  "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+  "source_path": "<redacted-source-path>",
+  "filename": "C8962.MP4",
+  "filesize_bytes": 167910898,
+  "mtime": "2024-09-01T15:27:48.0000000Z",
+  "ffprobe": {
+    "duration_sec": 6.01,
+    "width": 3840,
+    "height": 2160,
+    "fps": 59.9401,
+    "codec": "h264",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_codec": "pcm_s16be",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "creation_time": "2024-09-01T16:27:41.000000Z",
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_space": "bt709",
+    "color_range": "tv",
+    "pix_fmt": "yuv422p10le",
+    "color_profile": "rec709",
+    "timecode": "07:51:03:10",
+    "timecode_source": "data_stream_tag_timecode(codec_tag=rtmd)",
+    "timecode_stream_index": 2,
+    "timecode_extracted_at": "2026-05-08T18:40:16Z"
+  },
+  "path_metadata": {
+    "top_level": "shoot_day",
+    "shoot_date": "2024-09-01",
+    "shoot_date_source": "folder",
+    "shoot_label": "Morning W Mike",
+    "category_number": null,
+    "category_name": null,
+    "sub_location": null,
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "sony_c8xxx"
+  },
+  "indexed_at": "2026-05-02T03:10:24Z",
+  "audio_extract": {
+    "path": "~/derivative media/2024-9-1_Morning W Mike/C8962.wav",
+    "format": "wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "filesize_bytes": 192398,
+    "duration_sec": 6.01,
+    "extracted_at": "2026-05-02T20:45:39Z",
+    "ffmpeg_command_hash": "a66cac8010e05c5798f50ceb2d8473bdd75264ca2033002b6b1f46fb2b19994f",
+    "source_ssd_path_at_extraction": "<redacted-source-path>",
+    "audio_quality": {
+      "processed_at": "2026-05-24T22:48:17Z",
+      "wav_path": "<redacted-source-path>",
+      "duration_sec": 6.01,
+      "metrics": {
+        "rms_dbfs": -30.503338339788773,
+        "peak_dbfs": -11.726753566101145,
+        "clipping_ratio": 0.0,
+        "silence_ratio": 0.16980033277870216,
+        "dc_offset": 1.4834475223324262e-05,
+        "low_freq_ratio": 0.14141316042570348,
+        "is_silent": 0,
+        "is_quiet": 1,
+        "is_clippy": 0,
+        "is_windy": 0,
+        "is_usable": 1
+      }
+    }
+  },
+  "primary_timeline_date": "2024-09-01",
+  "date_source": "source_path",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "record_kind": "video",
+  "machine_transcript": true,
+  "human_transcript": false,
+  "proxy": {
+    "path": "~/derivative media/sample/C8962.MP4",
+    "format": "mp4",
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "video_bitrate_kbps": 3000,
+    "keyframe_interval_sec": 1,
+    "source_fps": 59.94,
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 128,
+    "filesize_bytes": 2209294,
+    "duration_sec": 6.01,
+    "encoded_at": "2026-05-04T08:17:29Z",
+    "ffmpeg_command_hash": "db669c79afc9b0d3aa1c28aa9bef4be2635aeb9fab1c8b12cd7582e04f22c579",
+    "source_added_in_v6": false
+  },
+  "shoot_location": {
+    "place": "pl_grand_teton",
+    "source": "path_shoot_label_map",
+    "confidence": 0.85,
+    "_evidence": {
+      "matched_label": "Morning W Mike"
+    }
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "verite"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:05:55Z",
+    "chunks": [
+      {
+        "chunk_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e_whole",
+        "chunk_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 6.01,
+        "model": "gemini-2.5-pro",
+        "subject": "A male runner in athletic gear.",
+        "action": "A man performs a light, dynamic warm-up on a yoga mat next to his camper van. He jogs lightly in place and does side-to-side leg movements. He appears focused and is preparing for a physical activity.",
+        "setting": {
+          "location": "Exterior campsite in a wooded area.",
+          "time_of_day": "golden_hour",
+          "weather": "clear"
+        },
+        "camera": {
+          "shot_size": "WS",
+          "movement": "static",
+          "perspective": "eye_level"
+        },
+        "audio_character": "Ambient, motivational electronic music plays.",
+        "emotional_tone": "Focused, calm, preparatory.",
+        "editorial_notes": "This is good B-roll to establish the character's routine and dedication. It works well in a pre-run preparation montage or as part of a lifestyle sequence.",
+        "key_moments": [
+          {
+            "timestamp_sec": 0.5,
+            "description": "The man begins a dynamic warm-up on a yoga mat."
+          },
+          {
+            "timestamp_sec": 3.2,
+            "description": "He continues his warm-up, shifting his weight from side to side."
+          }
+        ]
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "shots": {
+    "processed_at": "2026-05-24T18:18:02Z",
+    "detector": "PySceneDetect_ContentDetector",
+    "params": {
+      "threshold": 27.0,
+      "min_scene_len": 15
+    },
+    "proxy_path": "<redacted-source-path>",
+    "duration_sec": 6.006,
+    "detect_time_sec": 0.42679405212402344,
+    "n_shots": 1,
+    "items": [
+      {
+        "shot_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 6.006,
+        "duration_sec": 6.006
+      }
+    ]
+  },
+  "shot_quality": {
+    "processed_at": "2026-05-24T22:53:44Z",
+    "items": [
+      {
+        "shot_idx": 0,
+        "n_frames_sampled": 4,
+        "sharpness_score": 781.7102882265633,
+        "motion_score": 24.31571451377486,
+        "exposure_mean": 105.42467928981938,
+        "clipping_ratio": 0.0,
+        "is_blurry": 0,
+        "is_dark": 0,
+        "is_blown": 0,
+        "is_setup_or_teardown": 0,
+        "is_in_focus": 1,
+        "aesthetic_score": 3.7213854789733887,
+        "is_aesthetic": 0
+      }
+    ]
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-24T22:08:37Z",
+    "engines": [
+      "apple_vision",
+      "rapidocr"
+    ],
+    "processed_frames": [
+      {
+        "frame_time_sec": 3.0,
+        "ocr_engine": "apple_vision",
+        "shot_idx": 0,
+        "n_hits": 4,
+        "processed_at": "2026-05-24T22:08:37Z"
+      },
+      {
+        "frame_time_sec": 3.0,
+        "ocr_engine": "rapidocr",
+        "shot_idx": 0,
+        "n_hits": 3,
+        "processed_at": "2026-05-24T22:08:37Z"
+      }
+    ],
+    "items": [
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[904.0000004142858, 345.9999999], [962.0000004142856, 345.9999999], [962.0000004142856, 367.9999999], [904.0000004142858, 367.9999999]]",
+        "text": "BAJA",
+        "confidence": 1.0,
+        "ocr_engine": "apple_vision",
+        "qa_verdict": "consistent",
+        "qa_reason": "Could be a brand name on the camper van or athletic gear.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[1067.805130113797, 233.3532298013517], [1232.1948701040315, 233.3532298013517], [1232.1948701040315, 284.6467707559415], [1067.805130113797, 284.6467707559415]]",
+        "text": "Jayco",
+        "confidence": 0.5,
+        "ocr_engine": "apple_vision",
+        "qa_verdict": "consistent",
+        "qa_reason": "A common brand for camper vans, which is present in the scene.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[1112.0000006374999, 303.99999997500004], [1214.0000006374999, 303.99999997500004], [1214.0000006374999, 343.99999997500004], [1112.0000006374999, 343.99999997500004]]",
+        "text": "BAJA",
+        "confidence": 1.0,
+        "ocr_engine": "apple_vision",
+        "qa_verdict": "consistent",
+        "qa_reason": "Could be a brand name on the camper van or athletic gear.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[1139.9999997, 368.0000000333333], [1175.9999997, 368.0000000333333], [1175.9999997, 388.0000000333333], [1139.9999997, 388.0000000333333]]",
+        "text": "=-",
+        "confidence": 0.5,
+        "ocr_engine": "apple_vision",
+        "qa_verdict": null,
+        "qa_reason": null,
+        "qa_model": null,
+        "qa_verdicted_at": null
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[1070.0, 228.0], [1239.0, 240.0], [1235.0, 291.0], [1067.0, 279.0]]",
+        "text": "Jayco",
+        "confidence": 0.9874794721603394,
+        "ocr_engine": "rapidocr",
+        "qa_verdict": "consistent",
+        "qa_reason": "A common brand for camper vans, which is present in the scene.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[1112.0, 295.0], [1218.0, 303.0], [1214.0, 349.0], [1108.0, 341.0]]",
+        "text": "BAJA",
+        "confidence": 0.9801663607358932,
+        "ocr_engine": "rapidocr",
+        "qa_verdict": "consistent",
+        "qa_reason": "Could be a brand name on the camper van or athletic gear.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      },
+      {
+        "shot_idx": 0,
+        "frame_time_sec": 3.0,
+        "bbox_json": "[[901.0, 342.0], [964.0, 342.0], [964.0, 370.0], [901.0, 370.0]]",
+        "text": "BAJA",
+        "confidence": 0.9970802813768387,
+        "ocr_engine": "rapidocr",
+        "qa_verdict": "consistent",
+        "qa_reason": "Could be a brand name on the camper van or athletic gear.",
+        "qa_model": "gemini-2.5-flash",
+        "qa_verdicted_at": "2026-05-25T18:42:04Z"
+      }
+    ]
+  },
+  "dense_captions": {
+    "processed_at": "2026-05-25T23:58:56Z",
+    "processed_shots": [],
+    "items": [
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 1.5015,
+        "sample_pos": "25%",
+        "caption_text": "subject: A man in athletic wear and a cap. | action: He is performing a balance exercise or warm-up, standing on one leg with the other extended to the side, on a pink yoga mat. His arms are bent at the elbows, hands held in front of his chest. | setting: An outdoor campsite or natural area, with a large white and black 'Jayco Baja' camper trailer parked to his right. The ground is dry grass and dirt, and there are trees in the background under a hazy sky. | framing: wide | mood: Focused, active, preparatory, calm. | editorial_hooks: Man exercising next to a camper trailer; RV parked in a natural setting.",
+        "caption_json": "{\"subject\": \"A man in athletic wear and a cap.\", \"action\": \"He is performing a balance exercise or warm-up, standing on one leg with the other extended to the side, on a pink yoga mat. His arms are bent at the elbows, hands held in front of his chest.\", \"setting\": \"An outdoor campsite or natural area, with a large white and black 'Jayco Baja' camper trailer parked to his right. The ground is dry grass and dirt, and there are trees in the background under a hazy sky.\", \"framing\": \"wide\", \"mood\": \"Focused, active, preparatory, calm.\", \"editorial_hooks\": \"Man exercising next to a camper trailer; RV parked in a natural setting.\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 3.003,
+        "sample_pos": "50%",
+        "caption_text": "subject: A man in athletic wear. | action: A man is performing a side leg raise exercise on a pink yoga mat, standing on one leg with the other extended to the side. He is wearing a light-colored t-shirt, dark shorts, and a baseball cap. | setting: Outdoors in a dry, grassy area next to a white and grey Jayco Baja camper van. A forest with tall trees is visible in the background under a light sky. | framing: wide | mood: Active, focused, preparatory, calm. | editorial_hooks: Man exercising; Camper van parked.",
+        "caption_json": "{\"subject\": \"A man in athletic wear.\", \"action\": \"A man is performing a side leg raise exercise on a pink yoga mat, standing on one leg with the other extended to the side. He is wearing a light-colored t-shirt, dark shorts, and a baseball cap.\", \"setting\": \"Outdoors in a dry, grassy area next to a white and grey Jayco Baja camper van. A forest with tall trees is visible in the background under a light sky.\", \"framing\": \"wide\", \"mood\": \"Active, focused, preparatory, calm.\", \"editorial_hooks\": \"Man exercising; Camper van parked.\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 4.5045,
+        "sample_pos": "75%",
+        "caption_text": "subject: A man in athletic wear. | action: A man is performing a warm-up exercise, standing on one leg with the other leg extended to the side, on a pink yoga mat next to a camper van. | setting: Outdoors, in a natural setting with trees in the background, next to a white and black Jayco Baja camper van. | framing: wide | mood: Focused, active, preparatory. | editorial_hooks: man extends leg to side, man on one leg",
+        "caption_json": "{\"subject\": \"A man in athletic wear.\", \"action\": \"A man is performing a warm-up exercise, standing on one leg with the other leg extended to the side, on a pink yoga mat next to a camper van.\", \"setting\": \"Outdoors, in a natural setting with trees in the background, next to a white and black Jayco Baja camper van.\", \"framing\": \"wide\", \"mood\": \"Focused, active, preparatory.\", \"editorial_hooks\": \"man extends leg to side, man on one leg\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      }
+    ]
+  }
+}

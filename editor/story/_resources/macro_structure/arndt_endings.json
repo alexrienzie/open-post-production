@@ -1,0 +1,74 @@
+{
+  "framework_id": "arndt_endings",
+  "title": "Endings — The Good, The Bad, and the Insanely Great",
+  "author": "Michael Arndt",
+  "year": 2014,
+  "source": "Lecture/essay 'Endings: The Good, The Bad, and the Insanely Great' (Pixar talk + Aerogramme Writers' Studio essay, c. 2014). Arndt wrote Little Miss Sunshine (2006), Toy Story 3 (2010), and shares story credit on Star Wars: The Force Awakens (2015).",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 3,
+  "lineage": {
+    "predecessors": [
+      "mckee_story",
+      "truby_anatomy",
+      "hauge_two_journeys"
+    ],
+    "descendants": [],
+    "siblings": [
+      "dual_dramatic_question"
+    ],
+    "note": "Diagnostic specifically for endings. Argues great endings layer THREE climaxes that detonate in rapid sequence: external (the plot's stated goal), internal (the character's wound/lack), and philosophical (the worldview the antagonist embodied being overturned or vindicated). The 'insanely great' ending fires all three in the same moment."
+  },
+  "stages": [
+    {
+      "stage_id": "ae01_external_climax",
+      "position": 1,
+      "name": "External climax",
+      "function": "The protagonist achieves or definitively fails the STATED goal — the plot question the audience has been tracking since Act I. This is the surface answer. In Toy Story 3 it's escaping the incinerator. In Little Miss Sunshine it's the pageant performance. Crucially, the protagonist often REJECTS this goal at the crisis moment in order to win the internal — and the rejection IS the win."
+    },
+    {
+      "stage_id": "ae02_internal_climax",
+      "position": 2,
+      "name": "Internal climax",
+      "function": "The protagonist resolves the internal wound or lack that was hidden from them at the start. Hauge's Identity-to-Essence move, Truby's self-revelation. This climax is invisible without the external climax to land it against — the audience reads internal change BY watching what the protagonist does at the moment of external crisis."
+    },
+    {
+      "stage_id": "ae03_philosophical_climax",
+      "position": 3,
+      "name": "Philosophical climax",
+      "function": "The antagonist embodied an opposing worldview; the antagonist's defeat (or surrender) is the defeat of that worldview. Star Wars: the Empire's order-through-force loses to the Rebellion's freedom-through-community. Toy Story 3: Lotso's self-protective bitterness loses to Woody's loyalty. Without this layer, the ending is plot resolution but not meaning resolution; the audience leaves entertained but not changed."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Arndt's three climaxes overlap with Truby's late steps (self-revelation, moral decision, new equilibrium) and Hauge's outer/inner journey resolution, but Arndt's distinctive contribution is the THIRD (philosophical) climax and the requirement that all three fire in tight sequence.",
+    "truby_anatomy": {
+      "ae01_external_climax": "tr19_battle",
+      "ae02_internal_climax": "tr20_self_revelation",
+      "ae03_philosophical_climax": "tr21_moral_decision"
+    },
+    "hauge_two_journeys": {
+      "ae01_external_climax": "hg05_climax",
+      "ae02_internal_climax": "hg05_climax"
+    },
+    "mckee_story": {
+      "ae01_external_climax": "mc04_climax",
+      "ae02_internal_climax": "mc04_climax"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "features_with_clear_ending",
+      "transformation_arcs",
+      "character_studies_with_philosophical_stakes",
+      "documentary_with_a_resolution"
+    ],
+    "weak_for": [
+      "observational_documentary",
+      "open_ended_films",
+      "ensemble_without_protagonist"
+    ],
+    "limitations": "Requires three things to be ALREADY PLANTED in Act I: a stated goal, an internal lack, and an antagonist with a coherent opposing worldview. If any of the three are missing at setup, the corresponding climax cannot land. Arndt's diagnostic is therefore as much about Act I planting as about Act III payoff. Also assumes a single protagonist — ensemble films need separate three-climax passes per character."
+  },
+  "project_relevance": null
+}

@@ -1,0 +1,74 @@
+{
+  "framework_id": "natyashastra_sandhi",
+  "title": "Nāṭyaśāstra — Five Sandhis",
+  "author": "Bharata Muni (attributed)",
+  "year": 200,
+  "source": "Nāṭyaśāstra, c. 200 BCE–200 CE. The foundational Sanskrit treatise on dramaturgy, performance, and aesthetics.",
+  "tradition": "non_western",
+  "engine": "rasa",
+  "act_envelope": "five_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "kishotenketsu_four_part"
+    ],
+    "note": "Independent of Aristotle and predates most Western theory. The five 'sandhis' (junctures) divide a play into segments oriented around RASA (aesthetic emotion / flavor) rather than plot conflict. The engine is the audience's emotional response, not the protagonist's struggle."
+  },
+  "stages": [
+    {
+      "stage_id": "ns01_mukha_opening",
+      "position": 1,
+      "name": "Mukha — Opening juncture",
+      "function": "Establish the seed of the action; introduce the principal flavor (rasa) that will dominate."
+    },
+    {
+      "stage_id": "ns02_pratimukha_progression",
+      "position": 2,
+      "name": "Pratimukha — Progression juncture",
+      "function": "Develop the seed; partial actions and rising involvement; obstacles emerge."
+    },
+    {
+      "stage_id": "ns03_garbha_development",
+      "position": 3,
+      "name": "Garbha — Development juncture (the 'womb')",
+      "function": "Concealment, hidden meaning, and apparent setbacks that gestate the resolution. Midpoint of psychological depth."
+    },
+    {
+      "stage_id": "ns04_vimarsha_pause",
+      "position": 4,
+      "name": "Vimarśa — Reflection juncture",
+      "function": "Pause for consideration; the protagonist (and audience) reflect on what has happened; emotional consolidation before the close."
+    },
+    {
+      "stage_id": "ns05_nirvahana_conclusion",
+      "position": 5,
+      "name": "Nirvahana — Conclusion juncture",
+      "function": "Resolution; the principal rasa is fully realized in the audience."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Rough alignment with Western five-act structures (Horace, Freytag, Yorke) but the engine is different. Don't equate Garbha with Freytag's climax-apex even though both sit at the structural center.",
+    "yorke_into_the_woods": {
+      "ns01_mukha_opening": "yo01_act_i_setup",
+      "ns03_garbha_development": "yo03_act_iii_midpoint",
+      "ns05_nirvahana_conclusion": "yo05_act_v_reawakening"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "meditative_documentary",
+      "rasa_oriented_films",
+      "non_western_subject_matter",
+      "essay_film"
+    ],
+    "weak_for": [
+      "thriller",
+      "action",
+      "plot_driven_genre"
+    ],
+    "limitations": "Requires the editor to think in terms of dominant emotional flavors rather than plot beats. Hard to apply to films that audiences expect to follow Western conflict-engine conventions."
+  },
+  "project_relevance": null
+}

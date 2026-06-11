@@ -1,0 +1,91 @@
+{
+  "framework_id": "gulino_sequence",
+  "title": "The Sequence Approach (8 sequences)",
+  "author": "Paul Joseph Gulino",
+  "year": 2004,
+  "source": "Screenwriting: The Sequence Approach, 2004. A legacy of silent-era practice of shipping films on physical reels.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 8,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm"
+    ],
+    "descendants": [],
+    "siblings": [],
+    "note": "Argues the three-act model is too coarse and that films are really built from eight 10-15 minute sequences, each a mini-movie with its own tension and partial resolution. The most useful corrective to 'what do I do in the sagging middle of Act II.'"
+  },
+  "stages": [
+    {
+      "stage_id": "gu01_seq_a",
+      "position": 1,
+      "name": "Sequence A — Status quo + inciting incident",
+      "function": "Establish protagonist and world; the inciting incident lands."
+    },
+    {
+      "stage_id": "gu02_seq_b",
+      "position": 2,
+      "name": "Sequence B — Predicament and lock-in",
+      "function": "Protagonist commits to a course of action; the new direction is locked in."
+    },
+    {
+      "stage_id": "gu03_seq_c",
+      "position": 3,
+      "name": "Sequence C — First obstacle, raising stakes",
+      "function": "Initial attempt to solve the problem fails; stakes raised."
+    },
+    {
+      "stage_id": "gu04_seq_d",
+      "position": 4,
+      "name": "Sequence D — First culmination / midpoint",
+      "function": "A second, partial culmination — what looked like the goal turns out to be something else, or the real problem becomes visible."
+    },
+    {
+      "stage_id": "gu05_seq_e",
+      "position": 5,
+      "name": "Sequence E — Subplot and rising action",
+      "function": "Subplot intensifies; the protagonist tries new tactics."
+    },
+    {
+      "stage_id": "gu06_seq_f",
+      "position": 6,
+      "name": "Sequence F — Main culmination, end of Act II",
+      "function": "Major setback / all is lost / point of decision."
+    },
+    {
+      "stage_id": "gu07_seq_g",
+      "position": 7,
+      "name": "Sequence G — New tension and twist",
+      "function": "Act III opens with new conditions; final approach to the climax."
+    },
+    {
+      "stage_id": "gu08_seq_h",
+      "position": 8,
+      "name": "Sequence H — Resolution",
+      "function": "Climax and aftermath."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "field_paradigm": {
+      "gu02_seq_b": "fd02_plot_point_1",
+      "gu04_seq_d": "fd04_midpoint",
+      "gu06_seq_f": "fd05_plot_point_2",
+      "gu08_seq_h": "fd06_climax"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "feature_film_assembly",
+      "act_ii_diagnostics",
+      "long_form_documentary",
+      "reels_thinking"
+    ],
+    "weak_for": [
+      "short_form",
+      "experimental"
+    ],
+    "limitations": "Requires identifying eight clear local tension/resolution arcs; if the material has only three or four, forcing eight feels artificial."
+  },
+  "project_relevance": null
+}

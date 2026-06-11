@@ -1,0 +1,17 @@
+{
+  "act_id": "sample",
+  "label": "Sample scene",
+  "timeline_range_frames": [0, 372],
+  "timeline_range_seconds": [0.0, 15.516],
+  "frame_rate": "24000/1001",
+  "_note": "Beats manifest for the shipped end-to-end example (scene_sample.v1.xml). The 'act' is just the scoping unit — name yours however you like and partition it into as many beats as the cut needs.",
+  "beats": [
+    {
+      "id": "b_01",
+      "label": "Sample beat",
+      "timeline_range_frames": [0, 372],
+      "timeline_range_seconds": [0.0, 15.516],
+      "boundary_anchors": {"start_frame": 0, "end_frame": 372}
+    }
+  ]
+}

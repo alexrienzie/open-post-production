@@ -1,0 +1,115 @@
+{
+  "schema_version": 5,
+  "asset_id": "50b6de0fd0c800f81735c2675c8ac4e506e8b019a21416b614b2689ca2c5df4f",
+  "manifest": {
+    "current_version": 1,
+    "model": {
+      "engine": "whisperKit",
+      "id": "openai_whisper-large-v3-v20240930_626MB"
+    },
+    "language": "en",
+    "transcribed_at": "2026-05-07T07:09:58.669Z",
+    "updated_at": "2026-05-07T13:09:01Z",
+    "_macwhisper_session_id": "D5EEB29B568D44AFA5084E8DB79DCA45"
+  },
+  "playback_duration_sec": 11.5115,
+  "diarized": true,
+  "speakers_raw": {},
+  "full_text": "",
+  "segments": [],
+  "speakers": [],
+  "moment_ids": [],
+  "record_kind": "transcript",
+  "primary_timeline_date": "2025-09-26",
+  "analysis": {
+    "segment_corrections": [],
+    "speaker_attributions": [],
+    "relevant_spans": [],
+    "summary_one_line": "A lone runner, likely Michelino Sunseri, traverses an alpine slope during the World Championships in Spain.",
+    "summary_paragraph": "This short verite clip captures a lone runner moving across a vast, grassy alpine slope with rugged mountain peaks in the distance. The unsteady camera suggests motion, emphasizing the runner's solitary endurance in a challenging environment, likely during the World Championships in Canfranc, Spain, as part of Michelino Sunseri's 2025 season.",
+    "themes": [
+      "solitude",
+      "endurance",
+      "alpine_running",
+      "vastness"
+    ],
+    "topics": [
+      "running",
+      "trail_running",
+      "mountains",
+      "spain",
+      "world_championships"
+    ],
+    "storylines": [
+      "ms_fkt"
+    ],
+    "tone": {
+      "mood": "reflective",
+      "energy": "medium",
+      "formality": "conversational"
+    },
+    "craft": {
+      "audio_quality": "clean",
+      "context_signals_used": [
+        "asset_semantic_summary",
+        "asset_type",
+        "shoot_label",
+        "duration_sec"
+      ]
+    },
+    "people_ids": [
+      "p_michelino_sunseri"
+    ],
+    "org_ids": [],
+    "place_ids": [],
+    "_unmatched_people": [],
+    "_unmatched_orgs": [],
+    "_unmatched_places": [],
+    "moment_ids": [],
+    "key_moments": [
+      {
+        "start_sec": 0.0,
+        "end_sec": 11.5115,
+        "label": "Lone runner traverses alpine slope at Worlds",
+        "summary": "A lone runner is seen traversing a wide, grassy alpine slope, with distant mountains in the background, conveying a sense of solitary endurance during the World Championships.",
+        "categories": [
+          "story",
+          "b_roll_anchor"
+        ],
+        "moment_ids": [
+          "mom_023"
+        ],
+        "subjects_on_camera": [
+          "p_michelino_sunseri"
+        ],
+        "salience": 0.9,
+        "key_quote_idxs": []
+      }
+    ],
+    "key_quotes": [],
+    "analyzed_at": "2026-05-26T05:38:04Z",
+    "analyzer": "g023_flash_meta_v1",
+    "prompt_sha256": "31cc593fb4f8880dd01f6d0687fbdceebc1012b562fc353e2236516bb9afd06a",
+    "_applied_corrections": [],
+    "_apply_run_id": "g023_full_20260526T032314Z"
+  },
+  "craft": {
+    "shot_kind": "b-roll",
+    "audio_quality": "clean"
+  },
+  "embedding_anchor": {},
+  "_unmatched_people": [],
+  "_unmatched_orgs": [],
+  "_unmatched_places": [],
+  "corrections": [],
+  "_correction_candidates": [],
+  "speaker_provenance": {
+    "schema_version": 1,
+    "sidecar": "_audit/transcript_provenance/50b6de0fd0c800f81735c2675c8ac4e506e8b019a21416b614b2689ca2c5df4f.json"
+  },
+  "subject_of_interview": null,
+  "people_ids": [],
+  "org_ids": [],
+  "place_ids": [],
+  "analyzed_at": "2026-05-26T05:38:04Z"
+}

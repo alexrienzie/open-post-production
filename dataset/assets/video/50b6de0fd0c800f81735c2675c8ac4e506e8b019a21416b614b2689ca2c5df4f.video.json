@@ -1,0 +1,276 @@
+{
+  "schema_version": 7,
+  "asset_id": "50b6de0fd0c800f81735c2675c8ac4e506e8b019a21416b614b2689ca2c5df4f",
+  "source_path": "<redacted-source-path>",
+  "filename": "C0443.MP4",
+  "filesize_bytes": 201473044,
+  "mtime": "2025-09-26T00:18:58Z",
+  "ffprobe": {
+    "duration_sec": 11.5115,
+    "width": 3840,
+    "height": 2160,
+    "fps": 23.976,
+    "codec": "hevc",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_codec": "pcm_s16be",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "creation_time": "2025-09-26T09:18:45.000000Z",
+    "color_primaries": null,
+    "color_transfer": null,
+    "color_space": null,
+    "color_range": "pc",
+    "pix_fmt": "yuv422p10le",
+    "color_profile": "unknown",
+    "timecode": "13:53:50:16",
+    "timecode_source": "data_stream_tag_timecode(codec_tag=rtmd)",
+    "timecode_stream_index": 2,
+    "timecode_extracted_at": "2026-05-08T18:16:13Z"
+  },
+  "path_metadata": {
+    "top_level": "shoot_day",
+    "shoot_date": "2025-09-25",
+    "shoot_date_source": "folder",
+    "shoot_label": "World's Canfranc Spain",
+    "category_number": null,
+    "category_name": null,
+    "sub_location": null,
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "unknown"
+  },
+  "indexed_at": "2026-05-07T03:11:35Z",
+  "primary_timeline_date": "2025-09-26",
+  "date_source": "camera_metadata",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "record_kind": "video",
+  "machine_transcript": true,
+  "shoot_location": {
+    "place": "pl_alpine",
+    "source": "place_matcher"
+  },
+  "location": null,
+  "human_transcript": false,
+  "proxy": {
+    "path": "~/derivative media/sample/C0443.MP4",
+    "format": "mp4",
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "video_bitrate_kbps": 3000,
+    "keyframe_interval_sec": 1,
+    "source_fps": 23.976,
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 128,
+    "filesize_bytes": 4248675,
+    "duration_sec": 11.5115,
+    "encoded_at": "2026-05-07T22:57:54Z",
+    "ffmpeg_command_hash": "db669c79afc9b0d3aa1c28aa9bef4be2635aeb9fab1c8b12cd7582e04f22c579",
+    "source_added_in_v6": true
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "verite"
+  },
+  "audio_extract": {
+    "path": "~/derivative media/2025-9-25_World's Canfranc Spain/C0443.wav",
+    "format": "wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "filesize_bytes": 368546,
+    "duration_sec": 11.5115,
+    "extracted_at": "2026-05-20T22:51:27Z",
+    "backfill_batch": "has_audio_extract_backfill_2026-05-20",
+    "audio_quality": {
+      "processed_at": "2026-05-24T22:50:32Z",
+      "wav_path": "<redacted-source-path>",
+      "duration_sec": 11.5115,
+      "metrics": {
+        "rms_dbfs": -52.58971342961094,
+        "peak_dbfs": -26.440940637946007,
+        "clipping_ratio": 0.0,
+        "silence_ratio": 0.9689115232593494,
+        "dc_offset": 4.149889718974009e-06,
+        "low_freq_ratio": 0.8765057037387106,
+        "is_silent": 1,
+        "is_quiet": 0,
+        "is_clippy": 0,
+        "is_windy": 0,
+        "is_usable": 0
+      }
+    }
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:05:04Z",
+    "chunks": [
+      {
+        "chunk_id": "50b6de0fd0c800f81735c2675c8ac4e506e8b019a21416b614b2689ca2c5df4f_whole",
+        "chunk_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 11.5115,
+        "model": "gemini-2.5-pro",
+        "subject": "A lone runner",
+        "action": "A lone runner traverses a wide, grassy alpine slope from left to right. The camera follows, capturing the runner's steady pace against a backdrop of distant, rugged mountain peaks. The camera movement is unsteady, suggesting it was captured while also in motion.",
+        "setting": {
+          "location": "Exterior, alpine slope",
+          "time_of_day": "midday",
+          "weather": "clear"
+        },
+        "camera": {
+          "shot_size": "WS",
+          "movement": "handheld",
+          "perspective": "high_angle"
+        },
+        "audio_character": "Sync sound of footsteps on grass and rock.",
+        "emotional_tone": "Solitary endurance, vastness",
+        "editorial_notes": "A raw, verite shot that places the runner's effort within a massive landscape. Useful for a training or race sequence to convey the scale of the challenge.",
+        "key_moments": [
+          {
+            "timestamp_sec": 2,
+            "description": "A wide shot establishes a runner moving across a vast alpine meadow."
+          },
+          {
+            "timestamp_sec": 8,
+            "description": "The camera continues to track the runner, emphasizing the scale of the surrounding mountains."
+          }
+        ]
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "place_ids": [
+    "pl_alpine",
+    "pl_united_states",
+    "pl_wyoming"
+  ],
+  "place_match": {
+    "location_text": "Exterior, alpine slope",
+    "matches": [
+      {
+        "pl_id": "pl_alpine",
+        "source": "semantic_location",
+        "matched_phrase": "Alpine",
+        "confidence": "medium",
+        "location_text": "Exterior, alpine slope"
+      }
+    ],
+    "sources": {
+      "pl_alpine": [
+        "semantic_location"
+      ],
+      "pl_wyoming": [
+        "parent_inherit"
+      ],
+      "pl_united_states": [
+        "parent_inherit"
+      ]
+    }
+  },
+  "shots": {
+    "processed_at": "2026-05-24T18:16:52Z",
+    "detector": "PySceneDetect_ContentDetector",
+    "params": {
+      "threshold": 27.0,
+      "min_scene_len": 15
+    },
+    "proxy_path": "<redacted-source-path>",
+    "duration_sec": 11.5115,
+    "detect_time_sec": 0.3219027519226074,
+    "n_shots": 1,
+    "items": [
+      {
+        "shot_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 11.5115,
+        "duration_sec": 11.5115
+      }
+    ]
+  },
+  "shot_quality": {
+    "processed_at": "2026-05-24T22:52:36Z",
+    "items": [
+      {
+        "shot_idx": 0,
+        "n_frames_sampled": 4,
+        "sharpness_score": 214.20743073491565,
+        "motion_score": 18.299314677978472,
+        "exposure_mean": 125.01858408593323,
+        "clipping_ratio": 0.0,
+        "is_blurry": 0,
+        "is_dark": 0,
+        "is_blown": 0,
+        "is_setup_or_teardown": 0,
+        "is_in_focus": 1,
+        "aesthetic_score": 3.0077881813049316,
+        "is_aesthetic": 0
+      }
+    ]
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 5.76,
+        "ocr_engine": "apple_vision",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:28:19Z"
+      },
+      {
+        "frame_time_sec": 5.76,
+        "ocr_engine": "rapidocr",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:28:19Z"
+      }
+    ],
+    "items": []
+  },
+  "dense_captions": {
+    "processed_at": "2026-05-25T23:53:10Z",
+    "processed_shots": [],
+    "items": [
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 2.877875,
+        "sample_pos": "25%",
+        "caption_text": "subject: A lone runner | action: A person runs across a vast, grassy mountain slope, moving from left to right. | setting: A rugged, high-altitude mountain landscape with sparse vegetation and distant, imposing peaks under a clear sky. | framing: wide | mood: Solitary, adventurous, expansive, challenging | editorial_hooks: The runner is a small figure in a grand landscape, emphasizing scale and solitude.",
+        "caption_json": "{\"subject\": \"A lone runner\", \"action\": \"A person runs across a vast, grassy mountain slope, moving from left to right.\", \"setting\": \"A rugged, high-altitude mountain landscape with sparse vegetation and distant, imposing peaks under a clear sky.\", \"framing\": \"wide\", \"mood\": \"Solitary, adventurous, expansive, challenging\", \"editorial_hooks\": \"The runner is a small figure in a grand landscape, emphasizing scale and solitude.\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 5.75575,
+        "sample_pos": "50%",
+        "caption_text": "subject: A lone runner | action: A lone runner is seen in the lower left of the frame, running across a wide, grassy, and rocky mountain slope from left to right. | setting: A vast mountain landscape with rolling grassy hills, scattered rocks, and distant rugged peaks under a clear, bright sky. | framing: wide | mood: Expansive, serene, athletic, solitary | editorial_hooks: runner on mountain slope, distant mountain peaks",
+        "caption_json": "{\"subject\": \"A lone runner\", \"action\": \"A lone runner is seen in the lower left of the frame, running across a wide, grassy, and rocky mountain slope from left to right.\", \"setting\": \"A vast mountain landscape with rolling grassy hills, scattered rocks, and distant rugged peaks under a clear, bright sky.\", \"framing\": \"wide\", \"mood\": \"Expansive, serene, athletic, solitary\", \"editorial_hooks\": \"runner on mountain slope, distant mountain peaks\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 8.633625,
+        "sample_pos": "75%",
+        "caption_text": "subject: A lone runner | action: A lone runner is seen from a distance, moving across a vast, gently sloping grassy mountain terrain. | setting: A wide, open alpine landscape featuring expansive grassy slopes, scattered rocks, and rugged, distant mountain peaks under a clear, bright sky. | framing: extreme-wide | mood: Expansive, solitary, serene, adventurous | editorial_hooks: runner on vast slope, distant mountains",
+        "caption_json": "{\"subject\": \"A lone runner\", \"action\": \"A lone runner is seen from a distance, moving across a vast, gently sloping grassy mountain terrain.\", \"setting\": \"A wide, open alpine landscape featuring expansive grassy slopes, scattered rocks, and rugged, distant mountain peaks under a clear, bright sky.\", \"framing\": \"extreme-wide\", \"mood\": \"Expansive, solitary, serene, adventurous\", \"editorial_hooks\": \"runner on vast slope, distant mountains\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      }
+    ]
+  }
+}

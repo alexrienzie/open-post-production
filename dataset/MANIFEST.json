@@ -1,0 +1,168 @@
+{
+  "workspace_version": "2026-05-04",
+  "generated_at": "2026-06-11T01:33:51.569331+00:00",
+  "schema_versions": {
+    "video": 7,
+    "audio": 5,
+    "still": 4,
+    "transcript": 5,
+    "article": 3,
+    "comment": 3,
+    "social_post": 2,
+    "people_registry": 2,
+    "orgs_registry": 1,
+    "places_registry": 1
+  },
+  "catalogs": [
+    {
+      "id": "video",
+      "path": "assets/video/",
+      "schema_version": 7,
+      "primary_key": "asset_id",
+      "record_count": 6,
+      "foreign_keys": {
+        "linked_assets": "typed edges: video/audio/stills buckets → target_asset_id + link_kind + established_by",
+        "transcript": "assets/transcripts/{asset_id}.transcript.json (people/org/moment tags live here; presence ⇒ machine transcript)"
+      }
+    },
+    {
+      "id": "audio",
+      "path": "assets/audio/",
+      "schema_version": 5,
+      "primary_key": "asset_id",
+      "record_count": 0,
+      "foreign_keys": {
+        "linked_assets": "typed edges (e.g. audio_video_transcript → video; same_kind_audio → audio)",
+        "transcript": "assets/transcripts/{asset_id}.transcript.json (entity tags)"
+      }
+    },
+    {
+      "id": "still",
+      "path": "assets/stills/",
+      "schema_version": 4,
+      "primary_key": "asset_id",
+      "record_count": 2,
+      "foreign_keys": {
+        "linked_assets": "typed edges (e.g. still_to_video → video)"
+      }
+    },
+    {
+      "id": "transcript",
+      "path": "assets/transcripts/",
+      "schema_version": 5,
+      "primary_key": "asset_id (matches video/audio asset_id)",
+      "record_count": 4,
+      "foreign_keys": {
+        "people_ids[]": "people/people.json#people[].id",
+        "org_ids[]": "organizations/orgs.json#organizations[].id",
+        "speakers[].p_id": "people/people.json#people[].id",
+        "asset_id": "assets/{video,audio}/{asset_id}.{kind}.json",
+        "moment_ids[]": "story/moments.json#moments_outline[].moment_id"
+      }
+    },
+    {
+      "id": "article",
+      "path": "documents/press/articles/",
+      "schema_version": 3,
+      "primary_key": "article_id",
+      "record_count": 1,
+      "foreign_keys": {
+        "people_ids[]": "people/people.json#people[].id",
+        "org_ids[]": "organizations/orgs.json#organizations[].id",
+        "moment_ids[]": "story/moments.json#moments_outline[].moment_id"
+      }
+    },
+    {
+      "id": "comment",
+      "path": "documents/press/comments/",
+      "schema_version": 3,
+      "primary_key": "comment_id",
+      "record_count": 0,
+      "foreign_keys": {
+        "parent.id (kind=article)": "documents/press/articles/{article_id}.json",
+        "parent.id (kind=social_post)": "documents/press/social_posts/{post_id}.json",
+        "people_ids[]": "people/people.json#people[].id",
+        "org_ids[]": "organizations/orgs.json#organizations[].id",
+        "moment_ids[]": "story/moments.json#moments_outline[].moment_id"
+      }
+    },
+    {
+      "id": "social_post",
+      "path": "documents/press/social_posts/",
+      "schema_version": 2,
+      "primary_key": "post_id",
+      "record_count": 0,
+      "foreign_keys": {
+        "people_ids[]": "people/people.json#people[].id",
+        "org_ids[]": "organizations/orgs.json#organizations[].id",
+        "moment_ids[]": "story/moments.json#moments_outline[].moment_id",
+        "comments[]": "documents/press/comments/{comment_id}.json"
+      }
+    }
+  ],
+  "registries": [
+    {
+      "id": "people",
+      "path": "people/people.json",
+      "schema_version": 2,
+      "registry_version": "sample-1",
+      "record_count": 3,
+      "primary_key": "id"
+    },
+    {
+      "id": "orgs",
+      "path": "organizations/orgs.json",
+      "schema_version": 1,
+      "registry_version": "sample-1",
+      "record_count": 1,
+      "primary_key": "id"
+    },
+    {
+      "id": "moments",
+      "path": "story/moments.json",
+      "schema_version": 3,
+      "record_count": 2,
+      "primary_key": "moment_id"
+    },
+    {
+      "id": "places",
+      "path": "places/places.json",
+      "schema_version": 1,
+      "registry_version": "sample-1",
+      "record_count": 10,
+      "primary_key": "id"
+    }
+  ],
+  "join_views": {
+    "editorial_catalog": {
+      "path": "../indexes/editorial_catalog.sqlite",
+      "note": "stdlib sqlite3; DuckDB can ATTACH this file later",
+      "built_by": "_scripts/build_editor_db.py",
+      "views": [
+        "v_asset",
+        "v_segment",
+        "v_event",
+        "v_press_mention",
+        "v_person_appearance"
+      ]
+    },
+    "clip_and_still_embeddings": {
+      "path": "../indexes/clip_and_still_embeddings.sqlite",
+      "note": "Optional sidecar (not produced by rebuild_all). SigLIP vectors + chunk registry (semantic_chunks/semantic_stills rows without JSON after slim). Editorial text lives in catalog asset_semantic_summary. Tables: semantic_chunks, clip_embeddings, semantic_stills, still_embeddings.",
+      "tables": [
+        "semantic_chunks",
+        "clip_embeddings",
+        "semantic_stills",
+        "still_embeddings"
+      ]
+    },
+    "transcript_rolling_embeddings": {
+      "path": "../indexes/transcript_rolling_embeddings.sqlite",
+      "note": "Optional. Rolling-window transcript text embeddings (float32 BLOB). Built by `_scripts/transcripts/embed_transcript_rolling_windows.py`.",
+      "tables": [
+        "embedding_run",
+        "transcript_window_embedding"
+      ]
+    }
+  }
+}

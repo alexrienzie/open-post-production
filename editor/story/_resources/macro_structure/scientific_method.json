@@ -1,0 +1,77 @@
+{
+  "framework_id": "scientific_method",
+  "title": "The Scientific Method as Story Shape",
+  "author": "(borrowed framework)",
+  "year": null,
+  "source": "The standard scientific-inquiry sequence (problem → research → hypothesis → experiment → analysis → conclusion). Inclusion in the chart is semi-tongue-in-cheek but makes the deeper point explicit: inquiry has the same dramatic shape as story.",
+  "tradition": "borrowed",
+  "engine": "inquiry",
+  "act_envelope": "free",
+  "resolution": 6,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "kubler_ross_grief",
+      "vonnegut_shapes"
+    ],
+    "note": "Not narrative theory; an investigative shape borrowed for stories where the engine is question-and-discovery rather than antagonist-and-conflict. Genuinely useful for investigative and 'uncovering the truth' documentaries."
+  },
+  "stages": [
+    {
+      "stage_id": "sm01_problem",
+      "position": 1,
+      "name": "Problem",
+      "function": "Initial disturbance — an injustice, a mystery, an anomaly. The thing that demands explanation."
+    },
+    {
+      "stage_id": "sm02_research",
+      "position": 2,
+      "name": "Research",
+      "function": "Background gathering. Reading, interviewing, surveying the landscape."
+    },
+    {
+      "stage_id": "sm03_hypothesis",
+      "position": 3,
+      "name": "Hypothesis",
+      "function": "A tentative explanation forms. 'I think it's X because Y.'"
+    },
+    {
+      "stage_id": "sm04_experiment",
+      "position": 4,
+      "name": "Experiment",
+      "function": "Test the hypothesis. In documentary: confront a source, request a record, attempt an action that will produce evidence."
+    },
+    {
+      "stage_id": "sm05_analysis",
+      "position": 5,
+      "name": "Analysis",
+      "function": "Read the result. Did the experiment confirm or refute? What does it mean?"
+    },
+    {
+      "stage_id": "sm06_conclusion",
+      "position": 6,
+      "name": "Conclusion",
+      "function": "The answer to the original problem. The 'aha.' May be public-facing (publication / verdict) or internal (the protagonist now KNOWS)."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "vonnegut_shapes": {
+      "_note": "Scientific Method threads typically trace a 'Man in Hole' or 'Cinderella' shape — descent into uncertainty, then breakthrough."
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "investigative_documentary",
+      "mystery_thread",
+      "uncovering_truth_films",
+      "legal_revelation_stories"
+    ],
+    "weak_for": [
+      "pure_character_drama",
+      "no_inquiry_required"
+    ],
+    "limitations": "Only useful where there is a real INVESTIGATION — a question that begins ambiguous and resolves. Don't impose this on material that isn't shaped this way."
+  },
+  "project_relevance": null
+}

@@ -1,0 +1,118 @@
+{
+  "id": "editing_room_tactical",
+  "display_name": "Editing-room tactical — Murch tradition (cut on emotion, audio leads, L/J cuts)",
+  "family": "editing_room_tactical",
+  "tradition_id": "murch",
+  "attribution": {
+    "work": "In the Blink of an Eye (Murch, 2001) and the broader picture-editing craft tradition",
+    "author": "Walter Murch, Thelma Schoonmaker, Anne V. Coates (synthesized)",
+    "usage_note": "Principles that operate at the level of single cuts and short sequences. These are the moves an editor reaches for while actually working a scene — what to cut on, where to overlap audio, when to hold. Not theory; tools."
+  },
+  "application_guidance": "Use during fine-cut review of any scene. These principles diagnose problems at the seam between shots, not at the scene level. A scene that 'feels off' but is structurally correct usually has a micro-cut problem — wrong beat to cut on, picture and audio aligned when they shouldn't be, an entrance that should have been trimmed.",
+  "principles": [
+    {
+      "id": "cut_on_emotion_not_dialogue",
+      "label": "Cut on emotion, not on dialogue",
+      "description": "The strongest cut respects the emotional arc of the scene, not the verbal arc. Cutting at the end of every sentence produces a metronome cut that audiences read as mechanical. Cutting at emotional transitions — the moment the speaker's certainty flickers, the beat before the answer arrives — produces a cut audiences feel as inevitable.",
+      "documentary_application": "Review every cut in a scene: is this cut on a verbal beat (end of sentence, period, breath) or on an emotional beat (realization, decision, shift)? If most cuts in a scene are on verbal beats, the scene will read as transcription rather than experience. Find at least one or two cuts that land on emotion instead.",
+      "review_questions": [
+        "Where in this scene does the cut hit emotion, and where does it just hit a period?",
+        "Is there a moment of realization, doubt, or decision the cut should respect instead of the next sentence?",
+        "Would removing two-thirds of the cuts in this scene improve it?"
+      ],
+      "tags": ["cuts", "interview", "any_beat"],
+      "see_also": ["editing_room_tactical/trim_entrance_keep_exit"]
+    },
+    {
+      "id": "l_cut_j_cut",
+      "label": "L-cut and J-cut — let audio lead or trail picture",
+      "description": "An L-cut keeps the outgoing scene's audio playing under the incoming picture (audio trails). A J-cut starts the incoming scene's audio early under the outgoing picture (audio leads). Both soften the transition and make the cut feel motivated rather than mechanical. Straight cuts (audio and picture changing simultaneously) are the harshest transition; reserve them for moments that should jolt.",
+      "documentary_application": "Audit scene-to-scene transitions: how many are straight cuts? If most are, the film will feel like a slideshow. Introduce J-cuts on transitions where the next scene's context should arrive before its image (e.g., 'the next morning' VO under the previous night). Use L-cuts where the previous scene's emotion should bleed into the new one.",
+      "review_questions": [
+        "How does each scene-to-scene transition in this stretch handle audio? Straight cut, L, or J?",
+        "Is there a transition where the next scene's audio should arrive early to motivate the cut?",
+        "Am I leaning on a music transition where an audio-only J-cut would do the work without genre noise?"
+      ],
+      "tags": ["transitions", "audio", "any_beat"],
+      "see_also": ["editing_room_tactical/audio_leads_picture", "rhythm_pacing/bridge_shot"]
+    },
+    {
+      "id": "audio_leads_picture",
+      "label": "Audio leads picture into new space",
+      "description": "When the cut moves the audience to a new location, audio establishes the new space before the image confirms it. Two seconds of street noise under the previous interior tells the audience 'we're going outside' before the exterior shot lands; the image then confirms what the ear already knows. The audience finds the cut earned, even unconsciously.",
+      "documentary_application": "Audit every location change in the cut. Does the audio of the new space arrive under the tail of the previous shot, or does it slam in with the picture? The second option is louder than necessary and reads as abrupt. The first option is invisible craft.",
+      "review_questions": [
+        "Does this location change have audio pre-lap from the new space?",
+        "If not, would 1–2 seconds of pre-lap make the transition softer without weakening anything?",
+        "Where in this scene is audio doing structural work the image isn't?"
+      ],
+      "tags": ["transitions", "audio", "locations"],
+      "see_also": ["editing_room_tactical/l_cut_j_cut"]
+    },
+    {
+      "id": "trim_entrance_keep_exit",
+      "label": "Trim the entrance, keep the exit",
+      "description": "The first second of a shot is usually disposable — the camera settling, the speaker preparing. The last second is usually load-bearing — the moment AFTER the spoken word, when the reaction lands. Editors who don't know this trim equally on both ends and produce scenes that feel rushed at the end of every beat. The rule of thumb: cut into a shot as late as possible, cut out of it as late as you can stand.",
+      "documentary_application": "For each shot in the cut, ask: would removing the first 8 frames lose anything? Would removing the last 8 frames lose anything? The first answer is usually no; the second is usually yes. Keep the back-ends of shots and trim aggressively at the front.",
+      "review_questions": [
+        "Could the first half-second of each shot in this scene be trimmed?",
+        "Are there shots where the last second is the actual content — and is it intact?",
+        "Am I cutting on the speaker's final word, or one beat after?"
+      ],
+      "tags": ["cuts", "trim", "any_beat"],
+      "see_also": ["editing_room_tactical/cut_on_emotion_not_dialogue", "rhythm_pacing/wait_one_beat"]
+    },
+    {
+      "id": "dont_see_same_beat_twice",
+      "label": "Don't see the same beat twice (action overlap)",
+      "description": "When intercutting two angles of the same action — a stand-up filmed from two cameras, an interviewee photographed from two positions — the cut must happen IN the middle of the action, not at full position. If the speaker stands up in angle A and the cut to angle B shows them standing up again, the audience reads the cut as a continuity break. Cut while motion is in progress.",
+      "documentary_application": "For multicam interview sequences and any cross-cut action: are cuts happening mid-motion (correct) or at rest positions (incorrect)? A subtle mistake; cumulatively it makes the cut feel wrong without the audience knowing why.",
+      "review_questions": [
+        "Are any multicam cuts in this scene landing on identical rest positions in both angles?",
+        "Where motion crosses the cut, does the motion continue or restart?",
+        "If I see the same gesture finishing twice, the cut is wrong."
+      ],
+      "tags": ["multicam", "continuity", "cuts"],
+      "see_also": []
+    },
+    {
+      "id": "pace_by_feeling_not_clock",
+      "label": "Pace by feeling, not by the clock",
+      "description": "Two scenes of identical duration can read as fast or slow depending on shot density, content density, and audience load. The clock isn't pace; the editing feels pace. A 90-second scene with 30 cuts is fast; the same 90 seconds with 4 cuts is slow. The choice is content-driven, not duration-driven.",
+      "documentary_application": "When a scene 'feels slow' to test viewers, the instinct is to shorten it. Often the right answer is to reduce shot count without changing duration — let the existing footage breathe in fewer, longer takes. When a scene 'feels rushed,' more cuts may not help; longer takes give content room to land.",
+      "review_questions": [
+        "Does this scene feel slow because it's long, or because it's over-cut?",
+        "Could shot count be reduced without trimming runtime?",
+        "Could runtime be extended without adding new content, simply by holding longer?"
+      ],
+      "tags": ["pacing", "shot_count"],
+      "see_also": ["rhythm_pacing/inhale_exhale"]
+    },
+    {
+      "id": "match_motion_across_cut",
+      "label": "Match motion across the cut",
+      "description": "When two shots are adjacent, motion in shot A flowing into similar motion in shot B is the strongest, most invisible cut. A walking left-to-right cuts into a walking left-to-right with no friction. A handheld pan cuts into another handheld pan. The eye carries the motion across the seam and doesn't register the cut as a cut.",
+      "documentary_application": "Look at the motion in each shot of a sequence. Can adjacent shots be re-ordered to match motion direction or motion type? Often a small re-sequencing produces a sequence that flows where the original sequence jumped. Documentary editors who don't think about motion get unwarranted reputations for choppy cutting.",
+      "review_questions": [
+        "Is the motion in each shot of this sequence carried across the cut, or interrupted?",
+        "Could re-ordering two adjacent shots align motion better?",
+        "Are any cuts in this sequence reversing direction or jolting the eye?"
+      ],
+      "tags": ["motion", "continuity", "sequences"],
+      "see_also": []
+    },
+    {
+      "id": "pull_dont_push",
+      "label": "Pull, don't push",
+      "description": "The next shot should earn its appearance — pulled in by something the previous shot promises. Pushing (cutting just because the previous shot is over) produces a sequence the audience experiences as arbitrary. Pulling (cutting when the next shot answers something the previous one asked) produces a sequence that feels causal.",
+      "documentary_application": "For each cut, ask: what question does the outgoing shot leave the audience with, and does the incoming shot answer it (or sharpen it)? If the answer is 'no question was asked,' the cut is push, not pull. Re-cut or re-order until each shot's exit creates appetite for the next one's entry.",
+      "review_questions": [
+        "What question does the outgoing shot leave?",
+        "Does the incoming shot answer that question, or does it just appear?",
+        "Where in this sequence is the editor PUSHING rather than the material PULLING?"
+      ],
+      "tags": ["cuts", "structure", "sequences"],
+      "see_also": ["snyder_principles/lay_pipe"]
+    }
+  ]
+}

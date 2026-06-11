@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "registry_version": "sample-1",
+    "note": "Sample slice of the full registry (3 of 291 records: the filmmakers + the film's subject). The full registry carries every on-camera person with aliases, roles, relationships, and confidence; see dataset_SCHEMA.md § Registry and timeline design patterns.",
+    "total_count": 3
+  },
+  "schema_version": 2,
+  "generated_at": "2026-06-10T19:24:08.715396+00:00",
+  "name_resolution_rules": [
+    {
+      "pattern": "Mike",
+      "default_resolution": "p_michelino_sunseri",
+      "exceptions": [
+        "<other Mike + disambiguating context, one entry per known exception>"
+      ],
+      "scope": "transcripts, sequence_of_events",
+      "note": "In transcripts and Connor's sequence, default Mike -> Michelino Sunseri unless an explicit exception applies."
+    },
+    {
+      "pattern": "Jackson",
+      "default_resolution": "PLACE: Jackson WY / Jackson Hole",
+      "exceptions": [
+        "Jackson Cole (when context is running/FKT/athletes)"
+      ],
+      "scope": "transcripts, sequence_of_events, press",
+      "note": "Most 'Jackson' mentions refer to the town of Jackson, Wyoming, NOT the runner Jackson Cole."
+    }
+  ],
+  "people": [
+    {
+      "id": "p_alex_rienzie",
+      "canonical_name": "Alex Rienzie",
+      "aliases": [
+        "Alex",
+        "AR",
+        "Alex Rienzi",
+        "Alex Rianzi",
+        "Alex's",
+        "Alex Ranze"
+      ],
+      "roles": [
+        "co-director",
+        "filmmaker",
+        "attorney (pro bono)",
+        "lobbyist",
+        "subject"
+      ],
+      "sources": [
+        "roster",
+        "treatment",
+        "sequence"
+      ],
+      "first_appearance_context": "Treatment p.1 — co-protagonist; Harvard Law grad turned filmmaker turned pro-bono attorney for Michelino",
+      "relationships": [
+        {
+          "to_id": "p_connor_burkesmith",
+          "type": "filmmaking_partner"
+        },
+        {
+          "to_id": "p_michelino_sunseri",
+          "type": "attorney_for"
+        }
+      ],
+      "notes": "Former J.P. Morgan investment banker; left Wall Street during COVID for Jackson Hole; lead plaintiff in Rienzie v. Haaland",
+      "confidence": "high"
+    },
+    {
+      "id": "p_connor_burkesmith",
+      "canonical_name": "Connor Burkesmith",
+      "aliases": [
+        "Connor",
+        "Conn",
+        "CB",
+        "Connor's",
+        "Mr. Burksmith",
+        "Mr. Berksmith",
+        "Connor Bechsmith",
+        "Connor Smith",
+        "Connor Burksmith",
+        "Connor Burksman",
+        "Connor Burke Smith",
+        "Connor Burke-Smith",
+        "Connor Berksmith",
+        "Connor Birksmith",
+        "Connor Bergsmith"
+      ],
+      "roles": [
+        "co-director",
+        "athlete-filmmaker",
+        "subject",
+        "cinematographer"
+      ],
+      "sources": [
+        "roster",
+        "treatment",
+        "sequence"
+      ],
+      "first_appearance_context": "Treatment p.1 — co-protagonist; documents Michelino's attempt; sues federal government",
+      "relationships": [
+        {
+          "to_id": "p_alex_rienzie",
+          "type": "filmmaking_partner"
+        },
+        {
+          "to_id": "p_michelino_sunseri",
+          "type": "friend"
+        }
+      ],
+      "notes": "Coloradan, former civil engineer in San Diego; runs action-sports studio; co-plaintiff in Rienzie v. Haaland",
+      "confidence": "high"
+    },
+    {
+      "id": "p_michelino_sunseri",
+      "canonical_name": "Michelino Sunseri",
+      "aliases": [
+        "Michelino",
+        "Mike",
+        "Michelino/Mike",
+        "Mike Sunseri",
+        "Mick Sunseri",
+        "Michaelino",
+        "Michelin",
+        "Michelinio",
+        "Michelino's",
+        "Michelino Sonseri",
+        "Michelino Sinceri",
+        "Michelino Censeri",
+        "Mike Sincerey",
+        "Mike Cinseri",
+        "Nicolino",
+        "Nicolino Sinceri",
+        "McLean"
+      ],
+      "roles": [
+        "protagonist",
+        "athlete",
+        "subject",
+        "professional mountain runner",
+        "FKT record holder",
+        "bartender (Trap Bar)"
+      ],
+      "sources": [
+        "roster",
+        "treatment",
+        "sequence"
+      ],
+      "first_appearance_context": "Treatment p.1 — lead/protagonist; North Face-sponsored mountain runner chasing Grand Teton FKT",
+      "relationships": [
+        {
+          "to_id": "p_connor_burkesmith",
+          "type": "co-protagonist_filmmaker"
+        },
+        {
+          "to_id": "p_alex_rienzie",
+          "type": "co-protagonist_filmmaker"
+        }
+      ],
+      "notes": "Tahoe native; sponsored by The North Face (through 2025); USA Track & Field 2025 World Mountain & Trail Championships; pardoned by Trump",
+      "confidence": "high"
+    }
+  ]
+}

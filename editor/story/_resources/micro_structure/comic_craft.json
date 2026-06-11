@@ -1,0 +1,170 @@
+{
+  "id": "comic_craft",
+  "display_name": "Comic craft — scene-and-cut moves for comedy and tonal contrast",
+  "family": "comic_craft",
+  "tradition_id": "guest_morris_mckay_comics",
+  "attribution": {
+    "work": "Mockumentary tradition (Christopher Guest, Sacha Baron Cohen, Larry David), documentary comedy (Errol Morris, Adam McKay, Last Week Tonight), sketch and stand-up craft (rule-of-three, comic timing, callback), classical comedy theory (Bergson on the comic; Frye on comedy modes)",
+    "author": "Christopher Guest, Errol Morris, Adam McKay, Larry David, Ricky Gervais, the broader comedy-writing tradition (synthesized)",
+    "usage_note": "Comedy in documentary is a craft tradition with specific moves, not just a tonal vibe. The principles below are scene-and-cut techniques for producing comic moments and using contrast as a tension-release valve in dramatic material. Pair with the macro filter `editor/story/_resources/macro_structure/comedy_structure.json` which defines comedy as a film-level mode; this family gives the moves that implement the mode at the cut level."
+  },
+  "application_guidance": "Apply across the cut once a tonal commitment is made. If the film is in straight-dramatic mode, these principles are mostly irrelevant — but the tonal_whiplash and comic_relief_placement principles still apply for the occasional release-valve beat. If the film is in comic-dramatic mode, every principle here is a tool. Particularly load-bearing in stretches where the underlying material has natural absurdity that the cut is currently treating as straight gravity.",
+  "principles": [
+    {
+      "id": "rule_of_three",
+      "label": "Rule of three — setup, setup, twist",
+      "description": "The most universal micro-comedy structure across every tradition. Establish a pattern with two instances, then break the pattern with the third. Three failed attempts escalating into success; three witnesses each more absurd than the last; three reaction shots increasingly bewildered. The first two instances commit the audience to the pattern; the third instance's deviation IS the comedy. Two-element repetition reads as coincidence; four-element reads as belabored; three is the magic number.",
+      "documentary_application": "For any place in the cut where similar moments are stacked (multiple witnesses, multiple attempts, multiple reaction shots), audit: are there exactly three? Is the third one breaking the pattern? Documentary editors often have FIVE similar moments and use them all; the discipline is to cut to three and make the third one carry the comic weight.",
+      "review_questions": [
+        "Where in the cut are similar moments stacked? Could the count be cut to three?",
+        "Of the three, does the third one break the pattern in a way that earns the structure?",
+        "Are there places using two or four where three would land harder?"
+      ],
+      "tags": ["structure", "comedy", "any_beat"],
+      "see_also": ["snyder_principles/lay_pipe", "unscripted_construction/reveal_escalator"]
+    },
+    {
+      "id": "comic_timing",
+      "label": "Comic timing — the pause that earns the laugh",
+      "description": "Comedy lives in the beat BEFORE the punchline as much as in the punchline itself. The held moment — character about to react, camera holding on a deadpan face, silence before the absurd line lands — is what gives the audience permission to laugh. Cut to the punchline immediately and the audience receives the joke intellectually; hold the beat and they receive it bodily. Different from rhythm_pacing's pauses (which let MEANING settle) — the comic pause builds ANTICIPATION.",
+      "documentary_application": "For any potential comic moment in the cut (an absurd interview line, an unexpected detail, a contrast), audit the beat structure: is there a held moment of anticipation before the laugh-line, or does the cut rush into it? Half-second to two-second holds are usually right. The comic beat usually wants MORE space than the editor's first instinct provides.",
+      "review_questions": [
+        "Where in the cut are potential comic beats currently being rushed past?",
+        "Could a 0.5-2 second hold before or after a comic line let it land?",
+        "Are reaction shots being used to extend comic timing, or are they purely informational?"
+      ],
+      "tags": ["timing", "pacing", "comedy"],
+      "see_also": ["rhythm_pacing/wait_one_beat", "unscripted_construction/reaction_carries_the_meaning"]
+    },
+    {
+      "id": "the_comic_button",
+      "label": "The comic button — scene ends on a punch",
+      "description": "Comedy's scene-ending discipline: every comic scene closes on a laugh, a deflation, or a punch — something that gives the audience a release before the next scene begins. The unscripted_construction `interview_button` principle adapted for comic purpose: instead of a testimonial that gives the scene meaning, a beat that gives the scene a comic punchline. The comic button can be a reaction shot, a deadpan line, an absurd visual, or a hard cut to something unexpected. Without it, comic scenes drift; with it, they land and clear.",
+      "documentary_application": "For any scene in the cut where comedy is present, audit the scene ending: does it close on a punch, or does it drift into the next scene's opening? Comic scenes that end on resolution feel deflated; comic scenes that end on a button feel complete.",
+      "review_questions": [
+        "Does this comic scene end on a punch?",
+        "Is there a beat in the rushes (reaction shot, deadpan line) that could function as the comic button?",
+        "If the scene drifts into the next one, would a hard cut earn more than the current transition?"
+      ],
+      "tags": ["scene_endings", "comedy", "structure"],
+      "see_also": ["unscripted_construction/interview_button", "voice_driven_nonfiction/the_kicker"]
+    },
+    {
+      "id": "tonal_whiplash",
+      "label": "Tonal whiplash — hard juxtaposition as tension release",
+      "description": "The signature move of dramatic-comedy filmmaking (Adam McKay's The Big Short; Last Week Tonight; The Death of Stalin). Cut from gravity to absurdity (or vice versa) WITHOUT transition. The audience's commitment to the previous tonal register makes the new register hit harder; the contrast IS the comedy. The principle works in both directions: gravity → absurdity releases tension; absurdity → gravity makes the dramatic stakes feel real. Used sparingly, devastating; used too often, exhausting.",
+      "documentary_application": "For each heavy-dramatic scene in the cut, identify whether a tonal whiplash could follow it: a cut to something absurdly mundane, to bureaucratic comedy, or to nature/wildlife after the heaviest material. The whiplash gives the audience permission to keep watching the heavy material because release is on the way. Cadence rule of thumb: every 8-15 minutes of sustained gravity earns one whiplash beat. More frequent flattens the comedy; less frequent grinds the audience.",
+      "review_questions": [
+        "Where in the cut is there 8+ minutes of unbroken gravity?",
+        "Is there material in the rushes that could land as comic relief (or absurd specificity) at that point?",
+        "Conversely: where might comic stretches need a whiplash back to gravity to remind the audience the stakes are real?"
+      ],
+      "tags": ["tone", "contrast", "any_beat", "structure"],
+      "see_also": ["rhythm_pacing/inhale_exhale", "comic_craft/comic_relief_placement"]
+    },
+    {
+      "id": "earnest_absurdity",
+      "label": "Earnest absurdity — let the deadpan do the work",
+      "description": "Documentary's secret comedy weapon. The Christopher Guest / Errol Morris tradition: present absurd content WITHOUT winking at it. The subject delivers the absurd line straight; the camera doesn't react; no music cues the joke. The audience does the comedy work themselves, and that's what makes it funny. The moment the cut acknowledges the absurdity (cuing music, cutting to a smirk, inserting a graphic), the comedy collapses because the audience is told they're allowed to laugh. The discipline is to TRUST the audience to find the absurdity without help.",
+      "documentary_application": "For any moment where the material is naturally absurd (formal language describing a mundane event; procedural straightness; a bureaucratic mechanism grinding on past its own point), audit: is the cut adding emphasis (music cue, reaction, graphic), or is it presenting the absurdity straight? Straight delivery is almost always funnier and more respectful. The audience is smart enough to find the absurdity; the editor's job is to set the table, not pour the wine.",
+      "review_questions": [
+        "Where in the cut is naturally absurd material being given comic emphasis?",
+        "Could the same material land harder with the emphasis stripped — straight delivery, no music cue, no reaction shot?",
+        "Is the cut trusting the audience to find the absurdity, or telling them where it is?"
+      ],
+      "tags": ["tone", "comedy", "documentary"],
+      "see_also": ["documentary_craft/show_by_behavior_not_speech", "documentary_craft/cut_is_the_argument"]
+    },
+    {
+      "id": "the_callback",
+      "label": "The callback — plant in Act I, harvest comedy in Act III",
+      "description": "Comedy's version of Snyder's lay-pipe principle. Establish a specific detail in Act I (a phrase, an object, a gesture); return to it in Act II or III where its recurrence produces a laugh of recognition. The audience's reward is the recognition itself — 'I remember that!' is the laugh. The callback works because audiences ENJOY noticing their own memory; the editor's gift is to plant something distinctive enough to be remembered.",
+      "documentary_application": "Are there distinctive details in the first act that could function as callback material — a phrase the subject uses, a prop, a location detail? Audit the first act for callback candidates and the last for places where a callback could land comically. The callback can be exact (same shot repeated) or transformed (similar shot in changed context). The transformed callback is usually stronger.",
+      "review_questions": [
+        "What's a distinctive Act I detail that could be called back?",
+        "Where in Act III could the callback land comically?",
+        "Is the callback transformed (same idea, new context) or merely repeated (same shot, same context)?"
+      ],
+      "tags": ["callbacks", "structure", "comedy"],
+      "see_also": ["snyder_principles/lay_pipe", "snyder_principles/six_things_that_need_fixing", "episodic_pacing/season_arc_planting"]
+    },
+    {
+      "id": "misdirection_rug_pull",
+      "label": "Misdirection / the rug pull — establish A, deliver B",
+      "description": "The audience's commitment to expectation A makes the arrival of B funny. Build the audience toward one conclusion, then deliver another. The classic version: a serious music swell, a slow-mo lead-up, a held shot — then a small absurdity that deflates everything. The rug pull works in either direction (serious-to-funny or funny-to-serious), but is most often comic. Documentary editors who never use misdirection produce cuts where every payoff is the one the audience expected; the surprise is what gives the cut energy.",
+      "documentary_application": "For any sequence with a strong predictable payoff (a verdict reading, a climactic pitch, a document discovery), audit: is there a misdirection move available? Build toward the expected outcome, then deliver an unexpected one (even briefly) before returning to the expected. The unexpected beat doesn't have to be major — a 3-second cut to something tonally wrong before returning to the main payoff often produces the strongest reaction.",
+      "review_questions": [
+        "Where in the cut is the audience getting exactly the payoff they expect?",
+        "Is there a misdirection available — a brief detour through an unexpected register — that would sharpen the eventual payoff?",
+        "Conversely: are there places where misdirection is currently being USED but not earning itself?"
+      ],
+      "tags": ["surprise", "structure", "comedy"],
+      "see_also": ["unscripted_construction/reveal_escalator", "short_form_attention/but_wait_signal"]
+    },
+    {
+      "id": "specific_absurd_detail",
+      "label": "The specific absurd detail",
+      "description": "Generic things aren't funny; specific things are. 'He had lunch' isn't funny; 'he had the tuna melt with extra pickles' is. The specificity itself generates the comedy because it suggests a real person remembering a real moment, and the irrelevance-to-the-stakes makes the specificity absurd. Reality TV editors are hungry for specific details in confessional audio; documentary editors should be too. The detail doesn't need to be objectively funny — its specificity does the work.",
+      "documentary_application": "In the interview material, audit for moments where the speaker uses absurdly specific language — a particular brand, a particular time of day, a particular phrase, a particular gesture. These are gold. Build them into the cut where they can land as deadpan specificity. Source documents often contain the same (procedural minutiae, bureaucratic jargon, named subsections); these can function the same way.",
+      "review_questions": [
+        "Where in the rushes are speakers using absurdly specific details? Are they in the cut?",
+        "Are there bureaucratic / legal / procedural details whose specificity makes them comic when delivered straight?",
+        "Is the cut currently genericizing details that would land harder kept specific?"
+      ],
+      "tags": ["language", "interview", "comedy"],
+      "see_also": ["documentary_craft/specific_beats_general", "unscripted_construction/interview_button"]
+    },
+    {
+      "id": "comic_relief_placement",
+      "label": "Comic relief placement — where to put the comedy beat",
+      "description": "The structural principle behind 'jarring / funny / contrast every few scenes.' In a primarily dramatic film, comic beats serve as tension release; the audience needs them after heavy emotional work or before they can absorb more. The rhythm is heavy→light→heavy→light, not heavy→heavy→heavy. The placement rules: AFTER a heavy scene (release pressure); BEFORE a heavy scene the audience needs to be receptive to (lower defenses); BETWEEN two dense informational sequences (memory refresh). NEVER during a heavy scene's emotional climax — comedy mid-climax destroys the gravity that earns the comedy's contrast.",
+      "documentary_application": "Map the heavy-scene rhythm of your heaviest act. Where in that rhythm could a comic beat land WITHOUT undercutting the dramatic stakes? Likely candidates: AFTER a devastating turn (the subject in a mundane context — making coffee, doing something absurdly normal); BEFORE a major reveal (a light beat that sets up the absurdity of what's coming); BETWEEN dense expository stretches (a nature shot, a deadpan reaction). The rhythm rule of thumb: 8-15 minutes between comic beats; less frequent and the audience exhausts.",
+      "review_questions": [
+        "Map the heavy-scene rhythm of this Act. Where are the natural comic-relief slots?",
+        "Are comic beats currently landing AT moments that undercut dramatic climaxes (wrong placement) vs. AFTER moments that earned them (right placement)?",
+        "Is the heavy-to-light cadence too frequent (audience never settles into gravity) or too sparse (audience exhausts before relief arrives)?"
+      ],
+      "tags": ["placement", "structure", "rhythm", "comedy"],
+      "see_also": ["rhythm_pacing/inhale_exhale", "comic_craft/tonal_whiplash", "macro_structure/comedy_structure"]
+    },
+    {
+      "id": "genre_subversion",
+      "label": "Genre subversion — do the opposite of what convention demands",
+      "description": "The Mel Brooks → Monty Python → Deadpool tradition's foundational move: identify what the genre conventionally REQUIRES at a given moment, then do something else. Documentary convention demands a reaction shot at emotional landings; subversion withholds it (or cuts to a stranger looking confused instead). Convention demands somber music under a difficult line; subversion uses inappropriate music (bouncy, sentimental, ironic). Convention demands the lower-third introduce the speaker; subversion lets the speaker arrive nameless and reveal their identity through what they say. The principle isn't to violate convention CONSTANTLY — that produces noise; it's to violate it at 2-4 specific load-bearing moments where the violation surfaces the editorial argument better than the conventional choice would.",
+      "documentary_application": "Identify the 2-4 moments where convention demands one move but the more honest editorial answer is the opposite. Example: when an interviewee says something quietly devastating, convention demands silence and a held reaction; subversion might cut to mundane verite that makes the devastation more visible by contrast. The move is craft, not contempt — the goal is to make the audience SEE more, not to mock the form.",
+      "review_questions": [
+        "Where in the cut is the documentary moving conventionally — and is the conventional move serving the editorial argument, or just being safe?",
+        "Are there 2-4 specific moments where the OPPOSITE move (inappropriate music, withheld reaction, surprising lower-third) would land harder?",
+        "If subversion is used: is it surfacing what the convention would have hidden, or is it just being clever?"
+      ],
+      "tags": ["genre", "subversion", "comedy", "edgy"],
+      "see_also": ["documentary_craft/cut_is_the_argument", "comic_craft/misdirection_rug_pull"]
+    },
+    {
+      "id": "pre_emptive_acknowledgment",
+      "label": "Pre-emptive acknowledgment — make the joke before the audience can",
+      "description": "Deadpool's signature: 'Yeah, I know this is the part where...' Make the obvious objection or observation BEFORE the audience makes it. The audience's incipient skepticism turns into laughter because the film got there first. For documentary, the principle is editorial humility that becomes humor: acknowledge what the audience is already thinking, especially when it's the obvious objection to the film's seriousness. The risk avoided: an audience that thinks 'this is ridiculous' silently and stops engaging. The honesty earned: an audience that thinks 'they ALSO think it's ridiculous, AND they're still telling me the serious version' — the most powerful position for a comic-dramatic film to occupy.",
+      "documentary_application": "Identify the 2-3 obvious audience objections the film is currently NOT acknowledging — the audience IS thinking them; the film can either pretend they aren't or speak to them directly ('This is going to sound like a movie, but...' — an interview line that does this is gold; if none exists, a card can do the same work). The pre-emptive acknowledgment lands best from the subject (they live the absurdity), then an interview subject, a card, or an editorial voiceover. The light register is Mel Brooks; the heavy register is Deadpool.",
+      "review_questions": [
+        "What are the 2-3 obvious audience objections the film is asking the audience to swallow without acknowledgment?",
+        "Could a line, card, or interview moment pre-emptively name those objections, turning silent skepticism into shared awareness?",
+        "Is the pre-emptive acknowledgment in the right register — light enough to be charming, not heavy enough to undermine the film's seriousness?"
+      ],
+      "tags": ["meta", "comedy", "edgy", "honesty"],
+      "see_also": ["voice_driven_nonfiction/the_host_turn", "comic_craft/light_meta_wink"]
+    },
+    {
+      "id": "light_meta_wink",
+      "label": "The light meta-wink — acknowledge the form without breaking it",
+      "description": "The Mel Brooks register (as distinct from the heavier Deadpool register): a moment where the cut acknowledges that the audience knows this is a constructed thing — WITHOUT abandoning the documentary form. The wink can be a card that surfaces an editorial choice ('we tried to interview X; here's what she said publicly instead'), a graphic that explicitly states what the cut is arguing ('THIS IS WHAT THE GOVERNMENT KNEW'), an interview line that comments on the form ('I know this is going to sound like a movie'), or a structural choice that becomes visible (chapter cards with cheeky names; a deliberately stagey transition; an animated reenactment that acknowledges it's reenactment). The wink works because audiences ENJOY being treated as adults; the risk is that too many winks turn the film into a sketch comedy. Sparingly used, the wink is permission to enjoy what follows; over-used, it becomes the brand.",
+      "documentary_application": "Budget 2-4 light meta-winks across the runtime — not more. Candidates: an early card that names the editorial premise with a wink, a mid-film transition that surfaces what the cut is arguing, a late interview line that comments on how absurd the story is to live through. The constraint: each wink must serve the editorial argument, not just be clever. If a wink is cut and the film is poorer for it, it earns its place. If cut and nothing changes, it was decoration.",
+      "review_questions": [
+        "How many meta-winks exist in the current cut? Is it 0 (too austere), 2-4 (right range), or more than 4 (drifting into sketch comedy)?",
+        "For each wink: is it serving the editorial argument, or just signaling cleverness?",
+        "Is the cumulative intensity light (Mel Brooks register, audience enjoys), medium (Fleabag register, sustained complicity), or heavy (Deadpool register, genre violation)?"
+      ],
+      "tags": ["meta", "form", "edgy", "comedy"],
+      "see_also": ["comic_craft/pre_emptive_acknowledgment", "comic_craft/genre_subversion", "voice_driven_nonfiction/the_host_turn", "macro_structure/comedy_structure"]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1280 640" width="1280" height="640" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" fill="#0F172A"/>
+
+  <!-- Title -->
+  <text x="44" y="52" font-size="26" font-weight="700" fill="#F8FAFC">open-post-production</text>
+  <text x="44" y="78" font-size="14" fill="#94A3B8">Catalog, search, and cut hundreds of hours of footage locally, with open-source tools and AI coding agents.</text>
+
+  <!-- Legend -->
+  <circle cx="996" cy="42" r="5" fill="#34D399"/>
+  <text x="1008" y="46" font-size="12" fill="#94A3B8">free · local compute</text>
+  <circle cx="996" cy="64" r="5" fill="#FBBF24"/>
+  <text x="1008" y="68" font-size="12" fill="#94A3B8">paid API · one-time</text>
+
+  <!-- ===== LEFT: ingest pipeline ===== -->
+  <text x="44" y="116" font-size="11" letter-spacing="2" fill="#64748B">INGEST PIPELINE</text>
+
+  <rect x="44" y="126" width="300" height="56" rx="8" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+  <text x="60" y="149" font-size="14" font-weight="600" fill="#E2E8F0">Camera originals</text>
+  <text x="60" y="168" font-size="11.5" fill="#94A3B8">≈10 TB on RAID · video · audio · stills</text>
+
+  <line x1="194" y1="182" x2="194" y2="200" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="44" y="202" width="300" height="56" rx="8" fill="#1E293B" stroke="#34D399" stroke-width="1.5"/>
+  <text x="60" y="225" font-size="14" font-weight="600" fill="#E2E8F0">1 · Offload + hash</text>
+  <text x="60" y="244" font-size="11.5" fill="#94A3B8">content-hash asset_id, not filenames</text>
+
+  <line x1="194" y1="258" x2="194" y2="276" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="44" y="278" width="300" height="68" rx="8" fill="#1E293B" stroke="#34D399" stroke-width="1.5"/>
+  <text x="60" y="301" font-size="14" font-weight="600" fill="#E2E8F0">2 · Extract</text>
+  <text x="60" y="320" font-size="11.5" fill="#94A3B8">Whisper transcripts: diarized, word-timed</text>
+  <text x="60" y="336" font-size="11.5" fill="#94A3B8">720p proxies · WAV audio</text>
+
+  <line x1="194" y1="346" x2="194" y2="364" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="44" y="366" width="300" height="84" rx="8" fill="#1E293B" stroke="#34D399" stroke-width="1.5"/>
+  <text x="60" y="389" font-size="14" font-weight="600" fill="#E2E8F0">3 · Enrich</text>
+  <text x="60" y="408" font-size="11.5" fill="#94A3B8">shots · faces · OCR · shot + audio quality</text>
+  <text x="60" y="424" font-size="11.5" fill="#94A3B8">audio events (CLAP) · SigLIP visual vectors</text>
+  <text x="60" y="440" font-size="11.5" fill="#94A3B8">audio↔video fingerprint links</text>
+
+  <line x1="194" y1="450" x2="194" y2="468" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="44" y="470" width="300" height="68" rx="8" fill="#1E293B" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="60" y="493" font-size="14" font-weight="600" fill="#E2E8F0">4 · Label (the only paid step)</text>
+  <text x="60" y="512" font-size="11.5" fill="#94A3B8">video-model pass (we used Gemini)</text>
+  <text x="60" y="528" font-size="11.5" fill="#94A3B8">≈$2 per footage-hour, once · or run it locally</text>
+
+  <!-- collector spine: stages feed the catalog -->
+  <line x1="344" y1="230" x2="382" y2="230" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="344" y1="312" x2="382" y2="312" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="344" y1="408" x2="382" y2="408" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="344" y1="504" x2="382" y2="504" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="382" y1="215" x2="382" y2="504" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="382" y1="215" x2="418" y2="215" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== CENTER: catalog + indexes ===== -->
+  <text x="420" y="116" font-size="11" letter-spacing="2" fill="#64748B">ONE CATALOG YOU OWN</text>
+
+  <rect x="420" y="150" width="330" height="130" rx="8" fill="#16283F" stroke="#38BDF8" stroke-width="2"/>
+  <text x="438" y="180" font-size="16" font-weight="700" fill="#F1F5F9">Per-asset JSON catalog</text>
+  <text x="438" y="204" font-size="12" fill="#94A3B8">source of truth · git-diffable</text>
+  <text x="438" y="222" font-size="12" fill="#94A3B8">one record per file, keyed by asset_id</text>
+  <text x="438" y="240" font-size="12" fill="#94A3B8">edited by scripts and agents, atomically</text>
+
+  <line x1="585" y1="280" x2="585" y2="328" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="600" y="308" font-size="11" fill="#64748B">rebuild: derived, never hand-edited</text>
+
+  <rect x="420" y="330" width="330" height="120" rx="8" fill="#1E293B" stroke="#818CF8" stroke-width="1.5"/>
+  <text x="438" y="358" font-size="15" font-weight="600" fill="#E2E8F0">Derived indexes</text>
+  <text x="438" y="382" font-size="12" fill="#94A3B8">SQLite: FTS5 transcript search, embeddings,</text>
+  <text x="438" y="399" font-size="12" fill="#94A3B8">quality + event tables</text>
+  <text x="438" y="421" font-size="12" fill="#94A3B8">FAISS: SigLIP visual similarity (rebuilds in seconds)</text>
+
+  <!-- indexes → query layer -->
+  <path d="M 750 390 L 785 390 L 785 225 L 816 225" fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== RIGHT: query + cut ===== -->
+  <text x="820" y="116" font-size="11" letter-spacing="2" fill="#64748B">QUERY + CUT</text>
+
+  <rect x="820" y="150" width="416" height="150" rx="8" fill="#1E293B" stroke="#2DD4BF" stroke-width="1.5"/>
+  <text x="838" y="180" font-size="15" font-weight="600" fill="#E2E8F0">Query layer: plain language in, timecodes out</text>
+  <text x="838" y="208" font-size="12" font-style="italic" fill="#CBD5E1">“strongest soundbites where the subject is on camera”</text>
+  <text x="838" y="228" font-size="12" font-style="italic" fill="#CBD5E1">“clean b-roll at Jenny Lake, in focus, no people”</text>
+  <text x="838" y="256" font-size="12" fill="#94A3B8">spoken · visual · audio · structured · composite search</text>
+  <text x="838" y="280" font-size="12" fill="#94A3B8">answers come back as asset_id + word-timed ranges</text>
+
+  <line x1="1028" y1="300" x2="1028" y2="338" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="820" y="340" width="416" height="150" rx="8" fill="#1E293B" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="838" y="370" font-size="15" font-weight="600" fill="#E2E8F0">The cut</text>
+  <text x="838" y="398" font-size="12" fill="#94A3B8">Premiere Pro: agent-built sequences, XML round-trip + MCP</text>
+  <text x="838" y="420" font-size="12" fill="#94A3B8">FCPXML · AAF · EDL · OTIO → Resolve, Final Cut, Avid</text>
+  <text x="838" y="442" font-size="12" fill="#94A3B8">FFmpeg direct render: straight to MP4, no NLE</text>
+  <text x="838" y="470" font-size="12" fill="#94A3B8">cut state lives in the catalog + sidecars, not the editor</text>
+
+  <!-- ===== bottom band ===== -->
+  <rect x="44" y="560" width="1192" height="48" rx="8" fill="#111A2E" stroke="#475569" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="640" y="589" font-size="13" fill="#94A3B8" text-anchor="middle">AI coding agents do the building and the bulk work. Built mid-production by two filmmakers with no software background.</text>
+</svg>

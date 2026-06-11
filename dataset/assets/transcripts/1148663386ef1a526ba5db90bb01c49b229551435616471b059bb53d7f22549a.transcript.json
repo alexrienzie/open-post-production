@@ -1,0 +1,112 @@
+{
+  "schema_version": 5,
+  "asset_id": "1148663386ef1a526ba5db90bb01c49b229551435616471b059bb53d7f22549a",
+  "manifest": {
+    "current_version": 1,
+    "model": {
+      "engine": "whisperKit",
+      "id": "openai_whisper-large-v3-v20240930_626MB"
+    },
+    "language": "en",
+    "transcribed_at": "2026-05-03T00:27:13.779Z",
+    "updated_at": "2026-05-03T19:33:18Z",
+    "_macwhisper_session_id": null
+  },
+  "playback_duration_sec": 5.9946875,
+  "diarized": true,
+  "speakers_raw": [],
+  "full_text": "*Rolling*",
+  "segments": [
+    {
+      "start_sec": 27.72,
+      "end_sec": 29.92,
+      "text": "*Rolling*",
+      "speaker_raw": "",
+      "speaker": null,
+      "words": [
+        {
+          "text": " *Rolling",
+          "start_sec": 27.72,
+          "end_sec": 29.12
+        },
+        {
+          "text": "*",
+          "start_sec": 29.12,
+          "end_sec": 29.92
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "moment_ids": [],
+  "record_kind": "transcript",
+  "primary_timeline_date": "2025-09-08",
+  "analysis": {
+    "segment_corrections": [],
+    "speaker_attributions": [],
+    "relevant_spans": [],
+    "summary_one_line": "A production cue marks the start of recording for aerial footage over a mountain range.",
+    "summary_paragraph": "This brief verite clip features a production sound cue, \"Rolling,\" indicating the commencement of recording. The audio accompanies aerial footage, likely captured from a small aircraft over a mountainous landscape, as suggested by the asset's semantic summary and shoot label. It serves as a functional marker rather than containing narrative dialogue.",
+    "themes": [
+      "production_sound",
+      "aerial_footage",
+      "mountains"
+    ],
+    "topics": [
+      "filming",
+      "aviation",
+      "nature"
+    ],
+    "storylines": [],
+    "tone": {
+      "mood": "analytical",
+      "energy": "low",
+      "formality": "conversational"
+    },
+    "craft": {
+      "audio_quality": "clean",
+      "context_signals_used": [
+        "asset_semantic_summary",
+        "audio_events",
+        "asset_type",
+        "shoot_label"
+      ]
+    },
+    "people_ids": [],
+    "org_ids": [],
+    "place_ids": [],
+    "_unmatched_people": [],
+    "_unmatched_orgs": [],
+    "_unmatched_places": [],
+    "moment_ids": [],
+    "key_moments": [],
+    "key_quotes": [],
+    "analyzed_at": "2026-05-26T05:37:59Z",
+    "analyzer": "g023_flash_meta_v1",
+    "prompt_sha256": "31cc593fb4f8880dd01f6d0687fbdceebc1012b562fc353e2236516bb9afd06a",
+    "_applied_corrections": [],
+    "_apply_run_id": "g023_full_20260526T032314Z"
+  },
+  "craft": {
+    "shot_kind": "b-roll",
+    "audio_quality": "clean"
+  },
+  "embedding_anchor": {
+    "text_sha256": "46887a685e3584d0c68b06d07f2bf4a77e7503eed4ea51328a1bdd66093e486d",
+    "last_embedded_at": null
+  },
+  "_unmatched_people": [],
+  "_unmatched_orgs": [],
+  "_unmatched_places": [],
+  "corrections": [],
+  "_correction_candidates": [],
+  "speaker_provenance": {
+    "schema_version": 1,
+    "sidecar": "_audit/transcript_provenance/1148663386ef1a526ba5db90bb01c49b229551435616471b059bb53d7f22549a.json"
+  },
+  "subject_of_interview": null,
+  "people_ids": [],
+  "org_ids": [],
+  "place_ids": [],
+  "analyzed_at": "2026-05-26T05:37:59Z"
+}

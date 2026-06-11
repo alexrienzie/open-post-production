@@ -1,0 +1,57 @@
+{
+  "framework_id": "ma_negative_space",
+  "title": "Ma — Negative Space as Structure",
+  "author": "(Japanese aesthetic tradition)",
+  "year": null,
+  "source": "The classical Japanese concept of 'ma' (間) — interval, pause, the meaningful gap between elements. A structural principle in traditional Japanese arts (architecture, ikebana, noh theater, Ozu's cinema).",
+  "tradition": "non_western",
+  "engine": "rhythm",
+  "act_envelope": "free",
+  "resolution": null,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [],
+    "siblings": [
+      "kishotenketsu_four_part"
+    ],
+    "note": "Not a stage framework; a structural principle that argues meaning lives in the GAPS between events as much as in the events themselves. Ozu's 'pillow shots' (still images between scenes) and Tarkovsky's long takes are Western-readable analogs. Documentary editors can use ma to structure breath into a cut."
+  },
+  "stages": [
+    {
+      "stage_id": "ma01_event",
+      "position": 1,
+      "name": "Event",
+      "function": "An action, moment, or emotional beat."
+    },
+    {
+      "stage_id": "ma02_ma_pause",
+      "position": 2,
+      "name": "Ma (interval)",
+      "function": "The deliberate pause AFTER the event. Stillness, contemplation, an empty shot. The audience is given time to feel."
+    },
+    {
+      "stage_id": "ma03_event",
+      "position": 3,
+      "name": "Event",
+      "function": "Next action. Recontextualized by the preceding ma."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "No equivalent in Western beat frameworks (which treat space-between-events as transition to be minimized, not content to be cultivated)."
+  },
+  "applicability": {
+    "best_for": [
+      "observational_documentary",
+      "essay_film",
+      "meditative_pacing",
+      "trauma_processing_films"
+    ],
+    "weak_for": [
+      "thriller",
+      "tight_plot_genre",
+      "broadcast_television"
+    ],
+    "limitations": "Audiences trained on dense Western pacing may read ma as 'slow' or 'boring' unless the surrounding context legitimizes the pause. Used sparingly, devastating; used heavily, alienating."
+  },
+  "project_relevance": null
+}

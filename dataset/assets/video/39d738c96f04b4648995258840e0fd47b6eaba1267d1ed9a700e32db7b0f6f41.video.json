@@ -1,0 +1,253 @@
+{
+  "schema_version": 7,
+  "asset_id": "39d738c96f04b4648995258840e0fd47b6eaba1267d1ed9a700e32db7b0f6f41",
+  "source_path": "<redacted-source-path>",
+  "filename": "C0578.MP4",
+  "filesize_bytes": 134355296,
+  "mtime": "2025-09-09T22:58:54.0000000Z",
+  "ffprobe": {
+    "duration_sec": 9.51,
+    "width": 3840,
+    "height": 2160,
+    "fps": 23.976,
+    "codec": "h264",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_codec": "pcm_s16be",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "creation_time": "2025-09-09T23:58:44.000000Z",
+    "color_primaries": null,
+    "color_transfer": null,
+    "color_space": null,
+    "color_range": "pc",
+    "pix_fmt": "yuv422p10le",
+    "color_profile": "unknown",
+    "timecode": "10:09:45:04",
+    "timecode_source": "data_stream_tag_timecode(codec_tag=rtmd)",
+    "timecode_stream_index": 2,
+    "timecode_extracted_at": "2026-05-08T18:11:08Z"
+  },
+  "path_metadata": {
+    "top_level": "category",
+    "shoot_date": "2025-09-09",
+    "shoot_date_source": "ffprobe_creation_time",
+    "shoot_label": null,
+    "category_number": 4,
+    "category_name": "Yellowstone Mammoth B-roll",
+    "sub_location": null,
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "sony_c0xxx"
+  },
+  "indexed_at": "2026-05-02T03:10:24Z",
+  "primary_timeline_date": "2025-09-09",
+  "date_source": "camera_metadata",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "record_kind": "video",
+  "machine_transcript": false,
+  "human_transcript": false,
+  "proxy": {
+    "path": "~/derivative media/sample/C0578.MP4",
+    "format": "mp4",
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "video_bitrate_kbps": 3000,
+    "keyframe_interval_sec": 1,
+    "source_fps": 23.976,
+    "audio_codec": "aac",
+    "audio_bitrate_kbps": 128,
+    "filesize_bytes": 857009,
+    "duration_sec": 9.51,
+    "encoded_at": "2026-05-05T06:46:29Z",
+    "ffmpeg_command_hash": "db669c79afc9b0d3aa1c28aa9bef4be2635aeb9fab1c8b12cd7582e04f22c579",
+    "source_added_in_v6": false
+  },
+  "shoot_location": {
+    "place": "pl_old_faithful",
+    "source": "place_matcher"
+  },
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "b_roll"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:04:51Z",
+    "chunks": [
+      {
+        "chunk_id": "39d738c96f04b4648995258840e0fd47b6eaba1267d1ed9a700e32db7b0f6f41_whole",
+        "chunk_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 9.51,
+        "model": "gemini-2.5-pro",
+        "subject": "Old Faithful geyser",
+        "action": "A wide, static shot shows the Old Faithful geyser steaming in the distance across a flat, grassy plain under an overcast sky. In the audio, indistinct chatter is heard, followed by a clear voice saying 'Okay, let's roll,' indicating the start of a film take.",
+        "setting": {
+          "location": "Exterior, Old Faithful, Yellowstone National Park",
+          "time_of_day": "overcast",
+          "weather": "overcast"
+        },
+        "camera": {
+          "shot_size": "WS",
+          "movement": "static",
+          "perspective": "eye_level"
+        },
+        "audio_character": "Indistinct crowd chatter and a crew member's voice giving the cue to start filming.",
+        "emotional_tone": "Observational, behind-the-scenes",
+        "editorial_notes": "This is a classic B-roll landscape shot that includes on-set audio. The 'let's roll' cue makes it useful for transitioning into a scene or breaking the fourth wall to show the filmmaking process.",
+        "key_moments": [
+          {
+            "timestamp_sec": 0,
+            "description": "The shot begins, showing the geyser steaming in the distance."
+          },
+          {
+            "timestamp_sec": 6,
+            "description": "A crew member's voice says 'Okay, let's roll.'"
+          }
+        ]
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "place_ids": [
+    "pl_old_faithful",
+    "pl_united_states",
+    "pl_yellowstone_national_park"
+  ],
+  "place_match": {
+    "location_text": "Exterior, Old Faithful, Yellowstone National Park",
+    "matches": [
+      {
+        "pl_id": "pl_yellowstone_national_park",
+        "source": "semantic_location",
+        "matched_phrase": "Yellowstone National Park",
+        "confidence": "high",
+        "location_text": "Exterior, Old Faithful, Yellowstone National Park"
+      },
+      {
+        "pl_id": "pl_old_faithful",
+        "source": "semantic_location",
+        "matched_phrase": "Old Faithful",
+        "confidence": "high",
+        "location_text": "Exterior, Old Faithful, Yellowstone National Park"
+      }
+    ],
+    "sources": {
+      "pl_yellowstone_national_park": [
+        "semantic_location"
+      ],
+      "pl_old_faithful": [
+        "semantic_location"
+      ],
+      "pl_united_states": [
+        "parent_inherit"
+      ]
+    }
+  },
+  "shots": {
+    "processed_at": "2026-05-24T18:17:24Z",
+    "detector": "PySceneDetect_ContentDetector",
+    "params": {
+      "threshold": 27.0,
+      "min_scene_len": 15
+    },
+    "proxy_path": "<redacted-source-path>",
+    "duration_sec": 9.5095,
+    "detect_time_sec": 0.2547152042388916,
+    "n_shots": 1,
+    "items": [
+      {
+        "shot_idx": 0,
+        "start_sec": 0.0,
+        "end_sec": 9.5095,
+        "duration_sec": 9.5095
+      }
+    ]
+  },
+  "shot_quality": {
+    "processed_at": "2026-05-24T22:52:58Z",
+    "items": [
+      {
+        "shot_idx": 0,
+        "n_frames_sampled": 4,
+        "sharpness_score": 9.27137722351686,
+        "motion_score": 3.948989691662105,
+        "exposure_mean": 130.45289579912426,
+        "clipping_ratio": 0.0,
+        "is_blurry": 1,
+        "is_dark": 0,
+        "is_blown": 0,
+        "is_setup_or_teardown": 0,
+        "is_in_focus": 0,
+        "aesthetic_score": 4.186239242553711,
+        "is_aesthetic": 1
+      }
+    ]
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 4.75,
+        "ocr_engine": "apple_vision",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:20:51Z"
+      },
+      {
+        "frame_time_sec": 4.75,
+        "ocr_engine": "rapidocr",
+        "shot_idx": 0,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T21:20:51Z"
+      }
+    ],
+    "items": []
+  },
+  "dense_captions": {
+    "processed_at": "2026-05-25T23:55:33Z",
+    "processed_shots": [],
+    "items": [
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 2.377375,
+        "sample_pos": "25%",
+        "caption_text": "subject: A geyser erupting | action: A large plume of white steam rises from a geyser in a vast natural landscape under an overcast sky. | setting: An expansive, flat, golden-brown grassy plain in the foreground, with rolling hills and a line of dark evergreen trees in the mid-ground and background. | framing: wide | mood: Natural, majestic, expansive, muted",
+        "caption_json": "{\"subject\": \"A geyser erupting\", \"action\": \"A large plume of white steam rises from a geyser in a vast natural landscape under an overcast sky.\", \"setting\": \"An expansive, flat, golden-brown grassy plain in the foreground, with rolling hills and a line of dark evergreen trees in the mid-ground and background.\", \"framing\": \"wide\", \"mood\": \"Natural, majestic, expansive, muted\", \"editorial_hooks\": \"\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 4.75475,
+        "sample_pos": "50%",
+        "caption_text": "subject: A geyser erupting | action: A geyser is actively erupting, sending a large plume of steam and water high into the overcast sky, set against a backdrop of a wide, dry grassy plain, distant dark hills, and a line of trees. | setting: An outdoor natural landscape featuring a geyser, a vast grassy plain, distant hills, and trees under a grey, overcast sky. | framing: wide | mood: Natural, powerful, majestic, serene",
+        "caption_json": "{\"subject\": \"A geyser erupting\", \"action\": \"A geyser is actively erupting, sending a large plume of steam and water high into the overcast sky, set against a backdrop of a wide, dry grassy plain, distant dark hills, and a line of trees.\", \"setting\": \"An outdoor natural landscape featuring a geyser, a vast grassy plain, distant hills, and trees under a grey, overcast sky.\", \"framing\": \"wide\", \"mood\": \"Natural, powerful, majestic, serene\", \"editorial_hooks\": \"\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      },
+      {
+        "chunk_id": null,
+        "shot_idx": 0,
+        "frame_time_sec": 7.132124999999999,
+        "sample_pos": "75%",
+        "caption_text": "subject: Old Faithful geyser | action: A geyser erupts with a large plume of steam and water in the distance, set against a backdrop of hills and trees under an overcast sky. A wide, dry grassy plain occupies the foreground. | setting: An outdoor geothermal landscape, likely a national park. | framing: wide | mood: Natural, powerful, serene, muted",
+        "caption_json": "{\"subject\": \"Old Faithful geyser\", \"action\": \"A geyser erupts with a large plume of steam and water in the distance, set against a backdrop of hills and trees under an overcast sky. A wide, dry grassy plain occupies the foreground.\", \"setting\": \"An outdoor geothermal landscape, likely a national park.\", \"framing\": \"wide\", \"mood\": \"Natural, powerful, serene, muted\", \"editorial_hooks\": \"\"}",
+        "model_engine": "gemini_flash",
+        "prompt_variant": "meta"
+      }
+    ]
+  }
+}

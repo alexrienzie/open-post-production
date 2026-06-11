@@ -1,0 +1,66 @@
+{
+  "framework_id": "donatus_protasis",
+  "title": "Three-part Comedic Structure",
+  "author": "Aelius Donatus",
+  "year": 350,
+  "source": "Commentary on Terence, 4th c. CE. Renaissance critics later inserted 'catastasis' between epitasis and catastrophe.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 3,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics",
+      "horace_five_acts"
+    ],
+    "descendants": [
+      "freytag_pyramid",
+      "field_paradigm"
+    ],
+    "siblings": [],
+    "note": "Roman grammarian commenting on Terence; divided comedy into protasis (exposition), epitasis (rising complication), catastrophe (resolution). The three-act idea in embryo, predating Field by 1,600 years."
+  },
+  "stages": [
+    {
+      "stage_id": "do01_protasis",
+      "position": 1,
+      "name": "Protasis",
+      "function": "Exposition. Introduce the characters and situation."
+    },
+    {
+      "stage_id": "do02_epitasis",
+      "position": 2,
+      "name": "Epitasis",
+      "function": "Rising complication; entanglements multiply."
+    },
+    {
+      "stage_id": "do03_catastrophe",
+      "position": 3,
+      "name": "Catastrophe",
+      "function": "Resolution — for Donatus, the unraveling and outcome, not necessarily disaster."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "aristotle_poetics": {
+      "do01_protasis": "ar01_beginning",
+      "do02_epitasis": "ar02_middle",
+      "do03_catastrophe": "ar03_end"
+    },
+    "field_paradigm": {
+      "do01_protasis": "fd01_setup",
+      "do02_epitasis": "fd03_confrontation",
+      "do03_catastrophe": "fd07_resolution"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "comedy",
+      "classical_drama"
+    ],
+    "weak_for": [
+      "fine_grained_screenwriting"
+    ],
+    "limitations": "Originally for Terence's comedy; the 'catastrophe' has lost its Roman meaning (resolution) and become 'disaster' in English. Confusing on its own."
+  },
+  "project_relevance": null
+}

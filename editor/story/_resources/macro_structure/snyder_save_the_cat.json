@@ -1,0 +1,148 @@
+{
+  "framework_id": "snyder_save_the_cat",
+  "title": "Save the Cat — 15-beat sheet",
+  "author": "Blake Snyder",
+  "year": 2005,
+  "source": "Save the Cat! The Last Book on Screenwriting You'll Ever Need, 2005.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 15,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm",
+      "mckee_story"
+    ],
+    "descendants": [],
+    "siblings": [
+      "hauge_two_journeys",
+      "wells_seven_point"
+    ],
+    "note": "The most prescriptive and most commercially dominant modern screenwriting framework. 15 beats with literal page numbers. Loved for usability, blamed for formulaic sameness. The B-story idea is worth stealing for any doc with parallel arcs."
+  },
+  "stages": [
+    {
+      "stage_id": "sn01_opening_image",
+      "position": 1,
+      "movement": "Act I",
+      "name": "Opening Image",
+      "function": "First visual statement of the film's world and tone."
+    },
+    {
+      "stage_id": "sn02_theme_stated",
+      "position": 2,
+      "movement": "Act I",
+      "name": "Theme Stated",
+      "function": "Theme voiced (often indirectly) so later payoffs can resonate."
+    },
+    {
+      "stage_id": "sn03_setup",
+      "position": 3,
+      "movement": "Act I",
+      "name": "Set-Up",
+      "function": "Relationships, flaws, routines, stakes."
+    },
+    {
+      "stage_id": "sn04_catalyst",
+      "position": 4,
+      "movement": "Act I",
+      "name": "Catalyst",
+      "function": "Inciting incident."
+    },
+    {
+      "stage_id": "sn05_debate",
+      "position": 5,
+      "movement": "Act I",
+      "name": "Debate",
+      "function": "Hesitation; the question 'should I?'"
+    },
+    {
+      "stage_id": "sn06_break_into_two",
+      "position": 6,
+      "movement": "Act II hinge",
+      "name": "Break into Two",
+      "function": "Commitment to Act II — the upside-down world."
+    },
+    {
+      "stage_id": "sn07_b_story",
+      "position": 7,
+      "movement": "Act II",
+      "name": "B Story",
+      "function": "Relationship/theme parallel arc begins."
+    },
+    {
+      "stage_id": "sn08_fun_and_games",
+      "position": 8,
+      "movement": "Act II",
+      "name": "Fun and Games",
+      "function": "The premise delivered — 'the promise of the premise.'"
+    },
+    {
+      "stage_id": "sn09_midpoint",
+      "position": 9,
+      "movement": "Act II center",
+      "name": "Midpoint",
+      "function": "False victory or false defeat; stakes raised."
+    },
+    {
+      "stage_id": "sn10_bad_guys_close_in",
+      "position": 10,
+      "movement": "Act II",
+      "name": "Bad Guys Close In",
+      "function": "External and internal pressure mounts."
+    },
+    {
+      "stage_id": "sn11_all_is_lost",
+      "position": 11,
+      "movement": "Act II",
+      "name": "All Is Lost",
+      "function": "Lowest point; whiff of death."
+    },
+    {
+      "stage_id": "sn12_dark_night_of_the_soul",
+      "position": 12,
+      "movement": "Act II",
+      "name": "Dark Night of the Soul",
+      "function": "Wallowing in defeat; the protagonist must change to survive."
+    },
+    {
+      "stage_id": "sn13_break_into_three",
+      "position": 13,
+      "movement": "Act III hinge",
+      "name": "Break into Three",
+      "function": "Insight from B-story plus A-story converge into a new plan."
+    },
+    {
+      "stage_id": "sn14_finale",
+      "position": 14,
+      "movement": "Act III",
+      "name": "Finale",
+      "function": "Climax — five-point payoff."
+    },
+    {
+      "stage_id": "sn15_final_image",
+      "position": 15,
+      "movement": "Act III",
+      "name": "Final Image",
+      "function": "Mirror or contrast to the Opening Image — proof of change."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "_note": "Equivalence with most other modern frameworks is well-established; see field_paradigm, mckee_story, vogler_writers_journey, hauge_two_journeys for the canonical cross-table."
+  },
+  "applicability": {
+    "best_for": [
+      "commercial_features",
+      "story_pitching",
+      "page_count_planning",
+      "documentary_long_form"
+    ],
+    "weak_for": [
+      "experimental",
+      "anti_formula",
+      "kishōtenketsu_material"
+    ],
+    "limitations": "Famously prescriptive — applied rigidly, produces sameness. Treat the beats as places to ASK QUESTIONS, not slots to fill."
+  },
+  "project_relevance": null
+}

@@ -1,0 +1,92 @@
+{
+  "framework_id": "wells_seven_point",
+  "title": "Seven-Point Story Structure",
+  "author": "Dan Wells",
+  "year": 2011,
+  "source": "Dan Wells lecture series, c. 2011. Explicitly derived from Lester Dent's pulp-fiction master formula.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "free",
+  "resolution": 7,
+  "lineage": {
+    "predecessors": [
+      "field_paradigm"
+    ],
+    "descendants": [],
+    "siblings": [
+      "watts_eight_point",
+      "harmon_story_circle"
+    ],
+    "note": "Hook, Plot Turn 1, Pinch 1, Midpoint, Pinch 2, Plot Turn 2, Resolution. Distinctive method: plot BACKWARD from the resolution so the hook is the mirror-image of the ending."
+  },
+  "stages": [
+    {
+      "stage_id": "we01_hook",
+      "position": 1,
+      "name": "Hook",
+      "function": "Starting state — chosen to mirror or contrast the Resolution. Where the protagonist is at the beginning of their arc."
+    },
+    {
+      "stage_id": "we02_plot_turn_1",
+      "position": 2,
+      "name": "Plot Turn 1",
+      "function": "Disruption; the story is set in motion. End of Act I."
+    },
+    {
+      "stage_id": "we03_pinch_1",
+      "position": 3,
+      "name": "Pinch 1",
+      "function": "First pressure point — antagonist applies force; protagonist must commit further."
+    },
+    {
+      "stage_id": "we04_midpoint",
+      "position": 4,
+      "name": "Midpoint",
+      "function": "Protagonist shifts from reactive to proactive. The pivot."
+    },
+    {
+      "stage_id": "we05_pinch_2",
+      "position": 5,
+      "name": "Pinch 2",
+      "function": "Second pressure point — much harder than Pinch 1. The wheels start coming off."
+    },
+    {
+      "stage_id": "we06_plot_turn_2",
+      "position": 6,
+      "name": "Plot Turn 2",
+      "function": "Protagonist obtains the final piece needed to solve the central problem. End of Act II."
+    },
+    {
+      "stage_id": "we07_resolution",
+      "position": 7,
+      "name": "Resolution",
+      "function": "Final state — mirror or contrast to Hook. The arc completes."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "field_paradigm": {
+      "we02_plot_turn_1": "fd02_plot_point_1",
+      "we04_midpoint": "fd04_midpoint",
+      "we06_plot_turn_2": "fd05_plot_point_2"
+    },
+    "snyder_save_the_cat": {
+      "we02_plot_turn_1": "sn06_break_into_two",
+      "we04_midpoint": "sn09_midpoint",
+      "we06_plot_turn_2": "sn13_break_into_three"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "novelists_outlining",
+      "pulp_fiction",
+      "tight_genre",
+      "endings_first_planning"
+    ],
+    "weak_for": [
+      "discovery_writing",
+      "documentary_without_known_ending"
+    ],
+    "limitations": "Backwards-planning requires knowing the ending — bad fit for documentary where the ending is discovered. But the Hook/Resolution mirror is still useful retrospectively in assembly."
+  },
+  "project_relevance": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 4,
+  "asset_id": "b5c55dd3e2a00de55e249697057d34f6a3614f4692511761919cc72cd365a693",
+  "source_path": "<redacted-source-path>",
+  "filename": "IMG_7983.JPG",
+  "filesize_bytes": 605090,
+  "mtime": "2026-03-31T21:00:59.0000000Z",
+  "exif": {
+    "date_taken": "2025:09:11 19:23:26",
+    "width": 2048,
+    "height": 1536,
+    "camera_make": "Apple",
+    "camera_model": "iPhone 16 Pro",
+    "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+    "iso": 64,
+    "aperture": 1.779999971,
+    "shutter_speed": 0.0003099814011,
+    "focal_length": 6.764999866,
+    "orientation": 1,
+    "gps_lat": 43.7537888888889,
+    "gps_lon": -110.624077777778,
+    "gps_alt": 2102.236467,
+    "color_space": 65535,
+    "software": 18.5
+  },
+  "path_metadata": {
+    "top_level": "sample",
+    "shoot_date": null,
+    "shoot_date_source": null,
+    "shoot_label": "sample_still_01",
+    "category_number": 1,
+    "category_name": "sample_stills",
+    "sub_location": "sample_still_01",
+    "scene_number": null,
+    "scene_name": null,
+    "camera_id": "iphone"
+  },
+  "indexed_at": "2026-05-02T18:12:08Z",
+  "primary_timeline_date": "2025-09-11",
+  "date_source": "camera_metadata",
+  "embeddings": {
+    "semantic": true,
+    "vector": true
+  },
+  "phash": null,
+  "record_kind": "still",
+  "shoot_location": {
+    "place": "pl_grand_teton",
+    "source": "place_matcher"
+  },
+  "location": {
+    "raw": {
+      "gps_lat": 43.7537888888889,
+      "gps_lon": -110.624077777778,
+      "gps_alt": 2102.236467
+    },
+    "lat": 43.7537888888889,
+    "lon": -110.624077777778,
+    "alt_m": 2102.236467,
+    "source": "exif"
+  },
+  "asset_bucket": "in_house_other",
+  "linked_assets": {
+    "video": [],
+    "audio": [],
+    "stills": []
+  },
+  "asset_classifications": {
+    "bucket": "in_house_other",
+    "type": "verite"
+  },
+  "asset_semantic_summary": {
+    "source": "clip_and_still_embeddings.sqlite",
+    "extracted_at": "2026-05-21T22:06:37Z",
+    "chunks": [
+      {
+        "chunk_id": "b5c55dd3e2a00de55e249697057d34f6a3614f4692511761919cc72cd365a693",
+        "chunk_idx": 0,
+        "start_sec": null,
+        "end_sec": null,
+        "model": "gemini-2.5-pro",
+        "subject": "The Teton Range and the Snake River",
+        "setting": {
+          "location": "Grand Teton National Park",
+          "time_of_day": "golden_hour",
+          "weather": "mixed"
+        },
+        "camera": {
+          "shot_size": "EWS",
+          "perspective": "eye_level"
+        },
+        "emotional_tone": "Serene, majestic, contemplative",
+        "editorial_notes": "This is a quintessential establishing shot, perfect for an opening sequence or a transitional scene to ground the viewer in the location. It effectively conveys the scale and mood of the park, setting the stage for the human drama to unfold within it."
+      }
+    ],
+    "model": "gemini-2.5-pro"
+  },
+  "place_ids": [
+    "pl_grand_teton",
+    "pl_grand_teton_national_park",
+    "pl_teton",
+    "pl_teton_national_park",
+    "pl_united_states",
+    "pl_wyoming"
+  ],
+  "place_match": {
+    "location_text": "Grand Teton National Park",
+    "matches": [
+      {
+        "pl_id": "pl_grand_teton_national_park",
+        "source": "semantic_location",
+        "matched_phrase": "Grand Teton National Park",
+        "confidence": "high",
+        "location_text": "Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_teton_national_park",
+        "source": "semantic_location",
+        "matched_phrase": "Teton National Park",
+        "confidence": "high",
+        "location_text": "Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_grand_teton",
+        "source": "semantic_location",
+        "matched_phrase": "Grand Teton",
+        "confidence": "medium",
+        "location_text": "Grand Teton National Park"
+      },
+      {
+        "pl_id": "pl_teton",
+        "source": "semantic_location",
+        "matched_phrase": "Teton",
+        "confidence": "medium",
+        "location_text": "Grand Teton National Park"
+      }
+    ],
+    "sources": {
+      "pl_grand_teton_national_park": [
+        "semantic_location"
+      ],
+      "pl_teton_national_park": [
+        "semantic_location"
+      ],
+      "pl_grand_teton": [
+        "semantic_location"
+      ],
+      "pl_teton": [
+        "semantic_location"
+      ],
+      "pl_wyoming": [
+        "parent_inherit"
+      ],
+      "pl_united_states": [
+        "parent_inherit"
+      ]
+    }
+  },
+  "still_aesthetic": {
+    "processed_at": "2026-05-25T22:57:45Z",
+    "metrics": {
+      "aesthetic_score": 5.311308860778809,
+      "is_aesthetic": 0,
+      "image_ext": "jpg"
+    }
+  },
+  "ocr_detections": {
+    "processed_at": "2026-05-27T00:00:03Z",
+    "engines": [],
+    "processed_frames": [
+      {
+        "frame_time_sec": 0.0,
+        "ocr_engine": "apple_vision",
+        "shot_idx": null,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:39:46Z"
+      },
+      {
+        "frame_time_sec": 0.0,
+        "ocr_engine": "rapidocr",
+        "shot_idx": null,
+        "n_hits": 0,
+        "processed_at": "2026-05-24T22:39:46Z"
+      }
+    ],
+    "items": []
+  }
+}

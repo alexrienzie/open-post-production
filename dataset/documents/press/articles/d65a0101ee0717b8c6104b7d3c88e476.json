@@ -1,0 +1,109 @@
+{
+  "schema_version": 3,
+  "article_id": "d65a0101ee0717b8c6104b7d3c88e476",
+  "url": "https://www.jhnewsandguide.com/news/environmental/grand-teton-speed-record-rejected/article_2937735c-6fc4-11ef-b201-7bcffe35005b.html",
+  "url_canonical": "https://jhnewsandguide.com/news/environmental/grand-teton-speed-record-rejected/article_2937735c-6fc4-11ef-b201-7bcffe35005b.html",
+  "tracker_source": {
+    "publication": "Jackson Hole News & Guide",
+    "publication_category": "LOCAL / REGIONAL",
+    "storyline": "ms_fkt",
+    "storyline_index": 1
+  },
+  "fetch": {
+    "fetched_at": "2026-05-02T05:04:38Z",
+    "fetcher": "trafilatura",
+    "fetcher_version": "trafilatura/2.0.0",
+    "http_status": 200,
+    "final_url": "https://www.jhnewsandguide.com/news/environmental/grand-teton-speed-record-rejected/article_2937735c-6fc4-11ef-b201-7bcffe35005b.html",
+    "redirect_chain": [],
+    "ok": true,
+    "error_class": null
+  },
+  "metadata": {
+    "title": "Grand Teton speed record rejected",
+    "subtitle": null,
+    "authors": [
+      "<byline trimmed for this sample>"
+    ],
+    "author_byline_raw": "<byline trimmed for this sample>",
+    "publication_name": "Jackson Hole News&Guide",
+    "publish_date": "2024-09-11",
+    "publish_date_source": "trafilatura",
+    "modified_date": null,
+    "language": null,
+    "section": null,
+    "tags": [
+      "grand teton,"
+    ],
+    "word_count": 1649,
+    "lead_image_url": "https://bloximages.newyork1.vip.townnews.com/jhnewsandguide.com/content/tncms/assets/v3/editorial/2/8c/28c700aa-ddf7-5fd0-97ab-4f96760377a8/66e08962bc033.image.jpg?crop=1923%2C1010%2C0%2C33&resize=1200%2C630&order=crop%2Cresize"
+  },
+  "content": {
+    "text": "<redacted - copyrighted article text; fetch from `url` above. word_count/text_sha256 describe the original>",
+    "text_sha256": "7a88b88cbb9545de2fc09d1006a37f9708bc28368e359a8fbb52afa6852e236b",
+    "extracted_at": "2026-05-02T05:04:38Z",
+    "extractor": "trafilatura"
+  },
+  "analysis": {
+    "summary_one_line": "Local paper breaks the news (Sept 2024) that FastestKnownTime rejected the Grand Teton speed record over a switchback cut, and that the NPS opened an investigation.",
+    "summary_paragraph": "The founding local news piece on the controversy (published 2024-09-11): reports FKT's rejection of the 2:50:50 record based on the admitted switchback cut, confirms an NPS investigation via a park spokesperson, and gathers reactions from the local mountain-running community. (Summary condensed for this sample; entity lists trimmed.)",
+    "topics": [
+      "switchback_cutting",
+      "trail_erosion",
+      "outdoor_ethics",
+      "fastestknowntime"
+    ],
+    "tone": {
+      "sentiment": "mixed",
+      "stance_toward_subject": "balanced",
+      "descriptors": [
+        "breaking-news",
+        "local",
+        "balanced",
+        "pro-stewardship-undertone"
+      ],
+      "rhetorical_mode": "news_report"
+    },
+    "pull_quotes": [
+      "<redacted - verbatim quotes omitted; see source article>"
+    ],
+    "project_relevance": null,
+    "analyzed_at": "2026-05-02T05:32:01Z",
+    "storylines": [
+      "ms_fkt"
+    ]
+  },
+  "primary_timeline_date": "2024-09-11",
+  "timeline_dates": [
+    {
+      "kind": "published",
+      "date": "2024-09-11",
+      "source": "trafilatura"
+    },
+    {
+      "kind": "fetched",
+      "date": "2026-05-02T05:04:38Z",
+      "source": "fetch"
+    },
+    {
+      "kind": "analyzed",
+      "date": "2026-05-02T05:32:01Z",
+      "source": "analysis"
+    }
+  ],
+  "people_ids": [
+    "p_michelino_sunseri",
+    "p_connor_burkesmith"
+  ],
+  "moment_ids": [],
+  "org_ids": [
+    "o_the_north_face"
+  ],
+  "place_ids": [
+    "pl_grand_teton",
+    "pl_grand_teton_national_park",
+    "pl_garnet_canyon",
+    "pl_lupine_meadows",
+    "pl_jackson_wy"
+  ]
+}

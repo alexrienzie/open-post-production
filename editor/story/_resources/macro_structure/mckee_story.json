@@ -1,0 +1,81 @@
+{
+  "framework_id": "mckee_story",
+  "title": "Story — Principles of Screenwriting",
+  "author": "Robert McKee",
+  "year": 1997,
+  "source": "Story: Substance, Structure, Style, and the Principles of Screenwriting, 1997.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics",
+      "field_paradigm"
+    ],
+    "descendants": [],
+    "siblings": [
+      "seger_diagnostics",
+      "snyder_save_the_cat"
+    ],
+    "note": "The philosophical heavyweight. Core concept: the GAP between expectation and result is where meaning is generated. Conflict is non-negotiable for McKee, which is exactly where Kishōtenketsu pushes back."
+  },
+  "stages": [
+    {
+      "stage_id": "mc01_inciting_incident",
+      "position": 1,
+      "name": "Inciting Incident",
+      "function": "Upsets the balance of life and triggers the spine. The protagonist now has an object of desire."
+    },
+    {
+      "stage_id": "mc02_progressive_complications",
+      "position": 2,
+      "name": "Progressive Complications",
+      "function": "Escalating forces of antagonism. Each complication harder than the last; the protagonist's tools become inadequate."
+    },
+    {
+      "stage_id": "mc03_crisis",
+      "position": 3,
+      "name": "Crisis",
+      "function": "The ultimate decision under maximum pressure. The protagonist must choose between irreconcilable goods or the lesser of two evils."
+    },
+    {
+      "stage_id": "mc04_climax",
+      "position": 4,
+      "name": "Climax",
+      "function": "The result of the crisis decision plays out; story value tips definitively."
+    },
+    {
+      "stage_id": "mc05_resolution",
+      "position": 5,
+      "name": "Resolution",
+      "function": "Aftermath and new equilibrium."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "field_paradigm": {
+      "mc01_inciting_incident": "fd02_plot_point_1",
+      "mc03_crisis": "fd05_plot_point_2",
+      "mc04_climax": "fd06_climax",
+      "mc05_resolution": "fd07_resolution"
+    },
+    "snyder_save_the_cat": {
+      "mc01_inciting_incident": "sn04_catalyst",
+      "mc03_crisis": "sn12_dark_night_of_the_soul",
+      "mc04_climax": "sn14_finale"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "screenwriting_review",
+      "moral_dilemma_films",
+      "philosophical_assessment"
+    ],
+    "weak_for": [
+      "observational_documentary",
+      "no_conflict_stories"
+    ],
+    "limitations": "Insists on conflict as the engine; bad fit for material that resists antagonism (Kishōtenketsu's domain). McKee's seminars are also famous for being prescriptive about the 'crisis decision' moment — not every film has one."
+  },
+  "project_relevance": null
+}

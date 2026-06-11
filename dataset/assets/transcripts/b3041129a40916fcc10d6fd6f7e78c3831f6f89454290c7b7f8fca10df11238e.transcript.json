@@ -1,0 +1,114 @@
+{
+  "schema_version": 5,
+  "asset_id": "b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e",
+  "manifest": {
+    "current_version": 1,
+    "model": {
+      "engine": "whisperKit",
+      "id": "openai_whisper-large-v3-v20240930_626MB"
+    },
+    "language": "en",
+    "transcribed_at": "2026-05-03T12:56:55.618Z",
+    "updated_at": "2026-05-03T19:33:27Z",
+    "_macwhisper_session_id": null
+  },
+  "playback_duration_sec": 6.01,
+  "diarized": true,
+  "speakers_raw": [],
+  "full_text": "*music*",
+  "segments": [
+    {
+      "start_sec": 26.32,
+      "end_sec": 29.12,
+      "text": "*music*",
+      "speaker_raw": "",
+      "speaker": null,
+      "words": [
+        {
+          "text": " *music",
+          "start_sec": 26.32,
+          "end_sec": 27.72
+        },
+        {
+          "text": "*",
+          "start_sec": 27.72,
+          "end_sec": 29.12
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "moment_ids": [],
+  "record_kind": "transcript",
+  "primary_timeline_date": "2024-09-01",
+  "analysis": {
+    "segment_corrections": [],
+    "speaker_attributions": [],
+    "relevant_spans": [],
+    "summary_one_line": "A runner performs a focused warm-up at a campsite during golden hour.",
+    "summary_paragraph": "A male runner engages in a light, dynamic warm-up on a yoga mat beside his camper van at a wooded campsite. The scene, set during golden hour, establishes a focused and preparatory routine for physical activity.",
+    "themes": [
+      "athletic_preparation",
+      "outdoor_lifestyle",
+      "routine"
+    ],
+    "topics": [
+      "running",
+      "warm-up",
+      "camper_van",
+      "campsite"
+    ],
+    "storylines": [],
+    "tone": {
+      "mood": "focused",
+      "energy": "low",
+      "formality": "casual"
+    },
+    "craft": {
+      "audio_quality": "clean",
+      "context_signals_used": [
+        "asset_semantic_summary",
+        "audio_events",
+        "audio_quality"
+      ]
+    },
+    "people_ids": [],
+    "org_ids": [],
+    "place_ids": [],
+    "_unmatched_people": [
+      "Mike"
+    ],
+    "_unmatched_orgs": [],
+    "_unmatched_places": [],
+    "moment_ids": [],
+    "key_moments": [],
+    "key_quotes": [],
+    "analyzed_at": "2026-05-26T05:38:12Z",
+    "analyzer": "g023_flash_meta_v1",
+    "prompt_sha256": "31cc593fb4f8880dd01f6d0687fbdceebc1012b562fc353e2236516bb9afd06a",
+    "_applied_corrections": [],
+    "_apply_run_id": "g023_full_20260526T032314Z"
+  },
+  "craft": {
+    "shot_kind": "b-roll",
+    "audio_quality": "clean"
+  },
+  "embedding_anchor": {
+    "text_sha256": "9537f4e4bb56394c0d033eb59f071695bebaaaf573e1356b2ee78828c853b6c7",
+    "last_embedded_at": null
+  },
+  "_unmatched_people": [],
+  "_unmatched_orgs": [],
+  "_unmatched_places": [],
+  "corrections": [],
+  "_correction_candidates": [],
+  "speaker_provenance": {
+    "schema_version": 1,
+    "sidecar": "_audit/transcript_provenance/b3041129a40916fcc10d6fd6f7e78c3831f6f89454290c7b7f8fca10df11238e.json"
+  },
+  "subject_of_interview": null,
+  "people_ids": [],
+  "org_ids": [],
+  "place_ids": [],
+  "analyzed_at": "2026-05-26T05:38:12Z"
+}

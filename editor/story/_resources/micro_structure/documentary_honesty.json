@@ -1,0 +1,79 @@
+{
+  "id": "documentary_honesty",
+  "display_name": "Documentary honesty — reflexive and ethical principles",
+  "family": "documentary_honesty",
+  "tradition_id": "reflexive_documentary",
+  "attribution": {
+    "work": "Reflexive documentary tradition + practical documentary ethics",
+    "author": "Jill Godmilow, Joshua Oppenheimer, the broader cinéma vérité critique tradition (synthesized)",
+    "usage_note": "Principles about what the editor must NOT do — and what they must do deliberately, knowing the stakes. These are different from the other families: they're constraints, not moves. Use as a sanity check on the cut once it's substantially assembled. Easier to ignore than to fix later."
+  },
+  "application_guidance": "Run this checklist on the rough cut before fine-cutting. Documentary honesty principles fail invisibly — the audience doesn't know they've been deceived, but trust degrades and the editor knows. Catching these issues late is much more expensive than catching them at rough-cut stage; some require re-shooting or re-interviewing.",
+  "principles": [
+    {
+      "id": "dont_lie_with_the_cut",
+      "label": "Don't lie with the cut",
+      "description": "Compositing — placing an answer from Tuesday's interview under a question from Friday's interview, or assembling a 'scene' from shots filmed on different days as if they were continuous — crosses a line. The audience perceives a moment that did not exist. There are gradations (a generic reaction shot edited as response is more forgivable than a falsified verbal exchange), but the principle holds: don't construct moments that the camera did not capture.",
+      "documentary_application": "Audit any cross-cut conversation, any apparent reaction shot, any sequence that combines material from different days. Is the construction true to what happened, or is it fabricating an interaction? If the latter, the scene needs to be re-thought even if the underlying claim is true. The audience's trust is the film's strongest asset; one compromised scene contaminates the whole.",
+      "review_questions": [
+        "Is any apparent in-the-moment exchange in this scene actually composited?",
+        "Are reaction shots being used in places the subject did not react?",
+        "If a colleague auditing the rushes saw what was filmed vs. what's in the cut, would they call this honest?"
+      ],
+      "tags": ["ethics", "reaction_shots", "interview"],
+      "see_also": ["documentary_craft/cut_is_the_argument"]
+    },
+    {
+      "id": "lower_thirds_are_evidence",
+      "label": "Lower-thirds are evidence",
+      "description": "Naming a subject 'former agency official' instead of 'former field officer' instead of just their name tells the audience what to weight. The naming choice is an argument disguised as identification. Every lower-third is a tiny editorial decision; pretending they're factual labels is naive. The audience treats authority labels (Dr., Esq., Officer, Director) as evidence, so the editor has to use them deliberately.",
+      "documentary_application": "Audit every lower-third in the cut: what authority does it imply? Is the implied authority load-bearing for what the speaker says? Could a more neutral identification (or a more specific one) shift the argument? 'Federal prosecutor 2019–2023' vs. 'Department of Justice career attorney' are different claims.",
+      "review_questions": [
+        "What authority does this lower-third imply?",
+        "Is the implied authority earned, or am I borrowing institutional weight?",
+        "Could a more neutral or more specific identification shift the scene's argument?"
+      ],
+      "tags": ["lower_thirds", "interview", "ethics"],
+      "see_also": ["documentary_craft/antagonist_must_be_seen"]
+    },
+    {
+      "id": "translation_is_a_choice",
+      "label": "Translation is a choice",
+      "description": "Subtitles soften, sharpen, idiomatize, or formalize the spoken word. Translating 'they ratted me out' as 'they betrayed me' loses register; translating it as 'they ratted me out' keeps register but may read as colloquial in a serious scene. Same for tense ('I was thinking' vs. 'I thought'), euphemism vs. directness, and editorial cuts within long answers. Every subtitle decision is an interpretive act.",
+      "documentary_application": "For any non-English interview material, audit the subtitle file separately. Does it reflect what the speaker said in register and force, or does it 'clean up' the speech? Either choice is legitimate but must be deliberate. Document the policy (e.g., 'subtitles preserve register; intentional grammar errors are kept; redundancy is trimmed') so the choices are consistent.",
+      "review_questions": [
+        "Do these subtitles preserve the speaker's register, or sanitize it?",
+        "Are there places where the subtitle conveys a meaning the speech did not?",
+        "Is there a consistent policy across all translated material in the film?"
+      ],
+      "tags": ["subtitles", "ethics", "language"],
+      "see_also": []
+    },
+    {
+      "id": "time_of_day_must_agree",
+      "label": "Time of day must agree (or the cut is lying)",
+      "description": "If multiple shots are intercut as one scene, lighting and time-of-day must agree, OR the cut has to acknowledge the time jump. A morning interior cut with an afternoon exterior reads as inconsistent — the audience doesn't consciously know it's looking at two days, but it knows something is off. Color grading can paper over small mismatches; large ones can't be papered over and shouldn't be.",
+      "documentary_application": "For any apparent single scene composed of multiple takes / days, check lighting consistency. If the sun was low on day 1 and high on day 2, the two angles cannot be intercut as continuous. Either reshoot, accept the inconsistency and structure the scene to acknowledge it ('later that week'), or use only one day's footage.",
+      "review_questions": [
+        "In any apparent single scene, do all shots have consistent lighting/time-of-day?",
+        "If not, is the inconsistency acknowledged structurally or papered over?",
+        "Am I asking the audience to read two days as one moment?"
+      ],
+      "tags": ["continuity", "ethics", "lighting"],
+      "see_also": ["editing_room_tactical/dont_see_same_beat_twice"]
+    },
+    {
+      "id": "ken_burns_isnt_free",
+      "label": "The Ken Burns effect isn't free",
+      "description": "The slow zoom across a still photograph (or document) is a stylistic choice with cost, not a default. It tells the audience 'this is from the past' and 'this is important' simultaneously. Used on every photo, the gesture loses force and starts to feel like content padding. Used deliberately on the photo that should land, it works. Same logic for any animated still — applies to scanned documents, archival photos, news clippings.",
+      "documentary_application": "Count the Ken-Burns zooms in the cut. If there are 12 in a 20-minute stretch, the device is wallpaper. Reserve it for 2–4 places per Act where the photo really is a hinge moment; let the others sit as static images or live in a brief montage that doesn't require individual zooms.",
+      "review_questions": [
+        "How many Ken-Burns moves are in this Act?",
+        "Is each one earning the emphasis, or is the device being used as default still-photo treatment?",
+        "Are there photos that would land harder as static frames than as zoomed-into ones?"
+      ],
+      "tags": ["stills", "stylistic_choice"],
+      "see_also": ["rhythm_pacing/longest_hold_strongest"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "framework_id": "horace_five_acts",
+  "title": "Ars Poetica — five-act rule",
+  "author": "Horace",
+  "year": -19,
+  "source": "Ars Poetica, c. 19 BCE.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "five_act",
+  "resolution": 5,
+  "lineage": {
+    "predecessors": [
+      "aristotle_poetics"
+    ],
+    "descendants": [
+      "freytag_pyramid",
+      "yorke_into_the_woods"
+    ],
+    "siblings": [
+      "donatus_protasis"
+    ],
+    "note": "Prescriptive Roman rule: a play should have 'neither less nor more than five acts.' Less a theory than a convention that hardened into law and recurs every time someone (Freytag, Yorke) wants a five-act spine."
+  },
+  "stages": [
+    {
+      "stage_id": "ho01_act_i",
+      "position": 1,
+      "name": "Act I",
+      "function": "Exposition; introduce protagonist and situation."
+    },
+    {
+      "stage_id": "ho02_act_ii",
+      "position": 2,
+      "name": "Act II",
+      "function": "Rising complications; the action thickens."
+    },
+    {
+      "stage_id": "ho03_act_iii",
+      "position": 3,
+      "name": "Act III",
+      "function": "Climax or turning point at the structural center."
+    },
+    {
+      "stage_id": "ho04_act_iv",
+      "position": 4,
+      "name": "Act IV",
+      "function": "Falling action; consequences play out."
+    },
+    {
+      "stage_id": "ho05_act_v",
+      "position": 5,
+      "name": "Act V",
+      "function": "Catastrophe or resolution; closure."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "freytag_pyramid": {
+      "ho01_act_i": "fp01_exposition",
+      "ho02_act_ii": "fp02_rising_action",
+      "ho03_act_iii": "fp03_climax_apex",
+      "ho04_act_iv": "fp04_falling_action",
+      "ho05_act_v": "fp05_catastrophe"
+    },
+    "yorke_into_the_woods": {
+      "ho01_act_i": "yo01_act_i_setup",
+      "ho02_act_ii": "yo02_act_ii_doubt",
+      "ho03_act_iii": "yo03_act_iii_midpoint",
+      "ho04_act_iv": "yo04_act_iv_regression",
+      "ho05_act_v": "yo05_act_v_reawakening"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "theatre",
+      "tv_series_episode_structure",
+      "classical_form"
+    ],
+    "weak_for": [
+      "short_films",
+      "documentary"
+    ],
+    "limitations": "Numerical convention rather than a theory of meaning. The five acts exist because Horace said so, not because the story demands it."
+  },
+  "project_relevance": null
+}

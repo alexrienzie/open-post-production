@@ -1,0 +1,72 @@
+{
+  "framework_id": "aristotle_poetics",
+  "title": "Poetics",
+  "author": "Aristotle",
+  "year": -335,
+  "source": "Poetics, c. 335 BCE.",
+  "tradition": "dramatic",
+  "engine": "external_conflict",
+  "act_envelope": "three_act",
+  "resolution": 3,
+  "lineage": {
+    "predecessors": [],
+    "descendants": [
+      "donatus_protasis",
+      "horace_five_acts",
+      "freytag_pyramid",
+      "field_paradigm"
+    ],
+    "siblings": [],
+    "note": "The root of Western dramatic theory. Plot (mythos) is supreme over character; the engine is peripeteia (reversal) plus anagnorisis (recognition) producing catharsis. Aristotle also split plot into desis (complication/tying) and lysis (denouement/untying), the literal ancestor of 'rising action / falling action.'"
+  },
+  "stages": [
+    {
+      "stage_id": "ar01_beginning",
+      "position": 1,
+      "name": "Beginning (desis)",
+      "function": "An action that does not itself necessarily follow from anything else, but from which something else naturally follows. Stable initial state with the seeds of complication."
+    },
+    {
+      "stage_id": "ar02_middle",
+      "position": 2,
+      "name": "Middle",
+      "function": "Complication tightens. Includes peripeteia (reversal of fortune) and anagnorisis (recognition — a shift from ignorance to knowledge)."
+    },
+    {
+      "stage_id": "ar03_end",
+      "position": 3,
+      "name": "End (lysis)",
+      "function": "Catastrophe and resolution. The action follows necessarily from what came before and nothing else follows it. Catharsis is produced."
+    }
+  ],
+  "cross_framework_equivalence": {
+    "freytag_pyramid": {
+      "ar01_beginning": "fp01_exposition",
+      "ar02_middle": "fp03_climax_apex",
+      "ar03_end": "fp05_catastrophe"
+    },
+    "field_paradigm": {
+      "ar01_beginning": "fd01_setup",
+      "ar02_middle": "fd03_confrontation",
+      "ar03_end": "fd07_resolution"
+    },
+    "snyder_save_the_cat": {
+      "ar01_beginning": "sn03_setup",
+      "ar02_middle": "sn09_midpoint",
+      "ar03_end": "sn14_finale"
+    }
+  },
+  "applicability": {
+    "best_for": [
+      "tragedy",
+      "any_dramatic_form",
+      "first_principles_review"
+    ],
+    "weak_for": [
+      "fine_grained_assembly_decisions",
+      "documentary_observational"
+    ],
+    "limitations": "3-stage resolution is too coarse for scene-by-scene editorial work. Useful for sanity-checking the macro shape, not for assembly."
+  },
+  "project_relevance": null
+}
