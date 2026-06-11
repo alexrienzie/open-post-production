@@ -239,6 +239,8 @@ There are good commercial tools here: **Eddie AI** (A/B-roll logging and rough c
 
 9. **People-registry maintenance as a first-class workstream.** The single source of truth for "who is this person" should be a curated registry with **canonical_name + aliases[] + role + notes**, populated continuously rather than reconstructed in post. we built ours retroactively at `dataset/people/people.json` (291 entries); upstream this would be: as new subjects appear on camera, add them to the registry within a few shoot days, with at least one alias (nickname, formal name, common misspelling) to anchor cross-references.
 
+10. **No spaces in workspace folder names.** Ours have them (`derivative media/`, `xml exports/`, `premiere mcp/`), which forces quoting in every shell command and trips shell-driven agents. We keep them because they are load-bearing in our production instance: shipped catalog records, xmeml pathurls (`%20`-encoded), `asset_map.json`, and our Premiere projects all reference these exact names, so a rename would invalidate the cut history for cosmetic gain. Starting fresh, use `derivative_media`, `xml_exports`, `premiere_mcp` from day one.
+
 ### What this retrospective is NOT saying
 
 It's not saying organize-then-shoot is the only viable approach. our mid-stream pivot to AI-driven post still produced a queryable, editable corpus; the enrichment layers + chromaprint + place normalization + entity backfill collectively bridge the gap. The retrospective is for two audiences:

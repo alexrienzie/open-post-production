@@ -1,5 +1,8 @@
 # open-post-production
 
+[![smoke](https://github.com/alexrienzie/open-post-production/actions/workflows/smoke.yml/badge.svg)](https://github.com/alexrienzie/open-post-production/actions/workflows/smoke.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 *Catalog, search, and cut hundreds of hours of footage on hardware you own: a post-production stack built from open-source tools, operated with AI coding agents.*
 
 Ask plain-language questions of a 400-hour footage corpus (*"strongest soundbites where the subject is on camera," "clean b-roll at Jenny Lake, in focus, no people"*) and get exact, timecoded answers back. Then have a coding agent assemble the result into a sequence and round-trip it into Premiere Pro as XML, retarget to Resolve, Final Cut, or Avid via FCPXML, AAF, EDL, or OTIO, or render straight to MP4 with FFmpeg and skip the NLE entirely. Everything runs locally and subscription-free; the only paid step is an optional one-time video-labeling pass (≈$2 per hour of footage).
@@ -166,6 +169,8 @@ Before copying:
 After copying, spot-check that `indexes/` contains the SQLite stores you expect. This repo ships five sample builds (`editorial_catalog`, `clip_and_still_embeddings`, `transcript_rolling_embeddings`, `audio_events`, `audio_fingerprints`); the FAISS index is rebuilt locally. Also verify `derivative media/_index/asset_map.json` is present. The canonical inventory is in [`indexes/indexes_README.md`](indexes/indexes_README.md). If a second machine keeps a **separate** checkout with different drive letters, fix paths in that machine's config only; do not maintain a root-level sync log for each copy.
 
 ## Conventions
+
+The catalog, indexes, and query layer are OS-agnostic (pathlib + stdlib, verified on Linux and Windows in CI); the conventions below describe our Windows + Premiere instance of the cut layer, not requirements of the design.
 
 - **Paths in scripts**: Windows backslash; xmeml pathurls use `file://localhost/E%3a/...` (lowercase `%3a`, `%20` for space)
 - **Asset identity**: sha256 `asset_id`. Filenames (`C0050.MP4`) are **not** unique across shoot days

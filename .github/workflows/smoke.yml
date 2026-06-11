@@ -1,0 +1,35 @@
+name: smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quickstart:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build the join surface from the sample catalog
+        run: python "dataset/_scripts/build_editor_db.py"
+
+      - name: Run the README quickstart query and assert hits
+        shell: python
+        run: |
+          import subprocess, sys
+          out = subprocess.run(
+              [sys.executable, "editor/queries/retrieval.py", "search-transcript", "--query", "house"],
+              capture_output=True, text=True, check=True,
+          ).stdout
+          print(out)
+          if "(0 results)" in out or "results)" not in out:
+              sys.exit("quickstart query returned no hits")
